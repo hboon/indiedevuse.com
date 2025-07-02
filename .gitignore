@@ -1,0 +1,15 @@
+node_modules
+.env
+.env-*
+.DS_Store
+.idea/
+.aider*
+!.aider.conf.yml
+/plan.md
+
+dist
+dist-ssr
+coverage
+*.local
+
+*.tsbuildinfo

@@ -1,0 +1,146 @@
+{
+  "developers": [
+    {
+      "id": "hboon",
+      "name": "Boon aka Hwee-Boon Yar",
+      "avatar": "/avatars/hboon.jpg",
+      "bio": "30 yrs exp. Solopreneur again, this time building with AI.",
+      "tools": [
+        "Claude Code",
+        "TypeScript",
+        "Vue.js",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Render",
+        "Stripe",
+        "WebStorm",
+        "Neovim"
+      ],
+      "link": {
+        "url": "https://hboon.com/about",
+        "text": "hboon.com"
+      },
+      "socialMediaLink": "https://x.com/hboon",
+      "location": "Singapore"
+    },
+    {
+      "id": "sarah-chen",
+      "name": "Sarah Chen",
+      "avatar": "/avatars/sarah-chen.jpg",
+      "bio": "Full-stack developer building SaaS products. Love clean code and great UX.",
+      "tools": [
+        "Vue.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "Vercel",
+        "Figma",
+        "Linear",
+        "Stripe"
+      ],
+      "link": {
+        "url": "https://sarahchen.dev",
+        "text": "sarahchen.dev"
+      },
+      "socialMediaLink": "https://twitter.com/sarahchen",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": "alex-rivera",
+      "name": "Alex Rivera",
+      "avatar": "/avatars/alex-rivera.jpg",
+      "bio": "iOS developer and indie maker. Shipping apps that solve real problems.",
+      "tools": [
+        "Swift",
+        "SwiftUI",
+        "Xcode",
+        "Firebase",
+        "RevenueCat",
+        "Sketch",
+        "TestFlight",
+        "App Store Connect"
+      ],
+      "link": {
+        "url": "https://alexrivera.io",
+        "text": "alexrivera.io"
+      },
+      "location": "Barcelona, Spain"
+    },
+    {
+      "id": "jamie-wong",
+      "name": "Jamie Wong",
+      "avatar": "/avatars/jamie-wong.jpg",
+      "bio": "Building developer tools and open source projects. Rust enthusiast.",
+      "tools": [
+        "Rust",
+        "React",
+        "PostgreSQL",
+        "Docker",
+        "GitHub Actions",
+        "VS Code",
+        "Cloudflare Workers",
+        "Plausible Analytics"
+      ],
+      "link": {
+        "url": "https://github.com/jamiewong",
+        "text": "GitHub Profile"
+      },
+      "socialMediaLink": "https://mastodon.social/@jamiewong"
+    },
+    {
+      "id": "maya-patel",
+      "name": "Maya Patel",
+      "avatar": "/avatars/maya-patel.jpg",
+      "bio": "No-code advocate helping businesses automate workflows and build MVPs.",
+      "tools": [
+        "Bubble",
+        "Zapier",
+        "Airtable",
+        "Webflow",
+        "Stripe",
+        "Mailchimp",
+        "Notion",
+        "Make (Integromat)"
+      ],
+      "link": {
+        "url": "https://mayapatel.com",
+        "text": "mayapatel.com"
+      },
+      "socialMediaLink": "https://linkedin.com/in/mayapatel",
+      "location": "London, UK"
+    },
+    {
+      "id": "david-kim",
+      "name": "David Kim",
+      "avatar": "/avatars/david-kim.jpg",
+      "bio": "Solo game developer creating indie games with unique mechanics.",
+      "tools": ["Unity", "C#", "Blender", "Aseprite", "FMOD", "Steamworks", "itch.io", "Discord"],
+      "link": {
+        "url": "https://davidkim.games",
+        "text": "davidkim.games"
+      },
+      "socialMediaLink": "https://twitter.com/davidkimgames"
+    },
+    {
+      "id": "lisa-thompson",
+      "name": "Lisa Thompson",
+      "avatar": "/avatars/lisa-thompson.jpg",
+      "bio": "Building AI-powered tools for content creators. Machine learning engineer turned indie hacker.",
+      "tools": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "OpenAI API",
+        "Pinecone",
+        "Railway",
+        "Paddle",
+        "PostHog"
+      ],
+      "link": {
+        "url": "https://lisathompson.ai",
+        "text": "lisathompson.ai"
+      },
+      "location": "Toronto, Canada"
+    }
+  ]
+}

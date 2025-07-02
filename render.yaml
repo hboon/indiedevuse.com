@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: indiedevuse.com frontend
+    runtime: static
+    #static sites are free
+    #plan: free
+    buildCommand: export VITE_RENDER_GIT_COMMIT=$RENDER_GIT_COMMIT && cd frontend && pnpm i && pnpm run build
+    staticPublishPath: frontend/dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    domains:
+      - indiedevuse.com
+    buildFilter:
+      paths:
+      - frontend/**/*
