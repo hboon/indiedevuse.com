@@ -19,8 +19,8 @@ function navigateToDeveloper(developerId: string) {
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold mb-4">Indie Developers Use</h1>
       <p class="text-lg text-muted-foreground max-w-2xl mx-auto">
-        Discover the tools and technologies that indie developers use to build their products. Learn
-        from real developers about their tech stacks and workflows.
+        Discover the tools and technologies that indie developers and bootstrapped founders use to
+        build their products. Learn from real developers about their tech stacks and workflows.
       </p>
     </div>
 
