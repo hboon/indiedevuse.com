@@ -68,6 +68,34 @@
       "location": "UK"
     },
     {
+      "id": "bennyqp",
+      "name": "Benny",
+      "avatar": "/avatars/bennyqp.jpg",
+      "bio": "From Designer to Indie Hacker and Solopreneur because it's fun.",
+      "tools": [
+        "TypeBoost",
+        "JavaScript",
+        "Tailwind CSS",
+        "React",
+        "Next.js",
+        "Stripe",
+        "Cloudflare",
+        "Firebase",
+        "NX",
+        "ChatGPT",
+        "Cursor",
+        "Photoshop",
+        "Figma",
+        "Illustrator"
+      ],
+      "link": {
+        "url": "https://palmio.io",
+        "text": "My Works"
+      },
+      "socialMediaLink": "https://x.com/bennyqp",
+      "location": "Munich, Germany"
+    },
+    {
       "id": "sarah-chen",
       "name": "Sarah Chen",
       "avatar": "/avatars/sarah-chen.jpg",
