@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue"
+import { onMounted, ref } from "vue"
 import { useRouter } from "vue-router"
 
 import developersData from "@/data/developers.json"
@@ -12,6 +12,10 @@ const developers = ref<Developer[]>(developersData.developers)
 function navigateToDeveloper(developerId: string) {
   router.push(`/developer/${developerId}`)
 }
+
+onMounted(() => {
+  document.dispatchEvent(new Event("custom-render-trigger"))
+})
 </script>
 
 <template>

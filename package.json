@@ -1,0 +1,5 @@
+{
+	"devDependencies": {
+		"yaml": "^2.8.0"
+	}
+}

@@ -4,12 +4,19 @@ services:
     runtime: static
     #static sites are free
     #plan: free
-    buildCommand: export VITE_RENDER_GIT_COMMIT=$RENDER_GIT_COMMIT && cd frontend && pnpm i && pnpm run build
+    #We rename dist/index.html so that Render can rewrite access to / (which would have an existing file /index.html and it wouldn't rewrite)
+    buildCommand: npx puppeteer browsers install chrome && export VITE_RENDER_GIT_COMMIT=$RENDER_GIT_COMMIT && cd frontend && pnpm i && pnpm run build && mv dist/index.html dist/index-default.html
     staticPublishPath: frontend/dist
     routes:
       - type: rewrite
+        source: /
+        destination: /index-root.html
+      - type: rewrite
+        source: /about
+        destination: /index-about.html
+      - type: rewrite
         source: /*
-        destination: /index.html
+        destination: /index-default.html
     domains:
       - indiedevuse.com
     buildFilter:
