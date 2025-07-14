@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router"
 
 import { APP_NAME, APP_SITE } from "@/constants"
+import developersData from "@/data/developers.json"
 import { updateMetaTags } from "@/lib/meta"
 import AboutView from "@/views/AboutView.vue"
 import DeveloperView from "@/views/DeveloperView.vue"
@@ -33,62 +34,73 @@ const router = createRouter({
       path: "/developer/:id",
       name: "developer",
       component: DeveloperView,
-      meta: {
-        title: `Developer Profile — ${APP_NAME}`,
-        description:
-          "Discover the tools and apps used by this indie developer to build their products.",
-      },
     },
   ],
 })
 
 function dropTrailingSlash(path: string): string {
-  return path.endsWith("/") && path !== "/" ? path.slice(0, -1) : path
+  if (path.endsWith("/")) {
+    return path.substring(0, path.length - 1)
+  } else {
+    return path
+  }
 }
 
 router.beforeEach((to, from, next) => {
-  if (to.meta) {
+  let title = ""
+  let description = ""
+
+  if (to.name === "developer" && to.params.id) {
+    const developerID = to.params.id as string
+    const developer = developersData.developers.find((dev) => dev.id === developerID)
+    const developerName = developer?.name || developerID
+    title = `${developerName} (${developerID}) Developer Stack — ${APP_NAME}`
+    description = `Discover the tools and apps used by ${developerName} (${developerID}) to build their products.`
+  } else if (to.meta) {
     const meta: Record<string, string> = to.meta as Record<string, string>
-    const canonicalURL = `${APP_SITE}${dropTrailingSlash(to.path)}`
+    title = meta.title || ""
+    description = meta.description || ""
+  }
 
-    if (meta.title) {
-      document.title = meta.title
-    }
+  const canonicalURL = `${APP_SITE}${dropTrailingSlash(to.path)}`
 
-    const metaTags = [
-      { name: "description", content: meta.description },
-      { property: "og:site_name", content: APP_NAME },
-      { property: "og:title", content: meta.title },
-      { property: "og:description", content: meta.description },
-      { property: "og:url", content: canonicalURL },
-      { property: "og:type", content: "website" },
-      { property: "og:image", content: `${APP_SITE}/og.png` },
-      { name: "twitter:title", content: meta.title },
-      { name: "twitter:description", content: meta.description },
-      { name: "twitter:image", content: meta.ogImage },
-      { name: "twitter:image:alt", content: APP_NAME },
-      { name: "twitter:card", content: "summary_large_image" },
-    ]
+  if (title) {
+    document.title = title
+  }
 
-    updateMetaTags(metaTags)
+  const metaTags = [
+    { name: "description", content: description },
+    { property: "og:site_name", content: APP_NAME },
+    { property: "og:title", content: title },
+    { property: "og:description", content: description },
+    { property: "og:url", content: canonicalURL },
+    { property: "og:type", content: "website" },
+    { property: "og:image", content: `${APP_SITE}/og.png` },
+    { name: "twitter:title", content: title },
+    { name: "twitter:description", content: description },
+    { name: "twitter:image", content: (to.meta?.ogImage as string) || `${APP_SITE}/og.png` },
+    { name: "twitter:image:alt", content: APP_NAME },
+    { name: "twitter:card", content: "summary_large_image" },
+  ]
 
-    const existingCanonical = document.querySelector('link[rel="canonical"]')
-    if (existingCanonical) {
-      existingCanonical.setAttribute("href", canonicalURL)
-    } else {
-      const canonicalTag = document.createElement("link")
-      canonicalTag.setAttribute("rel", "canonical")
-      canonicalTag.setAttribute("href", canonicalURL)
-      document.head.appendChild(canonicalTag)
-    }
+  updateMetaTags(metaTags)
 
-    const existingRobots = document.querySelector('meta[name="robots"]')
-    if (!existingRobots) {
-      const robotsTag = document.createElement("meta")
-      robotsTag.setAttribute("name", "robots")
-      robotsTag.setAttribute("content", "index, follow")
-      document.head.appendChild(robotsTag)
-    }
+  const existingCanonical = document.querySelector('link[rel="canonical"]')
+  if (existingCanonical) {
+    existingCanonical.setAttribute("href", canonicalURL)
+  } else {
+    const canonicalTag = document.createElement("link")
+    canonicalTag.setAttribute("rel", "canonical")
+    canonicalTag.setAttribute("href", canonicalURL)
+    document.head.appendChild(canonicalTag)
+  }
+
+  const existingRobots = document.querySelector('meta[name="robots"]')
+  if (!existingRobots) {
+    const robotsTag = document.createElement("meta")
+    robotsTag.setAttribute("name", "robots")
+    robotsTag.setAttribute("content", "index, follow")
+    document.head.appendChild(robotsTag)
   }
 
   next()
