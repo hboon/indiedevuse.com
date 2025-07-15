@@ -213,6 +213,34 @@
         "text": "lisathompson.ai"
       },
       "location": "Toronto, Canada"
+    },
+    {
+      "id": "andrei-hudovich",
+      "name": "Andrei Hudovich",
+      "avatar": "/avatars/andrei-hudovich.png",
+      "bio": "Founder (1 exit). Bootstrapping Listing Cat in public.",
+      "tools": [
+        "Javascript",
+        "Typescript",
+        "React",
+        "Next.js",
+        "Vue",
+        "Nuxt",
+        "Vercel",
+        "Cloudflare",
+        "Supabase",
+        "Trigger.dev",
+        "Sentry",
+        "Doppler",
+        "PostHog",
+        "Stripe"
+      ],
+      "link": {
+        "url": "https://hudovich.dev",
+        "text": "hudovich.dev"
+      },
+      "socialMediaLink": "https://x.com/AndreiHudovich",
+      "location": "Wroclaw, Poland"
     }
   ]
 }
