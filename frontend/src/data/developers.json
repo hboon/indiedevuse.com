@@ -122,6 +122,31 @@
       },
       "socialMediaLink": "https://x.com/AndreiHudovich",
       "location": "Wroclaw, Poland"
+    },
+    {
+      "id": "builditn0w",
+      "name": "Lars",
+      "avatar": "/avatars/builditn0w.png",
+      "bio": "Working on Sideprojects like PostCapture and ShowUpInAI. Code hard 💻 Ship fast 🚀 Sleep later 😴",
+      "tools": [
+        "TypeScript",
+        "JavaScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Prisma",
+        "Cloudflare",
+        "Docker",
+        "Kubernetes",
+        "Debian"
+      ],
+      "link": {
+        "url": "https://hilars.dev",
+        "text": "hilars.dev"
+      },
+      "socialMediaLink": "https://x.com/builditn0w",
+      "location": "Switzerland"
     }
   ]
 }
