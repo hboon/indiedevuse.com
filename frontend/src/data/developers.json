@@ -147,6 +147,33 @@
       },
       "socialMediaLink": "https://x.com/builditn0w",
       "location": "Switzerland"
+    },
+    {
+      "id": "dannyt74",
+      "name": "Danny",
+      "avatar": "/avatars/dannyt74.png",
+      "bio": "Fullstack developer with a passion for infrastructure and DevOps. Building tools to make life easier.",
+      "tools": [
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "DaisyUI",
+        "PostgreSQL",
+        "Cloudflare",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Rust",
+        "Go",
+        "Flutter"
+      ],
+      "link": {
+        "url": "https://webmobix.com",
+        "text": "webmobix.com"
+      },
+      "socialMediaLink": "https://bsky.app/profile/danny.webmobix.com",
+      "location": "Jakarta, Indonesia"
     }
   ]
 }
