@@ -34,11 +34,6 @@ onMounted(() => {
               :src="developer.avatar"
               :alt="`${developer.name}'s avatar`"
               class="w-full h-full object-cover"
-              @error="
-                (e) =>
-                  ((e.target as HTMLImageElement).src =
-                    `https://ui-avatars.com/api/?name=${encodeURIComponent(developer.name)}&size=96&background=random`)
-              "
             />
           </div>
           <h3 class="font-semibold text-lg">{{ developer.name }}</h3>
