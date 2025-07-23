@@ -1,22 +1,15 @@
 <script setup lang="ts">
 import { computed, onMounted } from "vue"
-import { useRoute, useRouter } from "vue-router"
-
-import { Button } from "@/components/ui/button"
+import { RouterLink, useRoute } from "vue-router"
 
 import developersData from "@/data/developers.json"
 
 const route = useRoute()
-const router = useRouter()
 
 const developerId = computed(() => route.params.id as string)
 const developer = computed(() =>
   developersData.developers.find((dev) => dev.id === developerId.value)
 )
-
-function goBack() {
-  router.push("/")
-}
 
 onMounted(() => {
   document.dispatchEvent(new Event("custom-render-trigger"))
@@ -28,10 +21,9 @@ onMounted(() => {
     class="min-h-screen bg-gradient-to-b dark:from-background dark:to-muted/20 from-background to-background"
   >
     <div class="container mx-auto px-4 py-12 max-w-5xl">
-      <Button
-        @click="goBack()"
-        variant="ghost"
-        class="mb-2 hover:bg-muted/50 transition-all duration-200"
+      <RouterLink
+        to="/"
+        class="mb-2 hover:bg-muted/50 transition-all duration-200 inline-flex items-center px-4 py-2 text-sm font-medium rounded-md"
       >
         <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path
@@ -42,7 +34,7 @@ onMounted(() => {
           />
         </svg>
         Back to all indie developers
-      </Button>
+      </RouterLink>
 
       <div v-if="developer" class="space-y-8">
         <div
@@ -187,7 +179,12 @@ onMounted(() => {
             />
           </svg>
           <p class="text-xl font-medium text-muted-foreground mb-6">Developer not found</p>
-          <Button @click="goBack()" variant="default"> Return to home </Button>
+          <RouterLink
+            to="/"
+            class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md bg-primary text-primary-foreground hover:bg-primary/90"
+          >
+            Return to home
+          </RouterLink>
         </div>
       </div>
     </div>
