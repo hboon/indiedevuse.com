@@ -81,7 +81,7 @@ function getExpectedDestination(route: string): string {
   if (route === "/") {
     return "/index-root.html";
   }
-  const routeName = route.substring(1).replace(/-/g, "-");
+  const routeName = route.substring(1).replace(/\//g, "-");
   return `/index-${routeName}.html`;
 }
 
