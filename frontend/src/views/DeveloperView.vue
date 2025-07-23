@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from "vue"
+import { computed, onMounted } from "vue"
 import { useRoute, useRouter } from "vue-router"
 
 import { Button } from "@/components/ui/button"
@@ -17,6 +17,10 @@ const developer = computed(() =>
 function goBack() {
   router.push("/")
 }
+
+onMounted(() => {
+  document.dispatchEvent(new Event("custom-render-trigger"))
+})
 </script>
 
 <template>

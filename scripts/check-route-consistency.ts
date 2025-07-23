@@ -3,6 +3,7 @@
 import fs from "fs";
 import path from "path";
 import { parse } from "yaml";
+import { getPrerenderRoutes } from "../frontend/prerenderRoutes";
 
 const projectRoot = path.resolve(__dirname, "..");
 const viteConfigPath = path.join(projectRoot, "frontend/vite.config.ts");
@@ -26,14 +27,7 @@ interface RenderConfig {
 }
 
 function extractRoutesFromViteConfig(content: string): string[] {
-  const routesMatch = content.match(/routes:\s*\[(.*?)\]/s);
-  if (!routesMatch) {
-    throw new Error("Could not find routes array in vite.config.ts");
-  }
-  const routesString = routesMatch[1];
-  const routes =
-    routesString.match(/"([^"]+)"/g)?.map((r) => r.replace(/"/g, "")) || [];
-  return routes;
+  return getPrerenderRoutes();
 }
 
 function extractRollupInputsFromViteConfig(content: string): Set<string> {

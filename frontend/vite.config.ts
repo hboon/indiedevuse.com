@@ -4,6 +4,8 @@ import prerender from "@prerenderer/rollup-plugin"
 import vue from "@vitejs/plugin-vue"
 import { defineConfig } from "vite"
 
+import { getPrerenderRoutes } from "./prerenderRoutes"
+
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
@@ -12,7 +14,7 @@ export default defineConfig({
   plugins: [
     vue(),
     prerender({
-      routes: ["/", "/about"],
+      routes: getPrerenderRoutes(),
       renderer: "@prerenderer/renderer-puppeteer",
       rendererOptions: {
         renderAfterDocumentEvent: "custom-render-trigger",
@@ -25,7 +27,7 @@ export default defineConfig({
         if (renderedRoute.originalRoute === "/") {
           name = "root"
         } else {
-          name = renderedRoute.originalRoute.split("/")[1]
+          name = removePrefix(renderedRoute.originalRoute, "/").replace("/", "-")
         }
         renderedRoute.outputPath = `index-${name}.html`
         console.log(
@@ -42,3 +44,10 @@ export default defineConfig({
     },
   },
 })
+
+function removePrefix(str: string, prefix: string) {
+  if (str.startsWith(prefix)) {
+    return str.slice(prefix.length)
+  }
+  return str
+}
