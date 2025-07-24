@@ -187,6 +187,29 @@
       },
       "socialMediaLink": "https://x.com/philkellr",
       "location": "Zurich, Switzerland"
+    },
+    {
+      "id": "chris",
+      "name": "Christopher",
+      "avatar": "/avatars/chris.jpg",
+      "bio": "Building tiny tools.",
+      "tools": [
+        "Next.js",
+        "Supabase",
+        "Stripe",
+        "Resend",
+        "Python",
+        "Ruby on Rails",
+        "WebStorm",
+        "PyCharm",
+        "RubyMine",
+        "Claude Code",
+        "Cursor",
+        "DataFast"
+      ],
+      "link": { "url": "https://christopherwoggon.com", "text": "https://christopherwoggon.com" },
+      "socialMediaLink": "https://x.com/chrissyinspace",
+      "location": "Busan, South Korea"
     }
   ]
 }
