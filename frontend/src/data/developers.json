@@ -212,6 +212,29 @@
       "location": "Busan, South Korea"
     },
     {
+      "id": "bduffez",
+      "name": "Benoit",
+      "avatar": "/avatars/bduffez.jpg",
+      "bio": "Building Youtilitics & saving on utility bills.",
+      "tools": [
+        "PHP",
+        "Symfony",
+        "jQuery",
+        "Bootstrap",
+        "Stripe",
+        "mariadb",
+        "Python",
+        "PHPStorm",
+        "PyCharm"
+      ],
+      "link": {
+        "url": "https://youtilitics.com",
+        "text": "https://youtilitics.com"
+      },
+      "socialMediaLink": "https://x.com/Szut",
+      "location": "Ventura, California, USA"
+    },
+    {
       "id": "chrisshennan",
       "name": "Chris Shennan",
       "avatar": "/avatars/chrisshennan.jpg",
