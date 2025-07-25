@@ -19,3 +19,7 @@ cd frontend
 pnpm i
 pnpm run dev
 ```
+
+## To run in a Docker container
+
+[Chris Shennan](https://bsky.app/profile/chrisshennan.bsky.social) kindly wrote up [instructions for running IndieDevUse.com in a Docker container](https://chrisshennan.com/blog/adding-myself-to-indiedevuse-without-installing-pnpm-using-docker).
