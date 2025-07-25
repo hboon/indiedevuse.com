@@ -227,9 +227,38 @@
         "PHPStorm",
         "PyCharm"
       ],
-      "link": { "url": "https://youtilitics.com", "text": "https://youtilitics.com" },
+      "link": {
+        "url": "https://youtilitics.com",
+        "text": "https://youtilitics.com"
+      },
       "socialMediaLink": "https://x.com/Szut",
       "location": "Ventura, California, USA"
+    },
+    {
+      "id": "chrisshennan",
+      "name": "Chris Shennan",
+      "avatar": "/avatars/chrisshennan.jpg",
+      "bio": "Backend developer during the day and aspiring indie hacker by night.",
+      "tools": [
+        "Scaffold",
+        "Symfony",
+        "Docker",
+        "PHP",
+        "PHPUnit",
+        "MySQL",
+        "JavaScript",
+        "Tailwind CSS",
+        "Sentry",
+        "AWS",
+        "PHPStorm",
+        "GitLab CI/CD"
+      ],
+      "link": {
+        "url": "https://chrisshennan.com",
+        "text": "chrisshennan.com"
+      },
+      "socialMediaLink": "https://bsky.app/profile/chrisshennan.bsky.social",
+      "location": "UK"
     }
   ]
 }
