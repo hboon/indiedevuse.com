@@ -15,29 +15,8 @@ services:
         source: /about
         destination: /index-about.html
       - type: rewrite
-        source: /developer/hboon
-        destination: /index-developer-hboon.html
-      - type: rewrite
-        source: /developer/devarno
-        destination: /index-developer-devarno.html
-      - type: rewrite
-        source: /developer/bennyqp
-        destination: /index-developer-bennyqp.html
-      - type: rewrite
-        source: /developer/andrei-hudovich
-        destination: /index-developer-andrei-hudovich.html
-      - type: rewrite
-        source: /developer/builditn0w
-        destination: /index-developer-builditn0w.html
-      - type: rewrite
-        source: /developer/dannyt74
-        destination: /index-developer-dannyt74.html
-      - type: rewrite
-        source: /developer/philkellr
-        destination: /index-developer-philkellr.html
-      - type: rewrite
-        source: /developer/chris
-        destination: /index-developer-chris.html
+        source: /developer/*
+        destination: /index-developer-*.html
       - type: rewrite
         source: /*
         destination: /index-default.html
