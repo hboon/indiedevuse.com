@@ -259,6 +259,33 @@
       },
       "socialMediaLink": "https://bsky.app/profile/chrisshennan.bsky.social",
       "location": "UK"
+    },
+    {
+      "id": "gripfastgameworks",
+      "name": "Chris",
+      "avatar": "/avatars/gfgw.jpg",
+      "bio": "Making games with Godot and Open Source tooling.",
+      "tools": [
+        "Godot Game Engine",
+        "GDScript",
+        "GodotSteam",
+        "GitLab CI/CD",
+        "Docker",
+        "Nginx",
+        "PHP",
+        "HTML",
+        "CSS",
+        "Krita",
+        "GNU Image Manipulation Program",
+        "MyPaint",
+        "Inkscape"
+      ],
+      "link": {
+        "url": "https://gripfastgame.works",
+        "text": "Grip Fast Gameworks, LLC"
+      },
+      "socialMediaLink": "https://bsky.app/profile/gripfastgame.works",
+      "location": "California, USA"
     }
   ]
 }
