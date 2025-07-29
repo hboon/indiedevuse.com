@@ -235,30 +235,35 @@
       "location": "Ventura, California, USA"
     },
     {
-      "id": "chrisshennan",
-      "name": "Chris Shennan",
-      "avatar": "/avatars/chrisshennan.jpg",
-      "bio": "Backend developer during the day and aspiring indie hacker by night.",
+      "id": "gripfastgameworks",
+      "name": "Chris",
+      "avatar": "/avatars/gfgw.jpg",
+      "bio": "Making games with Godot and Open Source tooling.",
       "tools": [
-        "Scaffold",
-        "Symfony",
+        "Godot Game Engine",
+        "GDScript",
+        "GodotSteam"
+        "GitLab",
         "Docker",
+        "Docuseal",
+        "OpnForm",
+        "Nginx",
         "PHP",
-        "PHPUnit",
-        "MySQL",
-        "JavaScript",
-        "Tailwind CSS",
-        "Sentry",
-        "AWS",
-        "PHPStorm",
-        "GitLab CI/CD"
+        "HTML",
+        "CSS",
+        "Audacity",
+        "Kdenlive",
+        "Krita",
+        "GNU Image Manipulation Program",
+        "MyPaint",
+        "Inkscape"
       ],
       "link": {
-        "url": "https://chrisshennan.com",
-        "text": "chrisshennan.com"
+        "url": "https://gripfastgame.works",
+        "text": "Grip Fast Gameworks, LLC"
       },
-      "socialMediaLink": "https://bsky.app/profile/chrisshennan.bsky.social",
-      "location": "UK"
+      "socialMediaLink": "https://bsky.app/profile/gripfastgame.works",
+      "location": "California, USA"
     }
   ]
 }
