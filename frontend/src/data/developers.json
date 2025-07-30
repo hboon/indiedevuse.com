@@ -262,7 +262,7 @@
     },
     {
       "id": "gripfastgameworks",
-      "name": "Chris",
+      "name": "Grip Fast Gameworks",
       "avatar": "/avatars/gfgw.jpg",
       "bio": "Making games with Godot and Open Source tooling.",
       "tools": [
@@ -271,10 +271,14 @@
         "GodotSteam",
         "GitLab CI/CD",
         "Docker",
+        "Portainer",
+        "DocuSeal",
+        "OpnForm",
         "Nginx",
         "PHP",
         "HTML",
         "CSS",
+        "Audacity + Easy Effects",
         "Krita",
         "GNU Image Manipulation Program",
         "MyPaint",
