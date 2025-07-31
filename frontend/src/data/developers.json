@@ -290,6 +290,28 @@
       },
       "socialMediaLink": "https://bsky.app/profile/gripfastgame.works",
       "location": "California, USA"
+    },
+    {
+      "id": "razvanmuntian",
+      "name": "Razvan Muntian",
+      "avatar": "/avatars/razvanmuntian.png",
+      "bio": "I'm Razvan — developer, indie maker, and slow-life builder. I share what I'm learning about building small products, living intentionally, and enjoying the journey.",
+      "tools": [
+        "Astro",
+        "Alpine.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Docker",
+        "Github Actions"
+      ],
+      "link": {
+        "url": "https://razvanmuntian.com",
+        "text": "https://razvanmuntian.com"
+      },
+      "socialMediaLink": "https://razvanmuntian.substack.com",
+      "location": "Remote 🌍"
     }
   ]
 }
