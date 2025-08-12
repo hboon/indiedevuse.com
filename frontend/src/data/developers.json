@@ -312,6 +312,27 @@
       },
       "socialMediaLink": "https://razvanmuntian.substack.com",
       "location": "Remote 🌍"
+    },
+    {
+      "id": "yoanngueny",
+      "name": "Yoann Gueny",
+      "avatar": "/avatars/yoanngueny.jpg",
+      "bio": "Front-end freelancer ✨ Crafting stunning websites. Indie hacker 🚀 Building freedom",
+      "tools": [
+        "Cursor",
+        "React",
+        "Next.js",
+        "Supabase",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Stripe"
+      ],
+      "link": {
+        "url": "https://yoanngueny.com",
+        "text": "http://yoanngueny.com"
+      },
+      "socialMediaLink": "https://x.com/yoanngueny",
+      "location": "Paris"
     }
   ]
 }
