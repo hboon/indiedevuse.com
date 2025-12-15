@@ -310,6 +310,31 @@
       },
       "socialMediaLink": "https://x.com/yoanngueny",
       "location": "Paris"
+    },
+    {
+      "id": "eeoom",
+      "name": "Steve",
+      "avatar": "/avatars/eeoom.jpg",
+      "bio": "Fullstack developer and founder. Crafting stunning apps and webapps. Indie hacker 🚀",
+      "tools": [
+        "Flutter",
+        "Swift",
+        "Kotlin",
+        "PHP",
+        "Tailwind CSS",
+        "AlpineJS",
+        "Redis",
+        "Docker",
+        "Visual Studio Code",
+        "xCode",
+        "Vue.js"
+      ],
+      "link": {
+        "url": "https://eeoom.com",
+        "text": "eeoom.com"
+      },
+      "socialMediaLink": "https://bsky.app/profile/eeoom.com",
+      "location": "Austria"
     }
   ]
 }
