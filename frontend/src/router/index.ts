@@ -63,6 +63,10 @@ router.beforeEach((to, from, next) => {
   }
 
   const canonicalURL = `${APP_SITE}${dropTrailingSlash(to.path)}`
+  const ogImage =
+    to.name === "developer"
+      ? `https://api.myog.social/og?url=${encodeURIComponent(canonicalURL)}`
+      : `${APP_SITE}/og.png`
 
   if (title) {
     document.title = title
@@ -75,10 +79,10 @@ router.beforeEach((to, from, next) => {
     { property: "og:description", content: description },
     { property: "og:url", content: canonicalURL },
     { property: "og:type", content: "website" },
-    { property: "og:image", content: `${APP_SITE}/og.png` },
+    { property: "og:image", content: ogImage },
     { name: "twitter:title", content: title },
     { name: "twitter:description", content: description },
-    { name: "twitter:image", content: (to.meta?.ogImage as string) || `${APP_SITE}/og.png` },
+    { name: "twitter:image", content: (to.meta?.ogImage as string) || ogImage },
     { name: "twitter:image:alt", content: APP_NAME },
     { name: "twitter:card", content: "summary_large_image" },
   ]
