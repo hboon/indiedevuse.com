@@ -40,5 +40,17 @@ onMounted(() => {
         </div>
       </a>
     </div>
+
+    <div class="text-center mt-12 text-muted-foreground">
+      Add yourself with a
+      <a
+        href="https://github.com/hboon/indiedevuse.com/blob/main/README.md"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-primary underline"
+      >
+        GitHub Pull Request
+      </a>
+    </div>
   </div>
 </template>
