@@ -10,20 +10,20 @@
 - Instead of writing a comment, write code with clear function names and variable names unless it can't be easily inferred or might be ambiguous from reading the code
 - Spell abbreviations with all uppercase letters unless it's the only word or first word in an identifier, and not a type name. In that case spell it with all lowercase, for example uppercase `URL` in `thatURL` and only lowercase it when it's the only word or start of word, eg `url` and `urlForProfile`, `id` and `thatID`
 - Use all uppercase for abbreviations (e.g. ID, URL, API) when they appear mid- or end-position in camelCase or PascalCase identifiers:
-    - Examples use: thatID, userURL, toJSON, parseHTMLResponse
+  - Examples use: thatID, userURL, toJSON, parseHTMLResponse
 - Use all lowercase for abbreviations only when they are the first or only word in a camelCase identifier and not a type name:
-    - Examples not to do: id, url, idForUser, urlForProfile
+  - Examples not to do: id, url, idForUser, urlForProfile
 - Always have curly braces for if/else/for/while even if the body is a one-liner. Including for early returns
 - Use `env` and not `process.env`
-    - Frontend: `import { env } from "@/env"` and just use `env.<WHATEVER>`
-    - Backend: Add to `backend/src/env.ts`, import the file, and use `env.<WHATEVER>`
+  - Frontend: `import { env } from "@/env"` and just use `env.<WHATEVER>`
+  - Backend: Add to `backend/src/env.ts`, import the file, and use `env.<WHATEVER>`
 - Code should be written without spurious comments or extra blank lines. Keep it compact, readable, and clean
 
 ## Production logging
 
 - This is production code, so we do not log spuriously.
 - In the backend, we log unexpected errors, especially if it helps us to fix things with `logger.error` (we use `pino` so metadata is the first arg and string is the second arg eg. `logger.info({ stuff}, "string")`). We don't usually log successes unless they are major or a summary
-- In the frontend, we always assign in each file `const logger = LOGGER`  and then use `logger` for consistency of the `logger` variable name with the frontend but not that it's `console` underneath (so string is the first arg, metadata is the second arg, eg. `logger.info("string", { stuff})`).
+- In the frontend, we always assign in each file `const logger = LOGGER` and then use `logger` for consistency of the `logger` variable name with the frontend but not that it's `console` underneath (so string is the first arg, metadata is the second arg, eg. `logger.info("string", { stuff})`).
 
 ## Comments
 
@@ -51,10 +51,7 @@ const fetchStats = () => {
 
 ## Refactoring
 
-— for extraction of code to functions to remove duplicate code, these are my rules of thumb:
-	- Avoiding bugs is the main reason to refactor. Refactor only if leaving the code duplicated is likely to lead to bugs—for example, if I might forget to update both places in the future and the compiler or linter cannot warn me about the inconsistency.
-	- Don’t refactor just for the sake of DRY. If the duplication is harmless and unlikely to drift in dangerous ways (e.g., the compiler would catch changes), I’m okay with leaving it duplicated.
-	- Don’t make future changes harder. If refactoring would require adding a lot of parameters or conditional logic (if/switch) to handle slight differences, that may make the code harder to change or understand later. In such cases, I prefer to keep the code separate even if it looks mostly similar now.
+— for extraction of code to functions to remove duplicate code, these are my rules of thumb: - Avoiding bugs is the main reason to refactor. Refactor only if leaving the code duplicated is likely to lead to bugs—for example, if I might forget to update both places in the future and the compiler or linter cannot warn me about the inconsistency. - Don’t refactor just for the sake of DRY. If the duplication is harmless and unlikely to drift in dangerous ways (e.g., the compiler would catch changes), I’m okay with leaving it duplicated. - Don’t make future changes harder. If refactoring would require adding a lot of parameters or conditional logic (if/switch) to handle slight differences, that may make the code harder to change or understand later. In such cases, I prefer to keep the code separate even if it looks mostly similar now.
 
 ## Vue
 
@@ -74,20 +71,20 @@ When accessing DOM methods on Vue component refs, use `$el`:
 - Write the code so that most functions are pure — they should not have side effects, and instead take inputs and return outputs. Leave side effects (like modifying global or shared state, network requests, or file I/O) to a small number of clearly separated functions. Structure the code to make the flow of data and state explicit and easy to reason about.
 - Prefer `const` over `let` unless you absolutely need to reassign the variable. eg.
 
-    Prefer 
+  Prefer
 
-    ```
-    const filtered = someValue ? anotherValue : someValue
-    ```
+  ```
+  const filtered = someValue ? anotherValue : someValue
+  ```
 
-    over:
+  over:
 
-    ```
-    let filtered = someValue
-    if (shouldFilter) {
-      filtered = anotherValue
-    }
-    ```
+  ```
+  let filtered = someValue
+  if (shouldFilter) {
+    filtered = anotherValue
+  }
+  ```
 
 ## Tools
 
@@ -101,7 +98,7 @@ When accessing DOM methods on Vue component refs, use `$el`:
 ## Required Actions After Edits
 
 - Use `pnpm run type-check` for/in both frontend and backend for type checking as a way to spot errors after a change
-- Use `pnpm run lint` in frontend, but only look for `vue/no-undef-components` errors, e.g: "The '<Badge>' component has been used, but not defined  vue/no-undef-components" as a way to missing imports
+- Use `pnpm run lint` in frontend, but only look for `vue/no-undef-components` errors, e.g: "The '<Badge>' component has been used, but not defined vue/no-undef-components" as a way to missing imports
 - Always run prettier after making edits to files (use: `pnpm prettier --write <file_path>`)
 - Remove obvious, explanatory comments and function comments that were added as part of the edit
 
@@ -123,7 +120,7 @@ stack: error instanceof Error ? error.stack : undefined
 - Start with reconnaissance: Check git status, recent commits, and scan for TODO markers (especially `hhh3` comments, but remember that `hhh3` is for the author unless instructed otherwise)
 - Use `Grep` to find all instances of variables/functions before renaming them
 - Check for TypeScript errors early and frequently with `pnpm run type-check`
-- Check for missing import errors early and frequently with `pnpm run lint` in frontend, but only look for `vue/no-undef-components` errors, e.g: "The '<Badge>' component has been used, but not defined  vue/no-undef-components"
+- Check for missing import errors early and frequently with `pnpm run lint` in frontend, but only look for `vue/no-undef-components` errors, e.g: "The '<Badge>' component has been used, but not defined vue/no-undef-components"
 - When changing environment variables, immediately search for all usages across the codebase
 
 ### Tool Usage
@@ -149,6 +146,7 @@ stack: error instanceof Error ? error.stack : undefined
 - Commit messages should be a single line with no line breaks. With 1 or 2 sentences. Avoid point forms or paragraphs. The commit message should usually describe the why of the change rather than the how/what as the latter can be inferred from the diff
 
 > <commit message here>
+
 - Never change these 2 values, be it with git commands or edit config files directly:
 
 ```
@@ -172,3 +170,6 @@ git config user.email
 ## Project-Specifics
 
 - This is a Vue.js SPA with pre-rendering (using @prerenderer/rollup-plugin), not SSR. Meta tags are set in the router beforeEach hook and baked into pre-rendered HTML at build time
+- Deployment: Hosted on Render as a static site. Pushing to `main` triggers auto-deploy. No manual deploy step needed
+- Developer data lives in `frontend/src/data/developers.json` — each developer has id, name, avatar, bio, tools[], link, socialMediaLink, location
+- Pre-rendered routes are defined in `frontend/prerenderRoutes.ts` and must stay in sync with `render.yaml` routes (use `scripts/check-route-consistency.ts` to verify)
