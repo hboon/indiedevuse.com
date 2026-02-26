@@ -55,7 +55,10 @@ router.beforeEach((to, from, next) => {
     const developer = developersData.developers.find((dev) => dev.id === developerID)
     const developerName = developer?.name || developerID
     title = `${developerName} (${developerID}) Developer Stack — ${APP_NAME}`
-    description = `Discover the tools and apps used by ${developerName} (${developerID}) to build their products.`
+    const toolsSuffix = developer?.tools?.length
+      ? ` Their stack includes ${developer.tools.slice(0, 5).join(", ")} and more.`
+      : ""
+    description = `Discover the tools and apps used by ${developerName} (${developerID}) to build their products.${toolsSuffix}`
   } else if (to.meta) {
     const meta: Record<string, string> = to.meta as Record<string, string>
     title = meta.title || ""
