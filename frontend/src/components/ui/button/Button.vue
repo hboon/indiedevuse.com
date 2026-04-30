@@ -1,19 +1,26 @@
 <script setup lang="ts">
-import type { PrimitiveProps } from 'radix-vue'
-import type { HTMLAttributes } from 'vue'
-import type { ButtonVariants } from '.'
-import { cn } from '@/lib/utils'
-import { Primitive } from 'radix-vue'
-import { buttonVariants } from '.'
+import type { HTMLAttributes } from "vue"
+
+import type { PrimitiveProps } from "radix-vue"
+import { Primitive } from "radix-vue"
+
+import { cn } from "@/lib/utils"
+
+import type { ButtonVariants } from "."
+import { buttonVariants } from "."
+
+defineOptions({
+  name: "UiButton",
+})
 
 interface Props extends PrimitiveProps {
-  variant?: ButtonVariants['variant']
-  size?: ButtonVariants['size']
-  class?: HTMLAttributes['class']
+  variant?: ButtonVariants["variant"]
+  size?: ButtonVariants["size"]
+  class?: HTMLAttributes["class"]
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  as: 'button',
+  as: "button",
 })
 </script>
 

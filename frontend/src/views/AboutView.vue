@@ -1,11 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from "vue"
 
-import { cn } from "@/lib/utils"
-import { useAppStore } from "@/stores/appStore"
-
-const appStore = useAppStore()
-
 onMounted(() => {
   document.dispatchEvent(new Event("custom-render-trigger"))
 })
