@@ -173,3 +173,4 @@ git config user.email
 - Deployment: Hosted on Render as a static site. Pushing to `main` triggers auto-deploy. No manual deploy step needed
 - Developer data lives in `frontend/src/data/developers.json` — each developer has id, name, avatar, bio, tools[], link, socialMediaLink, location
 - Pre-rendered routes are defined in `frontend/prerenderRoutes.ts` and must stay in sync with `render.yaml` routes (use `scripts/check-route-consistency.ts` to verify)
+- Static crawl files such as `robots.txt` must live in `frontend/public` so Vite copies them to `dist`; do not put them in `frontend/src`

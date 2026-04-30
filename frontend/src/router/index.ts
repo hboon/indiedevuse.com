@@ -17,7 +17,7 @@ const router = createRouter({
       meta: {
         title: `${APP_NAME} — Discover What Apps and Tools Indie Developers Use`,
         description:
-          "Explore the tools, apps, and workflows that successful indie developers use to build their products. Learn from real developers' tech stacks and productivity setups.",
+          "Explore the apps, tools, and workflows indie developers use to build products. Learn from real tech stacks and productivity setups.",
       },
     },
     {
@@ -55,8 +55,9 @@ router.beforeEach((to, from, next) => {
     const developer = developersData.developers.find((dev) => dev.id === developerID)
     const developerName = developer?.name || developerID
     title = `${developerName} (${developerID}) Developer Stack — ${APP_NAME}`
-    const toolsSuffix = developer?.tools?.length ? `: ${developer.tools.join(", ")}` : ""
-    description = `${developerName} uses this stack${toolsSuffix}`
+    description = developer
+      ? developerMetaDescription(developerName, developer.tools)
+      : `${developerName}'s indie developer stack on ${APP_NAME}. Explore their apps, tools, services, and workflow.`
   } else if (to.meta) {
     const meta: Record<string, string> = to.meta as Record<string, string>
     title = meta.title || ""
@@ -112,3 +113,27 @@ router.beforeEach((to, from, next) => {
 })
 
 export default router
+
+function developerMetaDescription(developerName: string, tools: string[]): string {
+  const prefix = `${developerName}'s indie developer stack`
+  const suffix = ". See apps, frameworks, services, and workflow."
+  const visibleTools: string[] = []
+  for (const tool of tools) {
+    const nextTools = [...visibleTools, tool]
+    const nextDescription = `${prefix}: ${nextTools.join(", ")}${suffix}`
+    if (nextDescription.length > 155) {
+      break
+    }
+    visibleTools.push(tool)
+  }
+  const toolsText = visibleTools.length ? `: ${visibleTools.join(", ")}` : ""
+  const description = `${prefix}${toolsText}${suffix}`
+  if (description.length >= 120) {
+    return description
+  }
+  const expandedDescription = `${description} Explore how they build and ship products.`
+  if (expandedDescription.length <= 155) {
+    return expandedDescription
+  }
+  return description
+}

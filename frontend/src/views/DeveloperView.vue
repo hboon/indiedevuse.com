@@ -10,6 +10,33 @@ const developerId = computed(() => route.params.id as string)
 const developer = computed(() =>
   developersData.developers.find((dev) => dev.id === developerId.value)
 )
+const relatedDevelopers = computed(() => {
+  const developerIndex = developersData.developers.findIndex((dev) => dev.id === developerId.value)
+  if (developerIndex === -1) {
+    return developersData.developers.slice(0, 3)
+  }
+  const previousDeveloper =
+    developersData.developers[
+      (developerIndex - 1 + developersData.developers.length) % developersData.developers.length
+    ]
+  const nextDeveloper =
+    developersData.developers[(developerIndex + 1) % developersData.developers.length]
+  const extraDeveloper = developersData.developers.find(
+    (dev) =>
+      dev.id !== developerId.value && dev.id !== previousDeveloper.id && dev.id !== nextDeveloper.id
+  )
+  return [previousDeveloper, nextDeveloper, extraDeveloper].filter(
+    (dev): dev is (typeof developersData.developers)[number] => dev !== undefined
+  )
+})
+const stackSummary = computed(() => {
+  if (!developer.value) {
+    return ""
+  }
+  const primaryTools = developer.value.tools.slice(0, 4).join(", ")
+  const toolCount = developer.value.tools.length
+  return `${developer.value.name}'s setup combines ${primaryTools} with ${toolCount} tools across development, product, infrastructure, and workflow. This profile makes it easier to compare the practical choices indie developers use when building and shipping their own products.`
+})
 
 onMounted(() => {
   document.dispatchEvent(new Event("custom-render-trigger"))
@@ -157,6 +184,33 @@ onMounted(() => {
                 </span>
               </div>
             </div>
+          </div>
+          <p class="mt-8 text-muted-foreground leading-relaxed">
+            {{ stackSummary }}
+          </p>
+        </div>
+
+        <div
+          class="bg-card dark:bg-card/50 backdrop-blur-sm rounded-2xl border border-border/50 dark:shadow-xl shadow-none p-8 md:p-10"
+        >
+          <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
+            <span class="w-1 h-8 bg-primary rounded-full"></span>
+            More developer stacks
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <RouterLink
+              v-for="relatedDeveloper in relatedDevelopers"
+              :key="relatedDeveloper.id"
+              :to="`/developer/${relatedDeveloper.id}`"
+              class="group bg-muted/30 hover:bg-muted/50 rounded-lg px-4 py-3 transition-all duration-200 border border-transparent hover:border-border/50"
+            >
+              <span class="font-medium text-foreground/90 group-hover:text-foreground">
+                {{ relatedDeveloper.name }}
+              </span>
+              <span class="block text-sm text-muted-foreground mt-1">
+                {{ relatedDeveloper.tools.slice(0, 3).join(", ") }}
+              </span>
+            </RouterLink>
           </div>
         </div>
       </div>

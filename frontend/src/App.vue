@@ -14,7 +14,9 @@ useTheme()
     <header class="border-b">
       <nav class="container mx-auto px-4 py-4">
         <div class="flex items-center justify-between">
-          <h1 class="text-2xl font-bold">Indie Developers Use</h1>
+          <RouterLink to="/" class="text-2xl font-bold hover:underline"
+            >Indie Developers Use</RouterLink
+          >
           <div class="flex items-center gap-4">
             <RouterLink to="/" class="hover:underline">Home</RouterLink>
             <RouterLink to="/about" class="hover:underline">About</RouterLink>
