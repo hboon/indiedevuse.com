@@ -3,9 +3,12 @@ import { createRouter, createWebHistory } from "vue-router"
 import { APP_NAME, APP_SITE } from "@/constants"
 import developersData from "@/data/developers.json"
 import { updateMetaTags } from "@/lib/meta"
+import type { Developer } from "@/types/developer"
 import AboutView from "@/views/AboutView.vue"
 import DeveloperView from "@/views/DeveloperView.vue"
 import HomeView from "@/views/HomeView.vue"
+
+const developers = developersData.developers as Developer[]
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -52,11 +55,13 @@ router.beforeEach((to, from, next) => {
 
   if (to.name === "developer" && to.params.id) {
     const developerID = to.params.id as string
-    const developer = developersData.developers.find((dev) => dev.id === developerID)
+    const developer = developers.find((dev) => dev.id === developerID)
     const developerName = developer?.name || developerID
-    title = `${developerName} (${developerID}) Developer Stack — ${APP_NAME}`
+    title = developer
+      ? developerTitle(developer)
+      : `${developerName}'s Indie Developer Stack — ${APP_NAME}`
     description = developer
-      ? developerMetaDescription(developerName, developer.tools)
+      ? developerMetaDescription(developer)
       : `${developerName}'s indie developer stack on ${APP_NAME}. Explore their apps, tools, services, and workflow.`
   } else if (to.meta) {
     const meta: Record<string, string> = to.meta as Record<string, string>
@@ -90,6 +95,12 @@ router.beforeEach((to, from, next) => {
   ]
 
   updateMetaTags(metaTags)
+  updateStructuredData(
+    to.name === "developer" && to.params.id
+      ? developers.find((dev) => dev.id === to.params.id)
+      : undefined,
+    canonicalURL
+  )
 
   const existingCanonical = document.querySelector('link[rel="canonical"]')
   if (existingCanonical) {
@@ -114,11 +125,18 @@ router.beforeEach((to, from, next) => {
 
 export default router
 
-function developerMetaDescription(developerName: string, tools: string[]): string {
-  const prefix = `${developerName}'s indie developer stack`
+function developerTitle(developer: Developer): string {
+  return `${developer.name} Indie Developer Stack — ${APP_NAME}`
+}
+
+function developerMetaDescription(developer: Developer): string {
+  if (developer.seoSummary) {
+    return fitMetaDescription(developer.seoSummary)
+  }
+  const prefix = `${developer.name}'s indie developer stack`
   const suffix = ". See apps, frameworks, services, and workflow."
   const visibleTools: string[] = []
-  for (const tool of tools) {
+  for (const tool of developer.tools) {
     const nextTools = [...visibleTools, tool]
     const nextDescription = `${prefix}: ${nextTools.join(", ")}${suffix}`
     if (nextDescription.length > 155) {
@@ -136,4 +154,42 @@ function developerMetaDescription(developerName: string, tools: string[]): strin
     return expandedDescription
   }
   return description
+}
+
+function fitMetaDescription(description: string): string {
+  if (description.length <= 155) {
+    return description
+  }
+  return `${description.substring(0, 152).trim()}...`
+}
+
+function updateStructuredData(developer: Developer | undefined, canonicalURL: string) {
+  const existingScript = document.querySelector(
+    'script[type="application/ld+json"][data-seo="profile"]'
+  )
+  if (!developer) {
+    existingScript?.remove()
+    return
+  }
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    mainEntity: {
+      "@type": "Person",
+      name: developer.name,
+      description: developer.seoSummary || developer.bio,
+      url: canonicalURL,
+      image: `${APP_SITE}${developer.avatar}`,
+      sameAs: [developer.link.url, developer.socialMediaLink].filter(Boolean),
+      knowsAbout: developer.tools,
+      homeLocation: developer.location ? { "@type": "Place", name: developer.location } : undefined,
+    },
+  }
+  const script = existingScript || document.createElement("script")
+  script.setAttribute("type", "application/ld+json")
+  script.setAttribute("data-seo", "profile")
+  script.textContent = JSON.stringify(structuredData)
+  if (!existingScript) {
+    document.head.appendChild(script)
+  }
 }

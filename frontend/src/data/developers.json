@@ -5,6 +5,7 @@
       "name": "Boon aka Hwee-Boon Yar",
       "avatar": "/avatars/hboon.jpg",
       "bio": "30 yrs exp. Solopreneur again, this time building with AI.",
+      "seoSummary": "Solopreneur building AI-assisted products with Claude Code, TypeScript, Vue.js, Tailwind CSS, PostgreSQL, Render, and Stripe.",
       "tools": [
         "Claude Code",
         "TypeScript",
@@ -100,6 +101,7 @@
       "name": "Andrei Hudovich",
       "avatar": "/avatars/andrei-hudovich.png",
       "bio": "Founder (1 exit). Bootstrapping Listing Cat in public.",
+      "seoSummary": "Founder bootstrapping Listing Cat with React, Next.js, Vue, Nuxt, Vercel, Cloudflare, Supabase, PostHog, and Stripe.",
       "tools": [
         "Javascript",
         "Typescript",
@@ -216,6 +218,7 @@
       "name": "Chris Shennan",
       "avatar": "/avatars/chrisshennan.jpg",
       "bio": "Backend developer during the day and aspiring indie hacker by night.",
+      "seoSummary": "Backend developer and indie hacker using Symfony, PHP, Docker, MySQL, JavaScript, Tailwind CSS, Sentry, AWS, and GitLab CI/CD.",
       "tools": [
         "Scaffold",
         "Symfony",
@@ -316,6 +319,7 @@
       "name": "Steve",
       "avatar": "/avatars/eeoom.jpg",
       "bio": "Fullstack developer and founder. Crafting stunning apps and webapps. Indie hacker 🚀",
+      "seoSummary": "Fullstack developer and founder building apps and webapps with Flutter, Swift, Kotlin, PHP, Tailwind CSS, AlpineJS, Redis, Docker, and Vue.js.",
       "tools": [
         "Flutter",
         "Swift",

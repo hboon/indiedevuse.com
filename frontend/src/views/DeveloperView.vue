@@ -33,6 +33,9 @@ const stackSummary = computed(() => {
   if (!developer.value) {
     return ""
   }
+  if (developer.value.seoSummary) {
+    return developer.value.seoSummary
+  }
   const primaryTools = developer.value.tools.slice(0, 4).join(", ")
   const toolCount = developer.value.tools.length
   return `${developer.value.name}'s setup combines ${primaryTools} with ${toolCount} tools across development, product, infrastructure, and workflow. This profile makes it easier to compare the practical choices indie developers use when building and shipping their own products.`
@@ -209,6 +212,12 @@ onMounted(() => {
               </span>
               <span class="block text-sm text-muted-foreground mt-1">
                 {{ relatedDeveloper.tools.slice(0, 3).join(", ") }}
+              </span>
+              <span
+                v-if="relatedDeveloper.seoSummary"
+                class="block text-sm text-muted-foreground mt-2"
+              >
+                {{ relatedDeveloper.seoSummary }}
               </span>
             </RouterLink>
           </div>

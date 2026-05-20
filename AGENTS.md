@@ -99,7 +99,7 @@ When accessing DOM methods on Vue component refs, use `$el`:
 
 - Use `pnpm run type-check` for/in both frontend and backend for type checking as a way to spot errors after a change
 - Use `pnpm run lint` in frontend, but only look for `vue/no-undef-components` errors, e.g: "The '<Badge>' component has been used, but not defined vue/no-undef-components" as a way to missing imports
-- Always run prettier after making edits to files (use: `pnpm prettier --write <file_path>`)
+- Always run prettier after making edits to files. For frontend files, run it from `frontend` because the Prettier plugins are installed there, e.g. `cd frontend && pnpm prettier --write src/router/index.ts ../render.yaml`
 - Remove obvious, explanatory comments and function comments that were added as part of the edit
 
 ## Structured logging

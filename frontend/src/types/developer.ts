@@ -3,6 +3,7 @@ export interface Developer {
   name: string
   avatar: string
   bio: string
+  seoSummary?: string
   tools: string[]
   link: {
     url: string

@@ -37,6 +37,9 @@ onMounted(() => {
             />
           </div>
           <h3 class="font-semibold text-lg">{{ developer.name }}</h3>
+          <p class="mt-2 text-sm text-muted-foreground">
+            {{ developer.seoSummary || developer.tools.slice(0, 4).join(", ") }}
+          </p>
         </div>
       </a>
     </div>
