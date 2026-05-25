@@ -8,7 +8,7 @@ onMounted(() => {
 
 <template>
   <div>
-    <h2 class="text-3xl font-bold mb-4">About Indie Developers Use</h2>
+    <h1 class="text-3xl font-bold mb-4">About Indie Developers Use</h1>
     <div class="prose max-w-none">
       <p class="mb-4">
         This website showcases the tools and stacks that indie developers use to build their

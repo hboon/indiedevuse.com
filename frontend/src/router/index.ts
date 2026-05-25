@@ -52,10 +52,11 @@ function dropTrailingSlash(path: string): string {
 router.beforeEach((to, from, next) => {
   let title = ""
   let description = ""
+  let developer: Developer | undefined
 
   if (to.name === "developer" && to.params.id) {
     const developerID = to.params.id as string
-    const developer = developers.find((dev) => dev.id === developerID)
+    developer = developers.find((dev) => dev.id === developerID)
     const developerName = developer?.name || developerID
     title = developer
       ? developerTitle(developer)
@@ -95,12 +96,8 @@ router.beforeEach((to, from, next) => {
   ]
 
   updateMetaTags(metaTags)
-  updateStructuredData(
-    to.name === "developer" && to.params.id
-      ? developers.find((dev) => dev.id === to.params.id)
-      : undefined,
-    canonicalURL
-  )
+  updateStructuredData(developer, canonicalURL)
+  const robotsContent = shouldIndexRoute(to.name, developer) ? "index, follow" : "noindex, follow"
 
   const existingCanonical = document.querySelector('link[rel="canonical"]')
   if (existingCanonical) {
@@ -113,10 +110,12 @@ router.beforeEach((to, from, next) => {
   }
 
   const existingRobots = document.querySelector('meta[name="robots"]')
-  if (!existingRobots) {
+  if (existingRobots) {
+    existingRobots.setAttribute("content", robotsContent)
+  } else {
     const robotsTag = document.createElement("meta")
     robotsTag.setAttribute("name", "robots")
-    robotsTag.setAttribute("content", "index, follow")
+    robotsTag.setAttribute("content", robotsContent)
     document.head.appendChild(robotsTag)
   }
 
@@ -161,6 +160,16 @@ function fitMetaDescription(description: string): string {
     return description
   }
   return `${description.substring(0, 152).trim()}...`
+}
+
+function shouldIndexRoute(
+  routeName: string | symbol | null | undefined,
+  developer: Developer | undefined
+): boolean {
+  if (routeName === "developer") {
+    return developer !== undefined
+  }
+  return routeName === "home" || routeName === "about"
 }
 
 function updateStructuredData(developer: Developer | undefined, canonicalURL: string) {

@@ -8,6 +8,9 @@ services:
     buildCommand: export VITE_RENDER_GIT_COMMIT=$RENDER_GIT_COMMIT && cd frontend && pnpm i && npx puppeteer browsers install chrome && pnpm run build && mv dist/index.html dist/index-default.html
     staticPublishPath: frontend/dist
     routes:
+      - type: redirect
+        source: /developers/*
+        destination: /developer/*
       - type: rewrite
         source: /
         destination: /index-root.html
