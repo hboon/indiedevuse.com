@@ -67,3 +67,4 @@ services:
     buildFilter:
       paths:
         - frontend/**/*
+        - render.yaml
