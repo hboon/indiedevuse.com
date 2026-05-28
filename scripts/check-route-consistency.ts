@@ -59,7 +59,7 @@ function extractRoutesFromRenderYaml(content: string): RenderRoute[] {
     throw new Error("No routes found in static web service");
   }
   return webService.routes.filter(
-    (r) => r.type === "rewrite" && r.source !== "/*",
+    (r) => r.type === "rewrite" && !r.source.includes("*"),
   );
 }
 
