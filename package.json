@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "generate-og-image": "bun scripts/generate-og-image.ts",
     "update-sitemap": "bun scripts/update-sitemap.ts"
   },
   "devDependencies": {
