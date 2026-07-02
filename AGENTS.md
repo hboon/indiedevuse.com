@@ -141,7 +141,7 @@ stack: error instanceof Error ? error.stack : undefined
 ### Version control and git
 
 - Only commit when instructed to, never commit unless instructed to
-- When instructed to commit, commit as my default account without Co-Authored-By (appending "with Claude Code" to the commit message):
+- When instructed to commit, commit as my default account without Co-Authored-By
 - Commits should be atomic, just a single functional unit of change where reasonable
 - Commit messages should be a single line with no line breaks. With 1 or 2 sentences. Avoid point forms or paragraphs. The commit message should usually describe the why of the change rather than the how/what as the latter can be inferred from the diff
 
