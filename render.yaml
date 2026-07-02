@@ -18,6 +18,9 @@ services:
         source: /about
         destination: /index-about.html
       - type: rewrite
+        source: /indie-developer-tech-stacks
+        destination: /index-indie-developer-tech-stacks.html
+      - type: rewrite
         source: /developer/hboon
         destination: /index-developer-hboon.html
       - type: rewrite

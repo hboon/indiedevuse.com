@@ -7,6 +7,7 @@ import type { Developer } from "@/types/developer"
 import AboutView from "@/views/AboutView.vue"
 import DeveloperView from "@/views/DeveloperView.vue"
 import HomeView from "@/views/HomeView.vue"
+import TechStacksView from "@/views/TechStacksView.vue"
 
 const developers = developersData.developers as Developer[]
 
@@ -31,6 +32,16 @@ const router = createRouter({
         title: `About — ${APP_NAME}`,
         description:
           "Learn more about IndieDevUse and our mission to help developers discover the best tools for their workflow.",
+      },
+    },
+    {
+      path: "/indie-developer-tech-stacks",
+      name: "tech-stacks",
+      component: TechStacksView,
+      meta: {
+        title: `Indie Developer Tech Stacks — ${APP_NAME}`,
+        description:
+          "Compare real indie developer tech stacks from public IndieDevUse profiles, including tools for web apps, infrastructure, mobile apps, and games.",
       },
     },
     {
@@ -169,7 +180,7 @@ function shouldIndexRoute(
   if (routeName === "developer") {
     return developer !== undefined
   }
-  return routeName === "home" || routeName === "about"
+  return routeName === "home" || routeName === "about" || routeName === "tech-stacks"
 }
 
 function updateStructuredData(developer: Developer | undefined, canonicalURL: string) {

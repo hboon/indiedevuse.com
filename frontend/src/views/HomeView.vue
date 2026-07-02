@@ -45,7 +45,11 @@ onMounted(() => {
     </div>
 
     <div class="text-center mt-12 text-muted-foreground">
-      Add yourself with a
+      Compare the
+      <a href="/indie-developer-tech-stacks" class="hover:text-primary underline">
+        common indie developer tech stacks
+      </a>
+      or add yourself with a
       <a
         href="https://github.com/hboon/indiedevuse.com/blob/main/README.md"
         target="_blank"
