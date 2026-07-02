@@ -8,5 +8,11 @@ export function getPrerenderRoutes(): string[] {
   const developerRoutes = developersData.developers.map(
     (dev: { id: string }) => `/developer/${dev.id}`
   )
-  return ["/", "/about", "/indie-developer-tech-stacks", ...developerRoutes]
+  return [
+    "/",
+    "/about",
+    "/indie-developer-tech-stacks",
+    "/saas-tech-stack-generator",
+    ...developerRoutes,
+  ]
 }

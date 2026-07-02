@@ -52,7 +52,11 @@ onMounted(() => {
     </div>
 
     <div class="text-center mt-12 text-muted-foreground">
-      Compare the
+      Make a
+      <a href="/saas-tech-stack-generator" class="hover:text-primary underline">
+        shareable indie SaaS stack card
+      </a>
+      , compare the
       <a href="/indie-developer-tech-stacks" class="hover:text-primary underline">
         common indie developer tech stacks
       </a>

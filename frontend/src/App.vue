@@ -13,12 +13,15 @@ useTheme()
   <div class="min-h-screen bg-background">
     <header class="border-b">
       <nav class="container mx-auto px-4 py-4">
-        <div class="flex items-center justify-between">
+        <div class="flex flex-wrap items-center justify-between gap-3">
           <RouterLink to="/" class="text-2xl font-bold hover:underline"
             >Indie Developers Use</RouterLink
           >
-          <div class="flex items-center gap-4">
+          <div class="flex flex-wrap items-center gap-3 text-sm sm:text-base">
             <RouterLink to="/" class="hover:underline">Home</RouterLink>
+            <RouterLink to="/saas-tech-stack-generator" class="hover:underline"
+              >Stack generator</RouterLink
+            >
             <RouterLink to="/about" class="hover:underline">About</RouterLink>
             <ThemeSwitcher />
           </div>

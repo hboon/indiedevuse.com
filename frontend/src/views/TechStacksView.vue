@@ -126,13 +126,17 @@ onMounted(() => {
 
     <div class="mt-12 border-t pt-8 text-muted-foreground">
       Building something with a different stack?
+      <RouterLink to="/saas-tech-stack-generator" class="hover:text-primary underline">
+        Make a shareable stack card
+      </RouterLink>
+      , or
       <a
         href="https://github.com/hboon/indiedevuse.com/blob/main/README.md"
         target="_blank"
         rel="noopener noreferrer"
         class="hover:text-primary underline"
       >
-        Add your profile with a GitHub Pull Request
+        add your profile with a GitHub Pull Request
       </a>
       , or use the correction link on a profile page if something is wrong.
     </div>
