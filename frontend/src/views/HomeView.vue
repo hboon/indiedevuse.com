@@ -4,7 +4,7 @@ import { onMounted, ref } from "vue"
 import developersData from "@/data/developers.json"
 import type { Developer } from "@/types/developer"
 
-const developers = ref<Developer[]>(developersData.developers)
+const developers = ref<Developer[]>(developersData.developers as Developer[])
 
 onMounted(() => {
   document.dispatchEvent(new Event("custom-render-trigger"))
@@ -17,7 +17,7 @@ onMounted(() => {
       <h1 class="text-4xl font-bold mb-4">Indie Developers Use</h1>
       <p class="text-lg text-muted-foreground max-w-2xl mx-auto">
         Discover the tools and technologies that indie developers and bootstrapped founders use to
-        build their products. Learn from real developers about their tech stacks and workflows.
+        build their products. Profiles are self-submitted or owner-curated from public sources.
       </p>
     </div>
 
@@ -37,6 +37,13 @@ onMounted(() => {
             />
           </div>
           <h3 class="font-semibold text-lg">{{ developer.name }}</h3>
+          <div class="mt-2 text-xs rounded-full bg-muted px-2 py-1 text-muted-foreground">
+            {{
+              developer.provenance.sourceType === "owner-curated"
+                ? "Owner-curated"
+                : "Self-submitted"
+            }}
+          </div>
           <p class="mt-2 text-sm text-muted-foreground">
             {{ developer.seoSummary || developer.tools.slice(0, 4).join(", ") }}
           </p>
@@ -49,7 +56,7 @@ onMounted(() => {
       <a href="/indie-developer-tech-stacks" class="hover:text-primary underline">
         common indie developer tech stacks
       </a>
-      or add yourself with a
+      , add yourself with a
       <a
         href="https://github.com/hboon/indiedevuse.com/blob/main/README.md"
         target="_blank"
@@ -58,6 +65,7 @@ onMounted(() => {
       >
         GitHub Pull Request
       </a>
+      , or ask for a correction/removal on any profile page
     </div>
   </div>
 </template>

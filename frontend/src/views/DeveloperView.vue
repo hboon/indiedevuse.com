@@ -40,6 +40,14 @@ const stackSummary = computed(() => {
   const toolCount = developer.value.tools.length
   return `${developer.value.name}'s setup combines ${primaryTools} with ${toolCount} tools across development, product, infrastructure, and workflow. This profile makes it easier to compare the practical choices indie developers use when building and shipping their own products.`
 })
+const provenanceLabel = computed(() => {
+  if (!developer.value) {
+    return ""
+  }
+  return developer.value.provenance.sourceType === "owner-curated"
+    ? "Owner-curated from public sources"
+    : "Self-submitted"
+})
 
 onMounted(() => {
   document.dispatchEvent(new Event("custom-render-trigger"))
@@ -99,6 +107,12 @@ onMounted(() => {
                   <p class="text-lg text-muted-foreground leading-relaxed max-w-2xl">
                     {{ developer.bio }}
                   </p>
+                  <div class="mt-4 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+                    <span class="rounded-full bg-muted px-3 py-1 font-medium">
+                      {{ provenanceLabel }}
+                    </span>
+                    <span>Reviewed {{ developer.provenance.reviewedAt }}</span>
+                  </div>
                 </div>
 
                 <div class="flex flex-wrap gap-3">
@@ -191,6 +205,39 @@ onMounted(() => {
           <p class="mt-8 text-muted-foreground leading-relaxed">
             {{ stackSummary }}
           </p>
+        </div>
+
+        <div
+          class="bg-card dark:bg-card/50 backdrop-blur-sm rounded-2xl border border-border/50 dark:shadow-xl shadow-none p-8 md:p-10"
+        >
+          <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
+            <span class="w-1 h-8 bg-primary rounded-full"></span>
+            Profile sources
+          </h2>
+          <p class="text-muted-foreground leading-relaxed">
+            {{ provenanceLabel }}. Confidence is {{ developer.provenance.confidence }}. Avatar is
+            {{ developer.provenance.avatarSource }}.
+          </p>
+          <div class="flex flex-wrap gap-3 mt-5">
+            <a
+              v-for="source in developer.provenance.sources"
+              :key="source.url"
+              :href="source.url"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-2 px-4 py-2 bg-muted hover:bg-muted/80 rounded-lg transition-all duration-200 font-medium"
+            >
+              {{ source.label }}
+            </a>
+            <a
+              :href="developer.provenance.correctionURL"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg transition-all duration-200 font-medium"
+            >
+              Correct or remove this profile
+            </a>
+          </div>
         </div>
 
         <div

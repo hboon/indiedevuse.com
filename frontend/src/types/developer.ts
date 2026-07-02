@@ -1,3 +1,21 @@
+export type DeveloperProfileSourceType = "self-submitted" | "owner-curated"
+
+export type DeveloperProfileConfidence = "self-reported" | "high" | "medium"
+
+export interface DeveloperProfileSource {
+  label: string
+  url: string
+}
+
+export interface DeveloperProfileProvenance {
+  sourceType: DeveloperProfileSourceType
+  confidence: DeveloperProfileConfidence
+  reviewedAt: string
+  sources: DeveloperProfileSource[]
+  correctionURL: string
+  avatarSource: string
+}
+
 export interface Developer {
   id: string
   name: string
@@ -11,4 +29,5 @@ export interface Developer {
   }
   socialMediaLink?: string
   location?: string
+  provenance: DeveloperProfileProvenance
 }

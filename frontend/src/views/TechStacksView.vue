@@ -72,8 +72,8 @@ onMounted(() => {
         template. It is a set of real choices from people shipping their own products.
       </p>
       <p class="text-lg text-muted-foreground leading-relaxed mt-4">
-        This page pulls from the public profiles on IndieDevUse. Use it to compare patterns, then
-        open the profiles that look closest to what you are building.
+        This page pulls from the public profiles on IndieDevUse. Some profiles are self-submitted;
+        some are owner-curated from public sources and marked on the profile page.
       </p>
     </div>
 
@@ -100,6 +100,13 @@ onMounted(() => {
             class="border rounded-lg p-5 bg-card hover:border-primary/50 hover:shadow-md transition-all"
           >
             <div class="font-semibold text-lg">{{ developer.name }}</div>
+            <div class="text-xs text-muted-foreground mt-1">
+              {{
+                developer.provenance.sourceType === "owner-curated"
+                  ? "Owner-curated"
+                  : "Self-submitted"
+              }}
+            </div>
             <div class="text-sm text-muted-foreground mt-2">
               {{ developer.seoSummary || developer.tools.slice(0, 5).join(", ") }}
             </div>
@@ -127,7 +134,7 @@ onMounted(() => {
       >
         Add your profile with a GitHub Pull Request
       </a>
-      .
+      , or use the correction link on a profile page if something is wrong.
     </div>
   </div>
 </template>

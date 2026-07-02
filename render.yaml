@@ -60,6 +60,9 @@ services:
         source: /developer/eeoom
         destination: /index-developer-eeoom.html
       - type: rewrite
+        source: /developer/mathias-michel
+        destination: /index-developer-mathias-michel.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite

@@ -22,7 +22,24 @@
         "text": "hboon.com"
       },
       "socialMediaLink": "https://x.com/hboon",
-      "location": "Singapore"
+      "location": "Singapore",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "hboon.com",
+            "url": "https://hboon.com/about"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://x.com/hboon"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
     },
     {
       "id": "devarno",
@@ -66,7 +83,24 @@
         "text": "devarno.com"
       },
       "socialMediaLink": "https://bsky.app/profile/devarno.com",
-      "location": "UK"
+      "location": "UK",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "devarno.com",
+            "url": "https://devarno.com"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://bsky.app/profile/devarno.com"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
     },
     {
       "id": "bennyqp",
@@ -94,7 +128,24 @@
         "text": "My Works"
       },
       "socialMediaLink": "https://x.com/bennyqp",
-      "location": "Munich, Germany"
+      "location": "Munich, Germany",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "My Works",
+            "url": "https://palmio.io"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://x.com/bennyqp"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
     },
     {
       "id": "andrei-hudovich",
@@ -123,7 +174,24 @@
         "text": "hudovich.dev"
       },
       "socialMediaLink": "https://x.com/AndreiHudovich",
-      "location": "Wroclaw, Poland"
+      "location": "Wroclaw, Poland",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "hudovich.dev",
+            "url": "https://hudovich.dev"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://x.com/AndreiHudovich"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
     },
     {
       "id": "builditn0w",
@@ -148,7 +216,24 @@
         "text": "hilars.dev"
       },
       "socialMediaLink": "https://x.com/builditn0w",
-      "location": "Switzerland"
+      "location": "Switzerland",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "hilars.dev",
+            "url": "https://hilars.dev"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://x.com/builditn0w"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
     },
     {
       "id": "dannyt74",
@@ -175,7 +260,24 @@
         "text": "webmobix.com"
       },
       "socialMediaLink": "https://bsky.app/profile/danny.webmobix.com",
-      "location": "Jakarta, Indonesia"
+      "location": "Jakarta, Indonesia",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "webmobix.com",
+            "url": "https://webmobix.com"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://bsky.app/profile/danny.webmobix.com"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
     },
     {
       "id": "philkellr",
@@ -188,7 +290,24 @@
         "text": "http://backl.io"
       },
       "socialMediaLink": "https://x.com/philkellr",
-      "location": "Zurich, Switzerland"
+      "location": "Zurich, Switzerland",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "http://backl.io",
+            "url": "https://backl.io"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://x.com/philkellr"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
     },
     {
       "id": "chris",
@@ -209,9 +328,29 @@
         "Cursor",
         "DataFast"
       ],
-      "link": { "url": "https://christopherwoggon.com", "text": "https://christopherwoggon.com" },
+      "link": {
+        "url": "https://christopherwoggon.com",
+        "text": "https://christopherwoggon.com"
+      },
       "socialMediaLink": "https://x.com/chrissyinspace",
-      "location": "Busan, South Korea"
+      "location": "Busan, South Korea",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "https://christopherwoggon.com",
+            "url": "https://christopherwoggon.com"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://x.com/chrissyinspace"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
     },
     {
       "id": "chrisshennan",
@@ -238,7 +377,24 @@
         "text": "chrisshennan.com"
       },
       "socialMediaLink": "https://bsky.app/profile/chrisshennan.bsky.social",
-      "location": "UK"
+      "location": "UK",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "chrisshennan.com",
+            "url": "https://chrisshennan.com"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://bsky.app/profile/chrisshennan.bsky.social"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
     },
     {
       "id": "gripfastgameworks",
@@ -269,7 +425,24 @@
         "text": "Grip Fast Gameworks, LLC"
       },
       "socialMediaLink": "https://bsky.app/profile/gripfastgame.works",
-      "location": "California, USA"
+      "location": "California, USA",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "Grip Fast Gameworks, LLC",
+            "url": "https://gripfastgame.works"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://bsky.app/profile/gripfastgame.works"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
     },
     {
       "id": "razvanmuntian",
@@ -291,7 +464,24 @@
         "text": "https://razvanmuntian.com"
       },
       "socialMediaLink": "https://razvanmuntian.substack.com",
-      "location": "Remote 🌍"
+      "location": "Remote 🌍",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "https://razvanmuntian.com",
+            "url": "https://razvanmuntian.com"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://razvanmuntian.substack.com"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
     },
     {
       "id": "yoanngueny",
@@ -312,7 +502,24 @@
         "text": "http://yoanngueny.com"
       },
       "socialMediaLink": "https://x.com/yoanngueny",
-      "location": "Paris"
+      "location": "Paris",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "http://yoanngueny.com",
+            "url": "https://yoanngueny.com"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://x.com/yoanngueny"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
     },
     {
       "id": "eeoom",
@@ -338,7 +545,81 @@
         "text": "eeoom.com"
       },
       "socialMediaLink": "https://bsky.app/profile/eeoom.com",
-      "location": "Austria"
+      "location": "Austria",
+      "provenance": {
+        "sourceType": "self-submitted",
+        "confidence": "self-reported",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "eeoom.com",
+            "url": "https://eeoom.com"
+          },
+          {
+            "label": "Social profile",
+            "url": "https://bsky.app/profile/eeoom.com"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Self-submitted avatar in the IndieDevUse repository"
+      }
+    },
+    {
+      "id": "mathias-michel",
+      "name": "Mathias Michel",
+      "avatar": "/avatars/curated-placeholder.svg",
+      "bio": "Software engineer and indie maker building RewriteBar, a macOS AI writing assistant.",
+      "seoSummary": "Maker of RewriteBar using Swift, TypeScript, React, Next.js, Tailwind CSS, Supabase, Vercel, OpenAI, Stripe, Gumroad, and GitHub.",
+      "tools": [
+        "Swift",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Supabase",
+        "Vercel",
+        "OpenAI",
+        "ChatGPT",
+        "Stripe",
+        "Gumroad",
+        "GitHub",
+        "daisyUI"
+      ],
+      "link": {
+        "url": "https://rewritebar.com",
+        "text": "RewriteBar"
+      },
+      "socialMediaLink": "https://x.com/m91michel",
+      "location": "Germany",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-02",
+        "sources": [
+          {
+            "label": "RewriteBar",
+            "url": "https://rewritebar.com/"
+          },
+          {
+            "label": "RewriteBar author page",
+            "url": "https://rewritebar.com/blog/author/mathias"
+          },
+          {
+            "label": "Indie Hacker Stacks product page",
+            "url": "https://indiehackerstacks.com/products/rewritebar"
+          },
+          {
+            "label": "Indie Hacker Stacks maker page",
+            "url": "https://indiehackerstacks.com/m4thias"
+          },
+          {
+            "label": "Mathias Michel Indie Page",
+            "url": "https://indiepa.ge/m91michel"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Neutral generated placeholder under the owner-curated avatar policy"
+      }
     }
   ]
 }
