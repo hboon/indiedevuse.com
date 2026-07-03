@@ -66,6 +66,12 @@ services:
         source: /developer/mathias-michel
         destination: /index-developer-mathias-michel.html
       - type: rewrite
+        source: /developer/jan-lavicka
+        destination: /index-developer-jan-lavicka.html
+      - type: rewrite
+        source: /developer/aleksey-razbakov
+        destination: /index-developer-aleksey-razbakov.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite

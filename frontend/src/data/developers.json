@@ -620,6 +620,119 @@
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "Neutral generated placeholder under the owner-curated avatar policy"
       }
+    },
+    {
+      "id": "jan-lavicka",
+      "name": "Jan Lavička",
+      "avatar": "/avatars/curated-placeholder.svg",
+      "bio": "Creator, full-stack developer, and indie hacker building Jobs for Developers, refer.is, Toplistly, and Trip Cutters.",
+      "seoSummary": "Indie hacker building jobs and directory products with JavaScript, TypeScript, React, Remix, Tailwind CSS, SQL, PostgreSQL, Vite, Claude Code, GitHub Copilot, and VS Code.",
+      "tools": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Remix",
+        "Tailwind CSS",
+        "SQL",
+        "PostgreSQL",
+        "Vite",
+        "Claude Code",
+        "GitHub Copilot",
+        "Ollama",
+        "Visual Studio Code",
+        "Postman",
+        "TablePlus",
+        "Homebrew",
+        "NVM"
+      ],
+      "link": {
+        "url": "https://janlavicka.com",
+        "text": "janlavicka.com"
+      },
+      "socialMediaLink": "https://x.com/janlavicka",
+      "location": "Czech Republic",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-03",
+        "sources": [
+          {
+            "label": "Jan Lavička homepage",
+            "url": "https://janlavicka.com/"
+          },
+          {
+            "label": "Jan Lavička projects",
+            "url": "https://janlavicka.com/projects"
+          },
+          {
+            "label": "Jan Lavička uses page",
+            "url": "https://janlavicka.com/uses"
+          },
+          {
+            "label": "Uses.tech Remix listing",
+            "url": "https://uses.tech/like/Remix"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Neutral generated placeholder under the owner-curated avatar policy"
+      }
+    },
+    {
+      "id": "aleksey-razbakov",
+      "name": "Aleksey Razbakov",
+      "avatar": "/avatars/curated-placeholder.svg",
+      "bio": "AI-systems builder running a portfolio of side projects, including WeDance and Ikigai Team.",
+      "seoSummary": "Builder of AI agent systems and community products using Vue.js, Nuxt, Firebase, PostgreSQL, Prisma, Claude Code, Markdown, tmux, Git worktrees, Notion, and Telegram.",
+      "tools": [
+        "Vue.js",
+        "Nuxt",
+        "Firebase",
+        "PostgreSQL",
+        "Prisma",
+        "Claude Code",
+        "Markdown",
+        "tmux",
+        "Git worktrees",
+        "Notion",
+        "Telegram",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "link": {
+        "url": "https://razbakov.com",
+        "text": "razbakov.com"
+      },
+      "socialMediaLink": "https://x.com/razbakov",
+      "location": "Munich, Germany",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-03",
+        "sources": [
+          {
+            "label": "Alösha homepage",
+            "url": "https://razbakov.com/"
+          },
+          {
+            "label": "Alösha about page",
+            "url": "https://razbakov.com/about"
+          },
+          {
+            "label": "Alösha projects",
+            "url": "https://razbakov.com/projects"
+          },
+          {
+            "label": "AI agent team stack post",
+            "url": "https://razbakov.com/blog/2026-03-24-ai-agent-team"
+          },
+          {
+            "label": "Aleksey Razbakov GitHub",
+            "url": "https://github.com/razbakov"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Neutral generated placeholder under the owner-curated avatar policy"
+      }
     }
   ]
 }
