@@ -24,6 +24,49 @@ const topTools = computed(() => {
     .slice(0, 12)
 })
 
+const deploymentTools = computed(() => {
+  const deploymentToolNames = new Set([
+    "aws",
+    "aws cdk",
+    "cloudflare",
+    "docker",
+    "firebase",
+    "gitlab ci/cd",
+    "hetzner",
+    "kubernetes",
+    "render",
+    "supabase",
+    "vercel",
+  ])
+  const toolCounts = new Map<string, { name: string; count: number }>()
+  for (const developer of developers) {
+    for (const tool of developer.tools) {
+      const key = tool.toLowerCase()
+      if (!deploymentToolNames.has(key)) {
+        continue
+      }
+      const existingTool = toolCounts.get(key)
+      toolCounts.set(key, {
+        name: existingTool?.name || tool,
+        count: (existingTool?.count || 0) + 1,
+      })
+    }
+  }
+  return [...toolCounts.values()].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+})
+
+const deploymentProfiles = computed(() =>
+  developers
+    .filter((developer) =>
+      developer.tools.some((tool) =>
+        deploymentTools.value.some(
+          (deploymentTool) => deploymentTool.name.toLowerCase() === tool.toLowerCase()
+        )
+      )
+    )
+    .slice(0, 6)
+)
+
 const profileGroups = computed(() => [
   {
     title: "Solo and bootstrapped web products",
@@ -86,6 +129,38 @@ onMounted(() => {
             {{ tool.count }} {{ tool.count === 1 ? "profile" : "profiles" }}
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <div class="max-w-3xl mb-5">
+        <h2 class="text-2xl font-bold mb-3">Hosting and deployment choices</h2>
+        <p class="text-muted-foreground leading-relaxed">
+          The current profiles mix hosted services with Docker, CI, and infrastructure tools. That
+          matches how most solo projects get shipped: pick the least annoying place to run it, and
+          switch only when the app earns the complexity.
+        </p>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+        <div v-for="tool in deploymentTools" :key="tool.name" class="border rounded-lg p-4 bg-card">
+          <div class="font-semibold">{{ tool.name }}</div>
+          <div class="text-sm text-muted-foreground mt-1">
+            {{ tool.count }} {{ tool.count === 1 ? "profile" : "profiles" }}
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
+        <RouterLink
+          v-for="developer in deploymentProfiles"
+          :key="developer.id"
+          :to="`/developer/${developer.id}`"
+          class="border rounded-lg p-5 bg-card hover:border-primary/50 hover:shadow-md transition-all"
+        >
+          <div class="font-semibold text-lg">{{ developer.name }}</div>
+          <div class="text-sm text-muted-foreground mt-2">
+            {{ developer.tools.slice(0, 6).join(", ") }}
+          </div>
+        </RouterLink>
       </div>
     </section>
 
