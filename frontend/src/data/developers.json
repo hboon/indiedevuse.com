@@ -567,7 +567,7 @@
     {
       "id": "mathias-michel",
       "name": "Mathias Michel",
-      "avatar": "/avatars/curated-placeholder.svg",
+      "avatar": "/avatars/mathias-michel.jpg",
       "bio": "Software engineer and indie maker building RewriteBar, a macOS AI writing assistant.",
       "seoSummary": "Maker of RewriteBar using Swift, TypeScript, React, Next.js, Tailwind CSS, Supabase, Vercel, OpenAI, Stripe, Gumroad, and GitHub.",
       "tools": [
@@ -618,13 +618,13 @@
           }
         ],
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
-        "avatarSource": "Neutral generated placeholder under the owner-curated avatar policy"
+        "avatarSource": "X profile photo: https://unavatar.io/x/m91michel"
       }
     },
     {
       "id": "jan-lavicka",
       "name": "Jan Lavička",
-      "avatar": "/avatars/curated-placeholder.svg",
+      "avatar": "/avatars/jan-lavicka.jpg",
       "bio": "Creator, full-stack developer, and indie hacker building Jobs for Developers, refer.is, Toplistly, and Trip Cutters.",
       "seoSummary": "Indie hacker building jobs and directory products with JavaScript, TypeScript, React, Remix, Tailwind CSS, SQL, PostgreSQL, Vite, Claude Code, GitHub Copilot, and VS Code.",
       "tools": [
@@ -674,13 +674,13 @@
           }
         ],
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
-        "avatarSource": "Neutral generated placeholder under the owner-curated avatar policy"
+        "avatarSource": "X profile photo: https://unavatar.io/x/janlavicka"
       }
     },
     {
       "id": "aleksey-razbakov",
       "name": "Aleksey Razbakov",
-      "avatar": "/avatars/curated-placeholder.svg",
+      "avatar": "/avatars/aleksey-razbakov.jpg",
       "bio": "AI-systems builder running a portfolio of side projects, including WeDance and Ikigai Team.",
       "seoSummary": "Builder of AI agent systems and community products using Vue.js, Nuxt, Firebase, PostgreSQL, Prisma, Claude Code, Markdown, tmux, Git worktrees, Notion, and Telegram.",
       "tools": [
@@ -731,13 +731,13 @@
           }
         ],
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
-        "avatarSource": "Neutral generated placeholder under the owner-curated avatar policy"
+        "avatarSource": "X profile photo: https://unavatar.io/x/razbakov"
       }
     },
     {
       "id": "jouke-siekman",
       "name": "Jouke Siekman",
-      "avatar": "/avatars/curated-placeholder.svg",
+      "avatar": "/avatars/jouke-siekman.jpg",
       "bio": "Platform engineer, indie hacker, and homelab builder publishing web projects, network tools, and self-hosted infrastructure notes.",
       "seoSummary": "Indie hacker building web and network tools with PHP, Bash, Python, SQL, MariaDB, Kubernetes, k3s, Proxmox VE, MikroTik, WireGuard, Forgejo, Matomo, Grafana, Prometheus, tmux, Neovim, Kitty, and Arch Linux.",
       "tools": [
@@ -794,13 +794,13 @@
           }
         ],
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
-        "avatarSource": "Neutral generated placeholder under the owner-curated avatar policy"
+        "avatarSource": "GitHub profile photo: https://github.com/siekman-io.png?size=512"
       }
     },
     {
       "id": "rebecca-owen",
       "name": "Rebecca Owen",
-      "avatar": "/avatars/curated-placeholder.svg",
+      "avatar": "/avatars/rebecca-owen.jpg",
       "bio": "Indie Apple platforms developer and solo maker of Chronicling, an app for tracking habits, health, routines, and anything else.",
       "seoSummary": "Indie Apple platforms developer building Chronicling with Swift, iOS, Xcode, VS Code, iTerm2, Git, GitHub, Bash, Python, Vim, and Eleventy.",
       "tools": [
@@ -849,7 +849,7 @@
           }
         ],
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
-        "avatarSource": "Neutral generated placeholder under the owner-curated avatar policy"
+        "avatarSource": "Bluesky profile photo: https://cdn.bsky.app/img/avatar/plain/did:plc:pl2dyzadm3yimewtuvi36vus/bafkreidfeeq5uihnhuxcv7kqe6qaf6pbx3khg27qcnyswccdd2o3dzksja"
       }
     }
   ]

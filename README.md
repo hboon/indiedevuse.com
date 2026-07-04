@@ -26,7 +26,7 @@ For curated profiles, include:
 
 Do not copy bios from source pages. Write a short original summary from verified facts. Curated profiles need a public personal identity, clear product ownership, and either an explicit uses/stack page or at least two public evidence points for tools/stacks.
 
-Use `/avatars/curated-placeholder.svg` for owner-curated profiles unless the developer supplied an avatar or there is clear permission/license for a public avatar.
+Use `bun run generate-curated-avatars` for owner-curated profiles. It pulls configured public profile photos, resizes them to local 512px JPGs, runs ImageOptim, and updates avatar provenance.
 
 ## To run locally
 
