@@ -72,6 +72,12 @@ services:
         source: /developer/aleksey-razbakov
         destination: /index-developer-aleksey-razbakov.html
       - type: rewrite
+        source: /developer/jouke-siekman
+        destination: /index-developer-jouke-siekman.html
+      - type: rewrite
+        source: /developer/rebecca-owen
+        destination: /index-developer-rebecca-owen.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite

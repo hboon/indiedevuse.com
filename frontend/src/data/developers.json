@@ -733,6 +733,124 @@
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "Neutral generated placeholder under the owner-curated avatar policy"
       }
+    },
+    {
+      "id": "jouke-siekman",
+      "name": "Jouke Siekman",
+      "avatar": "/avatars/curated-placeholder.svg",
+      "bio": "Platform engineer, indie hacker, and homelab builder publishing web projects, network tools, and self-hosted infrastructure notes.",
+      "seoSummary": "Indie hacker building web and network tools with PHP, Bash, Python, SQL, MariaDB, Kubernetes, k3s, Proxmox VE, MikroTik, WireGuard, Forgejo, Matomo, Grafana, Prometheus, tmux, Neovim, Kitty, and Arch Linux.",
+      "tools": [
+        "PHP",
+        "Bash",
+        "Python",
+        "SQL",
+        "MariaDB",
+        "Kubernetes",
+        "k3s",
+        "kubectl",
+        "k9s",
+        "Proxmox VE",
+        "MikroTik",
+        "WireGuard",
+        "Forgejo",
+        "Matomo",
+        "Grafana",
+        "Prometheus",
+        "Uptime Kuma",
+        "n8n",
+        "tmux",
+        "Neovim",
+        "Kitty",
+        "Arch Linux",
+        "1Password",
+        "Obsidian"
+      ],
+      "link": {
+        "url": "https://siekman.io",
+        "text": "siekman.io"
+      },
+      "location": "Netherlands",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-04",
+        "sources": [
+          {
+            "label": "Jouke Siekman about page",
+            "url": "https://siekman.io/about"
+          },
+          {
+            "label": "Jouke Siekman projects",
+            "url": "https://siekman.io/projects"
+          },
+          {
+            "label": "Jouke Siekman tools",
+            "url": "https://siekman.io/tools"
+          },
+          {
+            "label": "Jouke Siekman uses page",
+            "url": "https://siekman.io/uses"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Neutral generated placeholder under the owner-curated avatar policy"
+      }
+    },
+    {
+      "id": "rebecca-owen",
+      "name": "Rebecca Owen",
+      "avatar": "/avatars/curated-placeholder.svg",
+      "bio": "Indie Apple platforms developer and solo maker of Chronicling, an app for tracking habits, health, routines, and anything else.",
+      "seoSummary": "Indie Apple platforms developer building Chronicling with Swift, iOS, Xcode, VS Code, iTerm2, Git, GitHub, Bash, Python, Vim, and Eleventy.",
+      "tools": [
+        "Swift",
+        "iOS",
+        "Xcode",
+        "Visual Studio Code",
+        "iTerm2",
+        "Git",
+        "GitHub",
+        "Bash",
+        "Python",
+        "Vim",
+        "Eleventy"
+      ],
+      "link": {
+        "url": "https://chroniclingapp.com",
+        "text": "Chronicling"
+      },
+      "socialMediaLink": "https://bsky.app/profile/beccais.online",
+      "location": "UK",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-04",
+        "sources": [
+          {
+            "label": "Rebecca Owen about page",
+            "url": "https://beccais.online/about/"
+          },
+          {
+            "label": "Rebecca Owen projects",
+            "url": "https://beccais.online/projects/"
+          },
+          {
+            "label": "Rebecca Owen uses page",
+            "url": "https://beccais.online/uses/"
+          },
+          {
+            "label": "Chronicling",
+            "url": "https://chroniclingapp.com/"
+          },
+          {
+            "label": "Uses.tech Swift listing",
+            "url": "https://uses.tech/like/Swift"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Neutral generated placeholder under the owner-curated avatar policy"
+      }
     }
   ]
 }
