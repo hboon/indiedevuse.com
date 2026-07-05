@@ -60,6 +60,16 @@ const curatedAvatarSources: Record<string, CuratedAvatarSource> = {
     actor: "beccais.online",
     label: "Bluesky profile photo",
   },
+  "kilian-valkhof": {
+    kind: "bluesky",
+    actor: "kilianvalkhof.com",
+    label: "Bluesky profile photo",
+  },
+  "thibault-louis-lucas": {
+    kind: "bluesky",
+    actor: "tmaker.io",
+    label: "Bluesky profile photo",
+  },
 };
 
 await mkdir(avatarsURL, { recursive: true });

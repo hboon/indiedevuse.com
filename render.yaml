@@ -78,6 +78,12 @@ services:
         source: /developer/rebecca-owen
         destination: /index-developer-rebecca-owen.html
       - type: rewrite
+        source: /developer/kilian-valkhof
+        destination: /index-developer-kilian-valkhof.html
+      - type: rewrite
+        source: /developer/thibault-louis-lucas
+        destination: /index-developer-thibault-louis-lucas.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite

@@ -284,7 +284,12 @@
       "name": "Phil Keller",
       "avatar": "/avatars/philkellr.jpg",
       "bio": "Side builder - currently building http://backl.io - get backlinks for your SEO ranking",
-      "tools": ["next.js", "PostgreSQL", "Hetzner", "Cursor IDE"],
+      "tools": [
+        "next.js",
+        "PostgreSQL",
+        "Hetzner",
+        "Cursor IDE"
+      ],
       "link": {
         "url": "https://backl.io",
         "text": "http://backl.io"
@@ -850,6 +855,114 @@
         ],
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "Bluesky profile photo: https://cdn.bsky.app/img/avatar/plain/did:plc:pl2dyzadm3yimewtuvi36vus/bafkreidfeeq5uihnhuxcv7kqe6qaf6pbx3khg27qcnyswccdd2o3dzksja"
+      }
+    },
+    {
+      "id": "kilian-valkhof",
+      "name": "Kilian Valkhof",
+      "avatar": "/avatars/kilian-valkhof.jpg",
+      "bio": "Founder and solo developer of Polypane, the responsive web development browser for developers and designers.",
+      "seoSummary": "Founder of Polypane building developer and design tools with WordPress, DigitalOcean, Fastmail, Atom, Fira Code, Vim, FromScratch, Trello, Firefox, Tridactyl, Polypane, Chrome, Figma, Sketch, Adobe XD, Ubuntu, Electron, and Chromium.",
+      "tools": [
+        "WordPress",
+        "DigitalOcean",
+        "Fastmail",
+        "Atom",
+        "Fira Code",
+        "Vim",
+        "FromScratch",
+        "Trello",
+        "Firefox",
+        "Tridactyl",
+        "Polypane",
+        "Chrome",
+        "Figma",
+        "Sketch",
+        "Adobe XD",
+        "Ubuntu",
+        "Electron",
+        "Chromium"
+      ],
+      "link": {
+        "url": "https://polypane.app",
+        "text": "Polypane"
+      },
+      "socialMediaLink": "https://bsky.app/profile/kilianvalkhof.com",
+      "location": "The Netherlands",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-05",
+        "sources": [
+          {
+            "label": "Kilian Valkhof homepage",
+            "url": "https://kilianvalkhof.com/"
+          },
+          {
+            "label": "Kilian Valkhof uses page",
+            "url": "https://kilianvalkhof.com/using/"
+          },
+          {
+            "label": "Polypane",
+            "url": "https://polypane.app/"
+          },
+          {
+            "label": "Kilian Valkhof speaking profile",
+            "url": "https://kilianvalkhof.com/speaking/"
+          },
+          {
+            "label": "Igalia Polypane interview",
+            "url": "https://www.igalia.com/chats/polypane"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Bluesky profile photo: https://cdn.bsky.app/img/avatar/plain/did:plc:z6uec3g7xgkvxpy442663waq/bafkreierzj24duh6a4bulcv46iest4pl5zzvbmgrnetuzkd2ff66spv2lq"
+      }
+    },
+    {
+      "id": "thibault-louis-lucas",
+      "name": "Thibault Louis-Lucas",
+      "avatar": "/avatars/thibault-louis-lucas.jpg",
+      "bio": "SaaS founder known as Tibo Maker, building Revid, Outrank, SuperX, PostSyncer, Feather, and founder tools after Tweet Hunter and Taplio.",
+      "seoSummary": "SaaS founder building AI, SEO, video, social, and publishing tools with Vercel, Next.js, Firebase, Lemon Squeezy, Amplitude, and Gleap.",
+      "tools": [
+        "Vercel",
+        "Next.js",
+        "Firebase",
+        "Lemon Squeezy",
+        "Amplitude",
+        "Gleap"
+      ],
+      "link": {
+        "url": "https://www.tmaker.io/",
+        "text": "Tibo Maker"
+      },
+      "socialMediaLink": "https://bsky.app/profile/tmaker.io",
+      "location": "France",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-05",
+        "sources": [
+          {
+            "label": "Tibo Maker homepage",
+            "url": "https://www.tmaker.io/"
+          },
+          {
+            "label": "Tibo Ramen Tools stack",
+            "url": "https://ramen.tools/@tibo_maker"
+          },
+          {
+            "label": "Revid",
+            "url": "https://www.revid.ai/"
+          },
+          {
+            "label": "Bootstrapped Founder interview",
+            "url": "https://thebootstrappedfounder.com/thibault-louis-lucas-selling-a-10m-saas-and-building-another-one/"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Bluesky profile photo: https://cdn.bsky.app/img/avatar/plain/did:plc:wgdzguax6q5vw3ddevozzyrp/bafkreify57ldfkqdqdzd2d4s2tn7kop5chlwtqm3kdjyfcbj2omila5brq"
       }
     }
   ]
