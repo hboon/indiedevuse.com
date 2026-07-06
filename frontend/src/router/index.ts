@@ -20,7 +20,7 @@ const router = createRouter({
       name: "home",
       component: HomeView,
       meta: {
-        title: `${APP_NAME} — Discover What Apps and Tools Indie Developers Use`,
+        title: `${APP_NAME} - Apps and Tools Indie Developers Use`,
         description:
           "Explore the apps, tools, and workflows indie developers use to build products. Learn from real tech stacks and productivity setups.",
       },
@@ -52,7 +52,7 @@ const router = createRouter({
       meta: {
         title: `SaaS Tech Stack Generator for Indie Founders — ${APP_NAME}`,
         description:
-          "Build a shareable indie SaaS tech stack card with framework, hosting, database, analytics, email, payments, estimated monthly cost, and real IndieDevUse examples.",
+          "Build a shareable indie SaaS tech stack card with framework, hosting, database, analytics, email, payments, estimated cost, and IndieDevUse examples.",
       },
     },
     {
