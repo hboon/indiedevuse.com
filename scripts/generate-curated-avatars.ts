@@ -90,6 +90,36 @@ const curatedAvatarSources: Record<string, CuratedAvatarSource> = {
     url: "https://github.com/arvidkahl.png?size=512",
     label: "GitHub profile photo",
   },
+  "joe-masilotti": {
+    kind: "direct",
+    url: "https://github.com/joemasilotti.png?size=512",
+    label: "GitHub profile photo",
+  },
+  "josh-pigford": {
+    kind: "direct",
+    url: "https://github.com/shpigford.png?size=512",
+    label: "GitHub profile photo",
+  },
+  "christoph-miksche": {
+    kind: "direct",
+    url: "https://github.com/cmiksche.png?size=512",
+    label: "GitHub profile photo",
+  },
+  "jared-rigby": {
+    kind: "direct",
+    url: "https://github.com/jazibobs.png?size=512",
+    label: "GitHub profile photo",
+  },
+  "zilvinas-kucinskas": {
+    kind: "direct",
+    url: "https://github.com/ZilvinasKucinskas.png?size=512",
+    label: "GitHub profile photo",
+  },
+  "jakob-greenfeld": {
+    kind: "direct",
+    url: "https://unavatar.io/x/jakobgreenfeld",
+    label: "X profile photo",
+  },
 };
 
 await mkdir(avatarsURL, { recursive: true });

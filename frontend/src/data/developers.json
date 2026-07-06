@@ -1187,6 +1187,314 @@
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "GitHub profile photo: https://github.com/arvidkahl.png?size=512"
       }
+    },
+    {
+      "id": "joe-masilotti",
+      "name": "Joe Masilotti",
+      "avatar": "/avatars/joe-masilotti.jpg",
+      "bio": "Independent Rails developer building Hotwire Native products, books, components, and tools for small Rails teams shipping mobile apps.",
+      "seoSummary": "Independent Rails developer building Hotwire Native, Ruby Native, PurchaseKit, RailsDevs, DailyLog, and mobile tooling with Ruby on Rails, Hotwire Native, Turbo, Stimulus, Swift, Kotlin, StoreKit, Play Billing, Xcode, Android Studio, and Stripe.",
+      "tools": [
+        "Ruby on Rails",
+        "Hotwire Native",
+        "Turbo",
+        "Stimulus",
+        "Swift",
+        "Kotlin",
+        "StoreKit",
+        "Play Billing",
+        "Xcode",
+        "Android Studio",
+        "Stripe"
+      ],
+      "link": {
+        "url": "https://masilotti.com/",
+        "text": "Masilotti.com"
+      },
+      "socialMediaLink": "https://github.com/joemasilotti",
+      "location": "United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-06",
+        "sources": [
+          {
+            "label": "Masilotti Hotwire Native page",
+            "url": "https://masilotti.com/hotwire-native/"
+          },
+          {
+            "label": "RailsDevs on rails.market",
+            "url": "https://www.rails.market/projects/railsdevs"
+          },
+          {
+            "label": "PurchaseKit launch post",
+            "url": "https://newsletter.masilotti.com/p/i-finally-built-the-in-app-purchase"
+          },
+          {
+            "label": "Ruby Native launch post",
+            "url": "https://newsletter.masilotti.com/p/ruby-native-is-here"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/joemasilotti.png?size=512"
+      }
+    },
+    {
+      "id": "josh-pigford",
+      "name": "Josh Pigford",
+      "avatar": "/avatars/josh-pigford.jpg",
+      "bio": "Longtime indie maker behind Baremetrics, Maybe, Clearly, ProxyUser, Rumored.ai, and a long list of small software products.",
+      "seoSummary": "Indie maker building Baremetrics, Maybe, Clearly, ProxyUser, Rumored.ai, KeptWell, Granite, and other products with Ruby on Rails, TypeScript, Swift, JavaScript, AI coding agents, Claude, OpenAI, GitHub, and open-source Rails apps.",
+      "tools": [
+        "Ruby on Rails",
+        "TypeScript",
+        "Swift",
+        "JavaScript",
+        "AI coding agents",
+        "Claude",
+        "OpenAI",
+        "GitHub"
+      ],
+      "link": {
+        "url": "https://joshpigford.com/projects",
+        "text": "Josh Pigford projects"
+      },
+      "socialMediaLink": "https://x.com/Shpigford",
+      "location": "United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-06",
+        "sources": [
+          {
+            "label": "Josh Pigford projects",
+            "url": "https://joshpigford.com/projects"
+          },
+          {
+            "label": "Josh Pigford GitHub",
+            "url": "https://github.com/shpigford"
+          },
+          {
+            "label": "Maybe on rails.market",
+            "url": "https://rails.market/projects/maybe"
+          },
+          {
+            "label": "AI workflow interview",
+            "url": "https://creatoreconomy.so/p/the-exact-ai-skills-this-solo-founder-uses-josh-pigford"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/shpigford.png?size=512"
+      }
+    },
+    {
+      "id": "christoph-miksche",
+      "name": "Christoph Miksche",
+      "avatar": "/avatars/christoph-miksche.jpg",
+      "bio": "Startup founder and full-stack developer building finance products including Alphalerts.",
+      "seoSummary": "Startup founder and full-stack developer building Alphalerts with Angular, Svelte, React, Vue.js, TypeScript, JavaScript, Python, Go, Rust, Kotlin, Java, Git, Linux, macOS, Windows, and VPS infrastructure.",
+      "tools": [
+        "Angular",
+        "Svelte",
+        "React",
+        "Vue.js",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Go",
+        "Rust",
+        "Kotlin",
+        "Java",
+        "Git",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "link": {
+        "url": "https://blog.m5e.de/",
+        "text": "M5E's Blog"
+      },
+      "socialMediaLink": "https://twitter.com/cmiksche",
+      "location": "Germany",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-06",
+        "sources": [
+          {
+            "label": "Christoph Miksche uses page",
+            "url": "https://blog.m5e.de/uses/"
+          },
+          {
+            "label": "M5E blog",
+            "url": "https://blog.m5e.de/"
+          },
+          {
+            "label": "Alphalerts",
+            "url": "https://alphalerts.com/"
+          },
+          {
+            "label": "uses.tech entrepreneur listing",
+            "url": "https://uses.tech/like/Entrepreneur"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/cmiksche.png?size=512"
+      }
+    },
+    {
+      "id": "jared-rigby",
+      "name": "Jared Rigby",
+      "avatar": "/avatars/jared-rigby.jpg",
+      "bio": "Creative programmer and indie game developer building web, interactive, and game projects through Gameful and Seventh Disorder.",
+      "seoSummary": "Creative programmer and indie game developer building Gameful, Mithra, and web projects with Godot, Hugo, PNPM, GitHub, VS Code, Netlify, Next.js, Obsidian, WordPress, JavaScript, Full Stack, and Tailwind CSS.",
+      "tools": [
+        "Godot",
+        "Hugo",
+        "PNPM",
+        "GitHub",
+        "VS Code",
+        "Netlify",
+        "Next.js",
+        "Obsidian",
+        "WordPress",
+        "JavaScript",
+        "Full Stack",
+        "Tailwind CSS"
+      ],
+      "link": {
+        "url": "https://jaredrigby.co.uk/",
+        "text": "Jared Rigby"
+      },
+      "socialMediaLink": "https://bsky.app/profile/jaredrigby.co.uk",
+      "location": "Manchester, UK",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-06",
+        "sources": [
+          {
+            "label": "Jared Rigby projects page",
+            "url": "https://jaredrigby.co.uk/projects/"
+          },
+          {
+            "label": "Jared Rigby uses listing",
+            "url": "https://uses.tech/like/Jekyll"
+          },
+          {
+            "label": "Jared Rigby GitHub",
+            "url": "https://github.com/jazibobs"
+          },
+          {
+            "label": "Gameful",
+            "url": "https://www.gameful.dev/"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/jazibobs.png?size=512"
+      }
+    },
+    {
+      "id": "zilvinas-kucinskas",
+      "name": "Zilvinas Kucinskas",
+      "avatar": "/avatars/zilvinas-kucinskas.jpg",
+      "bio": "Independent Ruby on Rails developer working on ExportData and SaaS, scraping, infrastructure, and open-source Rails projects.",
+      "seoSummary": "Independent Ruby on Rails developer building ExportData and Rails products with Ruby on Rails, Ruby, PostgreSQL, Sidekiq, Hotwire, Stimulus, Turbo, Tailwind CSS, Redis, ElasticSearch, Docker, Terraform, AWS, React, JavaScript, and Stripe.",
+      "tools": [
+        "Ruby on Rails",
+        "Ruby",
+        "PostgreSQL",
+        "Sidekiq",
+        "Hotwire",
+        "Stimulus",
+        "Turbo",
+        "Tailwind CSS",
+        "Redis",
+        "ElasticSearch",
+        "Docker",
+        "Terraform",
+        "AWS",
+        "React",
+        "JavaScript",
+        "Stripe"
+      ],
+      "link": {
+        "url": "https://www.ziku.dev/about/",
+        "text": "ziku.dev"
+      },
+      "socialMediaLink": "https://twitter.com/zilkucinskas",
+      "location": "Lithuania",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-06",
+        "sources": [
+          {
+            "label": "Zilvinas Kucinskas about page",
+            "url": "https://www.ziku.dev/about/"
+          },
+          {
+            "label": "Zilvinas Kucinskas uses page",
+            "url": "https://www.ziku.dev/uses/"
+          },
+          {
+            "label": "Zilvinas Kucinskas software contributions",
+            "url": "https://www.ziku.dev/projects/"
+          },
+          {
+            "label": "uses.tech entrepreneur listing",
+            "url": "https://uses.tech/like/Entrepreneur"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/ZilvinasKucinskas.png?size=512"
+      }
+    },
+    {
+      "id": "jakob-greenfeld",
+      "name": "Jakob Greenfeld",
+      "avatar": "/avatars/jakob-greenfeld.jpg",
+      "bio": "Indie hacker and trend researcher building small products, newsletters, podcasts, and founder research projects.",
+      "seoSummary": "Indie hacker building What to Tweet, Under The Radar, News Predictions, Founder Reads, and How I Operate with Airtable, Tailwind CSS, Vercel, JavaScript, Gumroad, Substack, podcasting, and trend research workflows.",
+      "tools": [
+        "Airtable",
+        "Tailwind CSS",
+        "Vercel",
+        "JavaScript",
+        "Gumroad",
+        "Substack",
+        "Podcasting"
+      ],
+      "link": {
+        "url": "https://jakobgreenfeld.com/",
+        "text": "Jakob Greenfeld"
+      },
+      "socialMediaLink": "https://x.com/jakobgreenfeld",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-06",
+        "sources": [
+          {
+            "label": "Jakob Greenfeld product stack post",
+            "url": "https://jakobgreenfeld.com/tweet"
+          },
+          {
+            "label": "Jakob Greenfeld articles",
+            "url": "https://jakobgreenfeld.com/articles/"
+          },
+          {
+            "label": "Jakob Greenfeld Substack",
+            "url": "https://substack.com/@winnertraits"
+          },
+          {
+            "label": "How I Operate podcast",
+            "url": "https://podcasts.apple.com/us/podcast/how-i-operate/id1543981403"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "X profile photo: https://unavatar.io/x/jakobgreenfeld"
+      }
     }
   ]
 }

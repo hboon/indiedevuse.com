@@ -96,6 +96,24 @@ services:
         source: /developer/arvid-kahl
         destination: /index-developer-arvid-kahl.html
       - type: rewrite
+        source: /developer/joe-masilotti
+        destination: /index-developer-joe-masilotti.html
+      - type: rewrite
+        source: /developer/josh-pigford
+        destination: /index-developer-josh-pigford.html
+      - type: rewrite
+        source: /developer/christoph-miksche
+        destination: /index-developer-christoph-miksche.html
+      - type: rewrite
+        source: /developer/jared-rigby
+        destination: /index-developer-jared-rigby.html
+      - type: rewrite
+        source: /developer/zilvinas-kucinskas
+        destination: /index-developer-zilvinas-kucinskas.html
+      - type: rewrite
+        source: /developer/jakob-greenfeld
+        destination: /index-developer-jakob-greenfeld.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite

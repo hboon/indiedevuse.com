@@ -172,6 +172,6 @@ git config user.email
 - This is a Vue.js SPA with pre-rendering (using @prerenderer/rollup-plugin), not SSR. Meta tags are set in the router beforeEach hook and baked into pre-rendered HTML at build time
 - Deployment: Hosted on Render as a static site. Pushing to `main` triggers auto-deploy. No manual deploy step needed
 - Developer data lives in `frontend/src/data/developers.json` — each developer has id, name, avatar, bio, tools[], link, socialMediaLink, location
-- Owner-curated profile avatars should be pulled from configured public profile-photo sources with `bun run generate-curated-avatars`, stored locally as optimized 512px JPGs, and recorded in `provenance.avatarSource`. Do not leave owner-curated profiles on `/avatars/curated-placeholder.svg`.
+- Owner-curated profile avatars should be pulled from configured public profile-photo sources with `bun run generate-curated-avatars`, stored locally as optimized 512px JPGs, and recorded in `provenance.avatarSource`. Verify each configured avatar source returns a usable image before relying on it. Do not leave owner-curated profiles on `/avatars/curated-placeholder.svg`.
 - Pre-rendered routes are defined in `frontend/prerenderRoutes.ts` and must stay in sync with `render.yaml` routes (use `scripts/check-route-consistency.ts` to verify if present; otherwise run the frontend build and confirm the prerender output filename matches the `render.yaml` rewrite)
 - Static crawl files such as `robots.txt` must live in `frontend/public` so Vite copies them to `dist`; do not put them in `frontend/src`
