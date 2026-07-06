@@ -70,6 +70,26 @@ const curatedAvatarSources: Record<string, CuratedAvatarSource> = {
     actor: "tmaker.io",
     label: "Bluesky profile photo",
   },
+  "marc-lou": {
+    kind: "direct",
+    url: "https://unavatar.io/x/marclou",
+    label: "X profile photo",
+  },
+  "pieter-levels": {
+    kind: "direct",
+    url: "https://unavatar.io/x/levelsio",
+    label: "X profile photo",
+  },
+  "ben-robertson": {
+    kind: "direct",
+    url: "https://unavatar.io/x/benrobertsonio",
+    label: "X profile photo",
+  },
+  "arvid-kahl": {
+    kind: "direct",
+    url: "https://github.com/arvidkahl.png?size=512",
+    label: "GitHub profile photo",
+  },
 };
 
 await mkdir(avatarsURL, { recursive: true });

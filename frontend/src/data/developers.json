@@ -284,12 +284,7 @@
       "name": "Phil Keller",
       "avatar": "/avatars/philkellr.jpg",
       "bio": "Side builder - currently building http://backl.io - get backlinks for your SEO ranking",
-      "tools": [
-        "next.js",
-        "PostgreSQL",
-        "Hetzner",
-        "Cursor IDE"
-      ],
+      "tools": ["next.js", "PostgreSQL", "Hetzner", "Cursor IDE"],
       "link": {
         "url": "https://backl.io",
         "text": "http://backl.io"
@@ -925,14 +920,7 @@
       "avatar": "/avatars/thibault-louis-lucas.jpg",
       "bio": "SaaS founder known as Tibo Maker, building Revid, Outrank, SuperX, PostSyncer, Feather, and founder tools after Tweet Hunter and Taplio.",
       "seoSummary": "SaaS founder building AI, SEO, video, social, and publishing tools with Vercel, Next.js, Firebase, Lemon Squeezy, Amplitude, and Gleap.",
-      "tools": [
-        "Vercel",
-        "Next.js",
-        "Firebase",
-        "Lemon Squeezy",
-        "Amplitude",
-        "Gleap"
-      ],
+      "tools": ["Vercel", "Next.js", "Firebase", "Lemon Squeezy", "Amplitude", "Gleap"],
       "link": {
         "url": "https://www.tmaker.io/",
         "text": "Tibo Maker"
@@ -963,6 +951,241 @@
         ],
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "Bluesky profile photo: https://cdn.bsky.app/img/avatar/plain/did:plc:wgdzguax6q5vw3ddevozzyrp/bafkreify57ldfkqdqdzd2d4s2tn7kop5chlwtqm3kdjyfcbj2omila5brq"
+      }
+    },
+    {
+      "id": "marc-lou",
+      "name": "Marc Lou",
+      "avatar": "/avatars/marc-lou.jpg",
+      "bio": "Solopreneur building a portfolio of small SaaS, data, course, analytics, and founder tools.",
+      "seoSummary": "Solopreneur building ShipFast, DataFast, CodeFast, TrustMRR, Indie Page, and other products with React, Tailwind CSS, Next.js, daisyUI, NextAuth, MongoDB Atlas, Mongoose, Mailgun, Stripe, Vercel, Plausible, GitHub Copilot, GPT-4, AWS, Lemon Squeezy, and Supabase.",
+      "tools": [
+        "React",
+        "Tailwind CSS",
+        "Next.js",
+        "daisyUI",
+        "NextAuth",
+        "MongoDB Atlas",
+        "Mongoose",
+        "Mailgun",
+        "Stripe",
+        "Vercel",
+        "Plausible",
+        "GitHub Copilot",
+        "GPT-4",
+        "AWS",
+        "Lemon Squeezy",
+        "Supabase"
+      ],
+      "link": {
+        "url": "https://marclou.com/",
+        "text": "Marc Lou"
+      },
+      "socialMediaLink": "https://x.com/marclou",
+      "location": "Bali",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-06",
+        "sources": [
+          {
+            "label": "Marc Lou Indie Page",
+            "url": "https://marclou.com/"
+          },
+          {
+            "label": "Marc Lou tech stack post",
+            "url": "https://newsletter.marclou.com/p/the-tech-stack-i-use-to-make-usd-52600-month"
+          },
+          {
+            "label": "ShipFast",
+            "url": "https://shipfa.st/"
+          },
+          {
+            "label": "ShipFast Product Hunt",
+            "url": "https://www.producthunt.com/products/shipfast"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "X profile photo: https://unavatar.io/x/marclou"
+      }
+    },
+    {
+      "id": "pieter-levels",
+      "name": "Pieter Levels",
+      "avatar": "/avatars/pieter-levels.jpg",
+      "bio": "Indie maker behind Nomad List, Remote OK, Photo AI, Hoodmaps, and other solo-built internet products.",
+      "seoSummary": "Indie maker building Nomad List, Remote OK, Photo AI, Hoodmaps, and other products with PHP, JavaScript, jQuery, SQLite, HTML, CSS, Nginx, Ubuntu, Linode, SCSS, Chrome, Namecheap, Photoshop, and Sketch.",
+      "tools": [
+        "PHP",
+        "JavaScript",
+        "jQuery",
+        "SQLite",
+        "HTML",
+        "CSS",
+        "Nginx",
+        "Ubuntu",
+        "Linode",
+        "SCSS",
+        "Chrome",
+        "Namecheap",
+        "Photoshop",
+        "Sketch"
+      ],
+      "link": {
+        "url": "https://levels.io/",
+        "text": "levels.io"
+      },
+      "socialMediaLink": "https://x.com/levelsio",
+      "location": "Netherlands",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-06",
+        "sources": [
+          {
+            "label": "Pieter Levels Nomad List founder post",
+            "url": "https://levels.io/nomad-list-founder"
+          },
+          {
+            "label": "Pieter Levels MVP stack post",
+            "url": "https://levels.io/how-i-build-my-minimum-viable-products"
+          },
+          {
+            "label": "Lex Fridman Pieter Levels transcript",
+            "url": "https://lexfridman.com/pieter-levels-transcript/"
+          },
+          {
+            "label": "Remote OK Pieter Levels profile",
+            "url": "https://remoteok.com/@levelsio"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "X profile photo: https://unavatar.io/x/levelsio"
+      }
+    },
+    {
+      "id": "ben-robertson",
+      "name": "Ben Robertson",
+      "avatar": "/avatars/ben-robertson.jpg",
+      "bio": "Independent software developer and solo founder of ColorBliss, an AI coloring-page product.",
+      "seoSummary": "Solo founder building ColorBliss with Cursor, Ghostty, Supabase, Laravel, Next.js, Astro, WordPress, Replicate, FAL.ai, OpenAI, Cerebras, Netlify, Laravel Forge, Stripe, Ahrefs, Bento, Resend, PostHog, Obsidian, Linear, Raycast, and ChatGPT.",
+      "tools": [
+        "Cursor",
+        "Ghostty",
+        "Supabase",
+        "Laravel",
+        "Next.js",
+        "Astro",
+        "WordPress",
+        "Replicate",
+        "FAL.ai",
+        "OpenAI",
+        "Cerebras",
+        "Netlify",
+        "Laravel Forge",
+        "Stripe",
+        "Ahrefs",
+        "Bento",
+        "Resend",
+        "PostHog",
+        "Obsidian",
+        "Linear",
+        "Raycast",
+        "ChatGPT"
+      ],
+      "link": {
+        "url": "https://ben.robertson.is/",
+        "text": "Ben Robertson"
+      },
+      "socialMediaLink": "https://x.com/benrobertsonio",
+      "location": "Travelers Rest, SC",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-06",
+        "sources": [
+          {
+            "label": "Ben Robertson homepage",
+            "url": "https://ben.robertson.is/"
+          },
+          {
+            "label": "Ben Robertson uses page",
+            "url": "https://ben.robertson.is/uses/"
+          },
+          {
+            "label": "ColorBliss about page",
+            "url": "https://colorbliss.com/about"
+          },
+          {
+            "label": "ColorBliss Indie Hackers post",
+            "url": "https://www.indiehackers.com/product/colorbliss/couldnt-sleep-came-up-with-the-idea--NfGsGJgkQ3XEhWpzq6h"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "X profile photo: https://unavatar.io/x/benrobertsonio"
+      }
+    },
+    {
+      "id": "arvid-kahl",
+      "name": "Arvid Kahl",
+      "avatar": "/avatars/arvid-kahl.jpg",
+      "bio": "Bootstrapped founder building Podscan, Podline, and The Bootstrapped Founder after co-founding and selling FeedbackPanda.",
+      "seoSummary": "Bootstrapped founder building Podscan and The Bootstrapped Founder with PHP, Laravel, MySQL, Meilisearch, AWS, Laravel Forge, Envoyer, ScrapingBee, Sentry, Flare, Resend, Kit, Paddle, Remote.com, Alt Space, Mercury, WordPress, Notion, Claude Code, and MacBook Air.",
+      "tools": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "Meilisearch",
+        "AWS",
+        "Laravel Forge",
+        "Envoyer",
+        "ScrapingBee",
+        "Sentry",
+        "Flare",
+        "Resend",
+        "Kit",
+        "Paddle",
+        "Remote.com",
+        "Alt Space",
+        "Mercury",
+        "WordPress",
+        "Notion",
+        "Claude Code",
+        "MacBook Air"
+      ],
+      "link": {
+        "url": "https://thebootstrappedfounder.com/",
+        "text": "The Bootstrapped Founder"
+      },
+      "socialMediaLink": "https://x.com/arvidkahl",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-06",
+        "sources": [
+          {
+            "label": "The Bootstrapped Founder homepage",
+            "url": "https://thebootstrappedfounder.com/"
+          },
+          {
+            "label": "Arvid Kahl author page",
+            "url": "https://thebootstrappedfounder.com/author/arvid53d1a2b65a/"
+          },
+          {
+            "label": "Podscan tech and business stack post",
+            "url": "https://thebootstrappedfounder.com/one-year-of-podscan-reflecting-on-tech-business-decisions/"
+          },
+          {
+            "label": "Arvid media business tech stack",
+            "url": "https://tbf.link/stack"
+          },
+          {
+            "label": "Business of Laravel Podscan interview",
+            "url": "https://businessoflaravel.com/episodes/turning-podcasts-into-insights-arvid-kahl-creator-of-podscan"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/arvidkahl.png?size=512"
       }
     }
   ]

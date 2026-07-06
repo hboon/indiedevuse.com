@@ -84,6 +84,18 @@ services:
         source: /developer/thibault-louis-lucas
         destination: /index-developer-thibault-louis-lucas.html
       - type: rewrite
+        source: /developer/marc-lou
+        destination: /index-developer-marc-lou.html
+      - type: rewrite
+        source: /developer/pieter-levels
+        destination: /index-developer-pieter-levels.html
+      - type: rewrite
+        source: /developer/ben-robertson
+        destination: /index-developer-ben-robertson.html
+      - type: rewrite
+        source: /developer/arvid-kahl
+        destination: /index-developer-arvid-kahl.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite
