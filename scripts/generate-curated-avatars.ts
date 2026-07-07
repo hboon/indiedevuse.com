@@ -120,6 +120,21 @@ const curatedAvatarSources: Record<string, CuratedAvatarSource> = {
     url: "https://unavatar.io/x/jakobgreenfeld",
     label: "X profile photo",
   },
+  "jon-yongfook": {
+    kind: "direct",
+    url: "https://github.com/yongfook.png?size=512",
+    label: "GitHub profile photo",
+  },
+  "damon-chen": {
+    kind: "direct",
+    url: "https://unavatar.io/x/damengchen",
+    label: "X profile photo",
+  },
+  "andrew-culver": {
+    kind: "direct",
+    url: "https://storage.ghost.io/c/10/df/10df4670-d02d-4e74-afa1-81bc2319794c/content/images/2018/05/iniQmnYi_400x400.jpg",
+    label: "Bullet Train author photo",
+  },
 };
 
 await mkdir(avatarsURL, { recursive: true });
@@ -179,5 +194,12 @@ async function writeOptimizedAvatar(sourceURL: string, outputURL: URL) {
   } finally {
     await rm(temporaryPath, { force: true });
   }
-  await $`/Applications/ImageOptim.app/Contents/MacOS/ImageOptim ${outputPath}`.quiet();
+  if (await commandExists("jpegoptim")) {
+    await $`jpegoptim --strip-all ${outputPath}`.quiet();
+  }
+}
+
+async function commandExists(command: string) {
+  const result = await $`command -v ${command}`.quiet().nothrow();
+  return result.exitCode === 0;
 }

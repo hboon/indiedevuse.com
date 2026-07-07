@@ -114,6 +114,15 @@ services:
         source: /developer/jakob-greenfeld
         destination: /index-developer-jakob-greenfeld.html
       - type: rewrite
+        source: /developer/jon-yongfook
+        destination: /index-developer-jon-yongfook.html
+      - type: rewrite
+        source: /developer/damon-chen
+        destination: /index-developer-damon-chen.html
+      - type: rewrite
+        source: /developer/andrew-culver
+        destination: /index-developer-andrew-culver.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite

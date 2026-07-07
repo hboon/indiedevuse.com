@@ -1495,6 +1495,170 @@
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "X profile photo: https://unavatar.io/x/jakobgreenfeld"
       }
+    },
+    {
+      "id": "jon-yongfook",
+      "name": "Jon Yongfook",
+      "avatar": "/avatars/jon-yongfook.jpg",
+      "bio": "Bootstrapped founder of Bannerbear, building image and video automation products for marketers and developers.",
+      "seoSummary": "Bootstrapped founder building Bannerbear with Ruby on Rails, Ruby, PostgreSQL, JavaScript, HTML, CSS, Sass, Bulma, GitHub, Stripe, and API integrations.",
+      "tools": [
+        "Ruby on Rails",
+        "Ruby",
+        "PostgreSQL",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Sass",
+        "Bulma",
+        "GitHub",
+        "Stripe",
+        "API integrations"
+      ],
+      "link": {
+        "url": "https://www.bannerbear.com/",
+        "text": "Bannerbear"
+      },
+      "socialMediaLink": "https://github.com/yongfook",
+      "location": "Singapore",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-07",
+        "sources": [
+          {
+            "label": "Bannerbear marketing stack post",
+            "url": "https://www.bannerbear.com/blog/the-bannerbear-marketing-site-tech-stack/"
+          },
+          {
+            "label": "Bannerbear technical mistakes post",
+            "url": "https://www.bannerbear.com/blog/technical-mistakes-i-made-growing-a-saas-to-k-mrr/"
+          },
+          {
+            "label": "Bannerbear journey to 10K MRR",
+            "url": "https://www.bannerbear.com/journey-to-10k-mrr/"
+          },
+          {
+            "label": "Jon Yongfook GitHub",
+            "url": "https://github.com/yongfook"
+          },
+          {
+            "label": "Bannerbear tech stack on Himalayas",
+            "url": "https://himalayas.app/companies/bannerbear/tech-stack"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/yongfook.png?size=512"
+      }
+    },
+    {
+      "id": "damon-chen",
+      "name": "Damon Chen",
+      "avatar": "/avatars/damon-chen.jpg",
+      "bio": "Indie maker building Testimonial, PDF.ai, PDFgen, ConversionOS, and other small SaaS and AI products.",
+      "seoSummary": "Indie maker building Testimonial, PDF.ai, PDFgen, ConversionOS, Mailcheep, QuickyAI, Docsium, and other products with Node.js, MongoDB, Heroku, Versoly, React, Chargebee, Stripe, Firebase, OpenAI, Dub, Feather, and Simple Analytics.",
+      "tools": [
+        "Node.js",
+        "MongoDB",
+        "Heroku",
+        "Versoly",
+        "React",
+        "Chargebee",
+        "Stripe",
+        "Firebase",
+        "OpenAI",
+        "Dub",
+        "Feather",
+        "Simple Analytics"
+      ],
+      "link": {
+        "url": "https://damon.vc/",
+        "text": "Damon Chen"
+      },
+      "socialMediaLink": "https://x.com/damengchen",
+      "location": "United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-07",
+        "sources": [
+          {
+            "label": "Damon Chen portfolio",
+            "url": "https://damon.vc/"
+          },
+          {
+            "label": "Damon Chen tech stack on ramen.tools",
+            "url": "https://ramen.tools/%40damengchen"
+          },
+          {
+            "label": "PDF.ai founder interview",
+            "url": "https://saasstarterstack.com/interviews/pdfai"
+          },
+          {
+            "label": "Testimonial indie hacking post",
+            "url": "https://testimonial.to/resources/one-year-of-indie-hacking-i-have-learned-a-lot"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "X profile photo: https://unavatar.io/x/damengchen"
+      }
+    },
+    {
+      "id": "andrew-culver",
+      "name": "Andrew Culver",
+      "avatar": "/avatars/andrew-culver.jpg",
+      "bio": "Rails product builder who created Bullet Train and previously founded and sold Churn Buster.",
+      "seoSummary": "Rails product builder creating Bullet Train and Churn Buster with Ruby on Rails, Rails 8, JavaScript, esbuild, Tailwind CSS, PostCSS, multi-tenancy, OAuth, webhooks, billing, Heroku, ngrok, GitHub, and open-source Rails templates.",
+      "tools": [
+        "Ruby on Rails",
+        "Rails 8",
+        "JavaScript",
+        "esbuild",
+        "Tailwind CSS",
+        "PostCSS",
+        "Multi-tenancy",
+        "OAuth",
+        "Webhooks",
+        "Billing",
+        "Heroku",
+        "ngrok",
+        "GitHub"
+      ],
+      "link": {
+        "url": "https://bullettrain.co/",
+        "text": "Bullet Train"
+      },
+      "socialMediaLink": "https://github.com/andrewculver",
+      "location": "United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-07",
+        "sources": [
+          {
+            "label": "Andrew Culver homepage",
+            "url": "https://www.andrewculver.net/"
+          },
+          {
+            "label": "Andrew Culver Bullet Train author page",
+            "url": "https://blog.bullettrain.co/author/andrew-culver/"
+          },
+          {
+            "label": "Bullet Train homepage",
+            "url": "https://bullettrain.co/"
+          },
+          {
+            "label": "Bullet Train GitHub repository",
+            "url": "https://github.com/bullet-train-co/bullet_train"
+          },
+          {
+            "label": "Ruby on Rails Podcast episode",
+            "url": "https://www.therubyonrailspodcast.com/478"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Bullet Train author photo: https://storage.ghost.io/c/10/df/10df4670-d02d-4e74-afa1-81bc2319794c/content/images/2018/05/iniQmnYi_400x400.jpg"
+      }
     }
   ]
 }
