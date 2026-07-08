@@ -135,6 +135,21 @@ const curatedAvatarSources: Record<string, CuratedAvatarSource> = {
     url: "https://storage.ghost.io/c/10/df/10df4670-d02d-4e74-afa1-81bc2319794c/content/images/2018/05/iniQmnYi_400x400.jpg",
     label: "Bullet Train author photo",
   },
+  "tony-dinh": {
+    kind: "direct",
+    url: "https://unavatar.io/x/tdinh_me",
+    label: "X profile photo",
+  },
+  "daniel-nguyen": {
+    kind: "bluesky",
+    actor: "danielnguyen.me",
+    label: "Bluesky profile photo",
+  },
+  "dmytro-krasun": {
+    kind: "direct",
+    url: "https://github.com/krasun.png?size=512",
+    label: "GitHub profile photo",
+  },
 };
 
 await mkdir(avatarsURL, { recursive: true });

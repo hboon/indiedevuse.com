@@ -1659,6 +1659,185 @@
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "Bullet Train author photo: https://storage.ghost.io/c/10/df/10df4670-d02d-4e74-afa1-81bc2319794c/content/images/2018/05/iniQmnYi_400x400.jpg"
       }
+    },
+    {
+      "id": "tony-dinh",
+      "name": "Tony Dinh",
+      "avatar": "/avatars/tony-dinh.jpg",
+      "bio": "Indie hacker behind TypingMind, Xnapper, DevUtils, BlackMagic, and other small software products.",
+      "seoSummary": "Indie hacker building TypingMind, Xnapper, DevUtils, BlackMagic, and other products with React, Next.js, Tailwind CSS, Express, PM2, MySQL, Redis, AWS, Vercel, DigitalOcean, Cloudflare, Sentry, Pirsch Analytics, Paddle, Mailgun, and Fastmail.",
+      "tools": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Express",
+        "PM2",
+        "MySQL",
+        "Redis",
+        "AWS",
+        "Vercel",
+        "DigitalOcean",
+        "Cloudflare",
+        "Sentry",
+        "Pirsch Analytics",
+        "Paddle",
+        "Mailgun",
+        "Fastmail"
+      ],
+      "link": {
+        "url": "https://www.typingmind.com/",
+        "text": "TypingMind"
+      },
+      "socialMediaLink": "https://x.com/tdinh_me",
+      "location": "Vietnam",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-08",
+        "sources": [
+          {
+            "label": "Tony Dinh tech stack on ramen.tools",
+            "url": "https://ramen.tools/%40tdinh_me"
+          },
+          {
+            "label": "Tony Dinh TypingMind MRR update",
+            "url": "https://news.tonydinh.com/p/july-2023-6k-mrr-getting-back-on"
+          },
+          {
+            "label": "Tony Dinh Product Hunt interview",
+            "url": "https://www.producthunt.com/stories/tony-dinh-on-what-he-s-learned-as-an-indie-developer"
+          },
+          {
+            "label": "Tony Dinh homepage",
+            "url": "https://tonydinh.ai/"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "X profile photo: https://unavatar.io/x/tdinh_me"
+      }
+    },
+    {
+      "id": "daniel-nguyen",
+      "name": "Daniel Nguyen",
+      "avatar": "/avatars/daniel-nguyen.jpg",
+      "bio": "Solopreneur building BoltAI, PDF Pals, KTool, ShotSolve, and other Mac-focused AI and productivity products.",
+      "seoSummary": "Solopreneur building BoltAI, PDF Pals, KTool, ShotSolve, and other products with macOS, iOS, SQLite, OpenAI API, OpenAI-compatible APIs, Claude, Gemini, xAI, Ollama, Whisper, MCP, Apple Keychain, local AI models, and Simple Analytics.",
+      "tools": [
+        "macOS",
+        "iOS",
+        "SQLite",
+        "OpenAI API",
+        "OpenAI-compatible APIs",
+        "Claude",
+        "Gemini",
+        "xAI",
+        "Ollama",
+        "Whisper",
+        "MCP",
+        "Apple Keychain",
+        "Simple Analytics"
+      ],
+      "link": {
+        "url": "https://boltai.com/",
+        "text": "BoltAI"
+      },
+      "socialMediaLink": "https://bsky.app/profile/danielnguyen.me",
+      "location": "Vietnam",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-08",
+        "sources": [
+          {
+            "label": "Daniel Nguyen Indie Page",
+            "url": "https://indiepa.ge/dan"
+          },
+          {
+            "label": "BoltAI about page",
+            "url": "https://boltai.com/about"
+          },
+          {
+            "label": "BoltAI API key storage post",
+            "url": "https://boltai.com/blog/how-boltai-handles-your-api-keys"
+          },
+          {
+            "label": "BoltAI local Whisper guide",
+            "url": "https://boltai.com/blog/how-to-use-local-whisper-instance-in-boltai"
+          },
+          {
+            "label": "BoltAI Ollama guide",
+            "url": "https://boltai.com/blog/optimize-ollama-models-for-boltai"
+          },
+          {
+            "label": "BoltAI xAI guide",
+            "url": "https://boltai.com/blog/how-to-use-xai-in-boltai"
+          },
+          {
+            "label": "BoltAI blog",
+            "url": "https://boltai.com/blog"
+          },
+          {
+            "label": "High Signal BoltAI interview",
+            "url": "https://www.highsignal.io/making-15k-a-month-from-an-ai-app/"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Bluesky profile photo: https://cdn.bsky.app/img/avatar/plain/did:plc:tv4arsk4ic5sqo6expd5ccwu/bafkreibv3id3ie6jugqyy46jwwrbrrinuyuzt4seqa3ytksqcp5m6ggin4"
+      }
+    },
+    {
+      "id": "dmytro-krasun",
+      "name": "Dmytro Krasun",
+      "avatar": "/avatars/dmytro-krasun.jpg",
+      "bio": "Solo founder building ScreenshotOne, a screenshot rendering API for developers and automation workflows.",
+      "seoSummary": "Solo founder building ScreenshotOne with TypeScript, Node.js, Puppeteer, Playwright, Docker, S3-compatible storage, LocalStack, AWS SDK for JavaScript, Kubernetes, Google Cloud Run, bare metal servers, GPU infrastructure, browser automation, and public SDKs.",
+      "tools": [
+        "TypeScript",
+        "Node.js",
+        "Puppeteer",
+        "Playwright",
+        "Docker",
+        "S3-compatible storage",
+        "LocalStack",
+        "AWS SDK for JavaScript",
+        "Kubernetes",
+        "Google Cloud Run",
+        "Bare metal servers",
+        "GPU infrastructure",
+        "Browser automation",
+        "Public SDKs"
+      ],
+      "link": {
+        "url": "https://screenshotone.com/",
+        "text": "ScreenshotOne"
+      },
+      "socialMediaLink": "https://github.com/krasun",
+      "location": "Israel",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-08",
+        "sources": [
+          {
+            "label": "ScreenshotOne about page",
+            "url": "https://screenshotone.com/about/"
+          },
+          {
+            "label": "Dmytro Krasun Screenshot API build guide",
+            "url": "https://screenshotone.com/blog/building-screenshot-api/"
+          },
+          {
+            "label": "Dmytro Krasun GitHub",
+            "url": "https://github.com/krasun"
+          },
+          {
+            "label": "ScreenshotOne Product Hunt",
+            "url": "https://www.producthunt.com/products/screenshotone"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/krasun.png?size=512"
+      }
     }
   ]
 }

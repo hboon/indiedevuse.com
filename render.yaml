@@ -123,6 +123,15 @@ services:
         source: /developer/andrew-culver
         destination: /index-developer-andrew-culver.html
       - type: rewrite
+        source: /developer/tony-dinh
+        destination: /index-developer-tony-dinh.html
+      - type: rewrite
+        source: /developer/daniel-nguyen
+        destination: /index-developer-daniel-nguyen.html
+      - type: rewrite
+        source: /developer/dmytro-krasun
+        destination: /index-developer-dmytro-krasun.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite
