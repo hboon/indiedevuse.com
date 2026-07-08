@@ -13,6 +13,10 @@ const developersPath = path.join(
 const SITE = "https://indiedevuse.com";
 const START_MARKER = "<!-- GENERATED_DEVELOPER_ROUTES_START -->";
 const END_MARKER = "<!-- GENERATED_DEVELOPER_ROUTES_END -->";
+const INDEXABLE_STATIC_ROUTES = [
+  { path: "/indie-developer-tech-stacks", priority: "0.8" },
+  { path: "/saas-tech-stack-generator", priority: "0.8" },
+];
 
 function getExistingLocs(sitemapContent: string): Set<string> {
   const locs = new Set<string>();
@@ -27,6 +31,7 @@ function getExistingLocs(sitemapContent: string): Set<string> {
 function run() {
   const sitemapContent = fs.readFileSync(sitemapPath, "utf-8");
   const developersData = JSON.parse(fs.readFileSync(developersPath, "utf-8"));
+  const today = new Date().toISOString().split("T")[0];
 
   const startIndex = sitemapContent.indexOf(START_MARKER);
   const endIndex = sitemapContent.indexOf(END_MARKER);
@@ -35,17 +40,34 @@ function run() {
     process.exit(1);
   }
 
-  const beforeGenerated = sitemapContent.substring(
+  const originalBeforeGenerated = sitemapContent.substring(
     0,
     startIndex + START_MARKER.length,
   );
   const afterGenerated = sitemapContent.substring(endIndex);
   const outsideGenerated =
-    beforeGenerated.substring(0, startIndex) +
+    originalBeforeGenerated.substring(0, startIndex) +
     sitemapContent.substring(endIndex + END_MARKER.length);
   const existingLocs = getExistingLocs(outsideGenerated);
+  const staticEntries = INDEXABLE_STATIC_ROUTES.filter(
+    (route) => !existingLocs.has(`${SITE}${route.path}`),
+  ).map((route) =>
+    [
+      `  <url>`,
+      `    <loc>${SITE}${route.path}</loc>`,
+      `    <lastmod>${today}</lastmod>`,
+      `    <priority>${route.priority}</priority>`,
+      `  </url>`,
+    ].join("\n"),
+  );
+  const beforeGenerated =
+    staticEntries.length > 0
+      ? originalBeforeGenerated.replace(
+          `\n  ${START_MARKER}`,
+          `\n${staticEntries.join("\n")}\n  ${START_MARKER}`,
+        )
+      : originalBeforeGenerated;
 
-  const today = new Date().toISOString().split("T")[0];
   const developerEntries: string[] = [];
   let skippedCount = 0;
 
@@ -74,7 +96,7 @@ function run() {
 
   fs.writeFileSync(sitemapPath, updatedSitemap, "utf-8");
   console.log(
-    `✅ Sitemap updated: ${developerEntries.length} developer routes added, ${skippedCount} duplicates skipped`,
+    `✅ Sitemap updated: ${staticEntries.length} static routes added, ${developerEntries.length} developer routes added, ${skippedCount} duplicates skipped`,
   );
 }
 
