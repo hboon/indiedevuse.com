@@ -132,6 +132,21 @@ services:
         source: /developer/dmytro-krasun
         destination: /index-developer-dmytro-krasun.html
       - type: rewrite
+        source: /developer/mouad-ennaciri
+        destination: /index-developer-mouad-ennaciri.html
+      - type: rewrite
+        source: /developer/tom-dallimore
+        destination: /index-developer-tom-dallimore.html
+      - type: rewrite
+        source: /developer/rodrigo-rocco
+        destination: /index-developer-rodrigo-rocco.html
+      - type: rewrite
+        source: /developer/uwe-dreissigacker
+        destination: /index-developer-uwe-dreissigacker.html
+      - type: rewrite
+        source: /developer/anton-medviediev
+        destination: /index-developer-anton-medviediev.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite

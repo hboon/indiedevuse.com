@@ -1,5 +1,5 @@
 import { $ } from "bun";
-import { mkdir, rm } from "node:fs/promises";
+import { access, mkdir, rm } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 
 type Developer = {
@@ -150,6 +150,31 @@ const curatedAvatarSources: Record<string, CuratedAvatarSource> = {
     url: "https://github.com/krasun.png?size=512",
     label: "GitHub profile photo",
   },
+  "mouad-ennaciri": {
+    kind: "direct",
+    url: "https://github.com/mouadennaciri.png?size=512",
+    label: "GitHub profile photo",
+  },
+  "tom-dallimore": {
+    kind: "direct",
+    url: "https://unavatar.io/x/tom_dallimore",
+    label: "X profile photo",
+  },
+  "rodrigo-rocco": {
+    kind: "direct",
+    url: "https://unavatar.io/x/rrmdp",
+    label: "X profile photo",
+  },
+  "uwe-dreissigacker": {
+    kind: "direct",
+    url: "https://unavatar.io/x/uwedreiss",
+    label: "X profile photo",
+  },
+  "anton-medviediev": {
+    kind: "direct",
+    url: "https://unavatar.io/x/AMedviediev",
+    label: "X profile photo",
+  },
 };
 
 await mkdir(avatarsURL, { recursive: true });
@@ -169,9 +194,17 @@ for (const developer of developersJSON.developers) {
   const sourceURL = await avatarURLForSource(source);
   const avatarPath = `/avatars/${developer.id}.jpg`;
   const outputURL = new URL(`../frontend/public${avatarPath}`, import.meta.url);
+  const avatarSource = `${source.label}: ${sourceURL}`;
+  if (
+    developer.avatar === avatarPath &&
+    developer.provenance.avatarSource === avatarSource &&
+    (await fileExists(outputURL))
+  ) {
+    continue;
+  }
   await writeOptimizedAvatar(sourceURL, outputURL);
   developer.avatar = avatarPath;
-  developer.provenance.avatarSource = `${source.label}: ${sourceURL}`;
+  developer.provenance.avatarSource = avatarSource;
 }
 
 await Bun.write(developersURL, `${JSON.stringify(developersJSON, null, 2)}\n`);
@@ -217,4 +250,13 @@ async function writeOptimizedAvatar(sourceURL: string, outputURL: URL) {
 async function commandExists(command: string) {
   const result = await $`command -v ${command}`.quiet().nothrow();
   return result.exitCode === 0;
+}
+
+async function fileExists(fileURL: URL) {
+  try {
+    await access(fileURL);
+    return true;
+  } catch {
+    return false;
+  }
 }

@@ -1838,6 +1838,264 @@
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "GitHub profile photo: https://github.com/krasun.png?size=512"
       }
+    },
+    {
+      "id": "mouad-ennaciri",
+      "name": "Mouad Ennaciri",
+      "avatar": "/avatars/mouad-ennaciri.jpg",
+      "bio": "Founder and engineer building Rowslint, an embedded CSV and Excel importer for SaaS teams.",
+      "seoSummary": "Founder and engineer building Rowslint and Sprint14 with Go, Node.js, PostgreSQL, Angular, React, Tailwind CSS, Taiga UI, Render, Cloudflare, and AI-assisted column mapping for spreadsheet imports.",
+      "tools": [
+        "Go",
+        "Node.js",
+        "PostgreSQL",
+        "Angular",
+        "React",
+        "Tailwind CSS",
+        "Taiga UI",
+        "Render",
+        "Cloudflare",
+        "AI-assisted column mapping"
+      ],
+      "link": {
+        "url": "https://rowslint.io/",
+        "text": "Rowslint"
+      },
+      "socialMediaLink": "https://github.com/mouadennaciri",
+      "location": "Morocco",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-09",
+        "sources": [
+          {
+            "label": "Rowslint about page",
+            "url": "https://rowslint.io/about"
+          },
+          {
+            "label": "Sprint14 founder profile",
+            "url": "https://sprint14.com/"
+          },
+          {
+            "label": "Rowslint Peerlist launch",
+            "url": "https://peerlist.io/mouadennaciri/project/rowslint"
+          },
+          {
+            "label": "Indie Hackers founders and stacks list",
+            "url": "https://www.indiehackers.com/post/100-founders-products-and-tech-stacks-c7d946416d"
+          },
+          {
+            "label": "Mouad Ennaciri GitHub",
+            "url": "https://github.com/mouadennaciri"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/mouadennaciri.png?size=512"
+      }
+    },
+    {
+      "id": "tom-dallimore",
+      "name": "Tom Dallimore",
+      "avatar": "/avatars/tom-dallimore.jpg",
+      "bio": "Full-stack developer and product engineer building JotJab, Fetch Hive, and ecommerce-focused software products.",
+      "seoSummary": "Full-stack developer and product engineer building JotJab and Fetch Hive with Ruby on Rails, React, Node.js, Flutter, Shopify, Tailwind CSS, Stripe, Hetzner, Dokku, Cloudflare Pages, Cloudflare R2, and AWS.",
+      "tools": [
+        "Ruby on Rails",
+        "React",
+        "Node.js",
+        "Flutter",
+        "Shopify",
+        "Tailwind CSS",
+        "Stripe",
+        "Hetzner",
+        "Dokku",
+        "Cloudflare Pages",
+        "Cloudflare R2",
+        "AWS"
+      ],
+      "link": {
+        "url": "https://jotjab.com/",
+        "text": "JotJab"
+      },
+      "socialMediaLink": "https://x.com/tom_dallimore",
+      "location": "United Kingdom",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-09",
+        "sources": [
+          {
+            "label": "Tom Dallimore homepage",
+            "url": "https://tomdallimore.com/"
+          },
+          {
+            "label": "JotJab article by Tom Dallimore",
+            "url": "https://jotjab.com/blog/open-house-feedback-form-ultimate-guide"
+          },
+          {
+            "label": "Tom Dallimore X profile",
+            "url": "https://x.com/tom_dallimore"
+          },
+          {
+            "label": "Indie Hackers founders and stacks list",
+            "url": "https://www.indiehackers.com/post/100-founders-products-and-tech-stacks-c7d946416d"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "X profile photo: https://unavatar.io/x/tom_dallimore"
+      }
+    },
+    {
+      "id": "rodrigo-rocco",
+      "name": "Rodrigo Rocco",
+      "avatar": "/avatars/rodrigo-rocco.jpg",
+      "bio": "Solo builder behind JobBoardSearch and a portfolio of small web products.",
+      "seoSummary": "Solo builder behind JobBoardSearch and related small web products using Core PHP, raw CSS, vanilla JavaScript, jQuery, HTML, SQLite, and simple programmatic SEO workflows.",
+      "tools": [
+        "Core PHP",
+        "Raw CSS",
+        "Vanilla JavaScript",
+        "jQuery",
+        "HTML",
+        "SQLite",
+        "Programmatic SEO"
+      ],
+      "link": {
+        "url": "https://jobboardsearch.com/",
+        "text": "JobBoardSearch"
+      },
+      "socialMediaLink": "https://bsky.app/profile/rrmdp.bsky.social",
+      "location": "Spain",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-09",
+        "sources": [
+          {
+            "label": "Starter Story JobBoardSearch breakdown",
+            "url": "https://www.starterstory.com/jobboardsearch-breakdown"
+          },
+          {
+            "label": "Rodrigo Rocco Bluesky profile",
+            "url": "https://bsky.app/profile/rrmdp.bsky.social"
+          },
+          {
+            "label": "Vanilla Developers profile",
+            "url": "https://www.vanilladevs.com/"
+          },
+          {
+            "label": "Indie Hackers founders and stacks list",
+            "url": "https://www.indiehackers.com/post/100-founders-products-and-tech-stacks-c7d946416d"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "X profile photo: https://unavatar.io/x/rrmdp"
+      }
+    },
+    {
+      "id": "uwe-dreissigacker",
+      "name": "Uwe Dreissigacker",
+      "avatar": "/avatars/uwe-dreissigacker.jpg",
+      "bio": "Bootstrapped SaaS founder behind InvoiceBerry, BlogHandy, and LinkHandy.",
+      "seoSummary": "Bootstrapped SaaS founder behind InvoiceBerry, BlogHandy, and LinkHandy with PHP, MySQL, jQuery, Bootstrap, Stripe, Mailchimp, Zapier, Trello, Ahrefs, Semrush, Hotjar, Google Search Console, and content SEO workflows.",
+      "tools": [
+        "PHP",
+        "MySQL",
+        "jQuery",
+        "Bootstrap",
+        "Stripe",
+        "Mailchimp",
+        "Zapier",
+        "Trello",
+        "Ahrefs",
+        "Semrush",
+        "Hotjar",
+        "Google Search Console",
+        "Content SEO"
+      ],
+      "link": {
+        "url": "https://www.invoiceberry.com/",
+        "text": "InvoiceBerry"
+      },
+      "socialMediaLink": "https://x.com/uwedreiss",
+      "location": "Lithuania",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-09",
+        "sources": [
+          {
+            "label": "GrowthMentor Uwe Dreissigacker profile",
+            "url": "https://app.growthmentor.com/mentors/uwe-dreissigacker"
+          },
+          {
+            "label": "CanvasRebel Uwe Dreissigacker interview",
+            "url": "https://canvasrebel.com/meet-uwe-dreissigacker/"
+          },
+          {
+            "label": "Digital Web Solutions Uwe Dreissigacker interview",
+            "url": "https://www.digitalwebsolutions.com/interview/uwe-dreissigacker/"
+          },
+          {
+            "label": "PlatoForms InvoiceBerry interview",
+            "url": "https://www.platoforms.com/blog/invoice-software-invoiceberry/"
+          },
+          {
+            "label": "Indie Hackers founders and stacks list",
+            "url": "https://www.indiehackers.com/post/100-founders-products-and-tech-stacks-c7d946416d"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "X profile photo: https://unavatar.io/x/uwedreiss"
+      }
+    },
+    {
+      "id": "anton-medviediev",
+      "name": "Anton Medviediev",
+      "avatar": "/avatars/anton-medviediev.jpg",
+      "bio": "Software engineer building Shy Editor, an AI-assisted writing environment for long-form writers.",
+      "seoSummary": "Software engineer building Shy Editor with Angular, Java, Spring Boot, PostgreSQL, AI writing assistance, planning tools, knowledge bases, writing styles, and context management for long-form writing.",
+      "tools": [
+        "Angular",
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "AI writing assistance",
+        "Planning tools",
+        "Knowledge bases",
+        "Writing styles",
+        "Context management"
+      ],
+      "link": {
+        "url": "https://www.shyeditor.com/",
+        "text": "Shy Editor"
+      },
+      "socialMediaLink": "https://x.com/AMedviediev",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-09",
+        "sources": [
+          {
+            "label": "Anton Medviediev X profile",
+            "url": "https://x.com/AMedviediev"
+          },
+          {
+            "label": "Shy Editor writing fundamentals post",
+            "url": "https://www.reddit.com/r/WritingWithAI/comments/1kr0ice/some_ai_writing_fundamentals/"
+          },
+          {
+            "label": "Shy Editor blog",
+            "url": "https://www.shyeditor.com/blog/post/show-dont-tell-examples"
+          },
+          {
+            "label": "Indie Hackers founders and stacks list",
+            "url": "https://www.indiehackers.com/post/100-founders-products-and-tech-stacks-c7d946416d"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "X profile photo: https://unavatar.io/x/AMedviediev"
+      }
     }
   ]
 }
