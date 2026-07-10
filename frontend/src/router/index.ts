@@ -147,7 +147,8 @@ router.beforeEach((to, from, next) => {
 export default router
 
 function developerTitle(developer: Developer): string {
-  return `${developer.name} Indie Developer Stack — ${APP_NAME}`
+  const detailedTitle = `${developer.name} Indie Developer Stack — ${APP_NAME}`
+  return detailedTitle.length <= 60 ? detailedTitle : `${developer.name} Stack — ${APP_NAME}`
 }
 
 function developerMetaDescription(developer: Developer): string {

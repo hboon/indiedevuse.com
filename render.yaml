@@ -147,6 +147,15 @@ services:
         source: /developer/anton-medviediev
         destination: /index-developer-anton-medviediev.html
       - type: rewrite
+        source: /developer/andris-reinman
+        destination: /index-developer-andris-reinman.html
+      - type: rewrite
+        source: /developer/harvey-carpenter
+        destination: /index-developer-harvey-carpenter.html
+      - type: rewrite
+        source: /developer/valerian-de-thezan-de-gaussan
+        destination: /index-developer-valerian-de-thezan-de-gaussan.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite

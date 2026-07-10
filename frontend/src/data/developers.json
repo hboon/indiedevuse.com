@@ -2096,6 +2096,123 @@
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "X profile photo: https://unavatar.io/x/AMedviediev"
       }
+    },
+    {
+      "id": "andris-reinman",
+      "name": "Andris Reinman",
+      "avatar": "/avatars/andris-reinman.jpg",
+      "bio": "Solo developer behind EmailEngine and the open-source email projects Nodemailer and WildDuck.",
+      "seoSummary": "Solo developer building EmailEngine and open-source email infrastructure with Node.js, Redis, Docusaurus, GitHub Pages, Umso, and Claude Code.",
+      "tools": ["Node.js", "Redis", "Docusaurus", "GitHub Pages", "Umso", "Claude Code"],
+      "link": {
+        "url": "https://emailengine.app/",
+        "text": "EmailEngine"
+      },
+      "socialMediaLink": "https://github.com/andris9",
+      "location": "Tallinn, Estonia",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-10",
+        "sources": [
+          {
+            "label": "EmailEngine about page",
+            "url": "https://emailengine.app/about"
+          },
+          {
+            "label": "Andris Reinman EmailEngine stack interview",
+            "url": "https://www.indiehackers.com/post/tech/from-open-source-donations-to-13k-mrr-product-rl7FbRceFPj4ZvI0nGoV"
+          },
+          {
+            "label": "Andris Reinman GitHub",
+            "url": "https://github.com/andris9"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/andris9.png?size=512"
+      }
+    },
+    {
+      "id": "harvey-carpenter",
+      "name": "Harvey Carpenter",
+      "avatar": "/avatars/harvey-carpenter.jpg",
+      "bio": "Founder of Growform, a small-team form builder focused on lead-generation workflows.",
+      "seoSummary": "Growform founder with a publicly documented product stack using Heroku, React, Node.js, MongoDB, RabbitMQ, and Better Uptime.",
+      "tools": ["Heroku", "React", "Node.js", "MongoDB", "RabbitMQ", "Better Uptime"],
+      "link": {
+        "url": "https://www.growform.co/",
+        "text": "Growform"
+      },
+      "socialMediaLink": "https://www.linkedin.com/in/hccarpenter",
+      "location": "London, United Kingdom",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-10",
+        "sources": [
+          {
+            "label": "Harvey Carpenter Growform stack interview",
+            "url": "https://www.indiehackers.com/post/scaling-to-5k-mrr-as-a-solo-developer-eb7e4ee303"
+          },
+          {
+            "label": "Harvey Carpenter Growform founder post",
+            "url": "https://www.linkedin.com/posts/hccarpenter_multi-step-form-builder-growform-activity-6805803808392929280-X0G_"
+          },
+          {
+            "label": "Harvey Carpenter Indie Bites interview",
+            "url": "https://indiebites.com/101"
+          },
+          {
+            "label": "Growform Companies House record",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13097518/filing-history"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "AppSumo founder photo: https://appsumo2-cdn.appsumo.com/media/users/avatars/1621861044461.jpeg?width=150"
+      }
+    },
+    {
+      "id": "valerian-de-thezan-de-gaussan",
+      "name": "Valérian de Thézan de Gaussan",
+      "avatar": "/avatars/valerian-de-thezan-de-gaussan.jpg",
+      "bio": "Independent developer behind YouTube Summary and open-source browser and developer tools.",
+      "seoSummary": "Independent developer building YouTube Summary and open-source tools with SvelteKit, Svelte, Nginx, Umami, Python, and JavaScript.",
+      "tools": ["SvelteKit", "Svelte", "Nginx", "Umami", "Python", "JavaScript"],
+      "link": {
+        "url": "https://youtubesummary.com/",
+        "text": "YouTube Summary"
+      },
+      "socialMediaLink": "https://github.com/vdtdg",
+      "location": "Lyon, France",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-10",
+        "sources": [
+          {
+            "label": "YouTube Summary authors page",
+            "url": "https://youtubesummary.com/blog/authors"
+          },
+          {
+            "label": "YouTube Summary homepage",
+            "url": "https://youtubesummary.com/"
+          },
+          {
+            "label": "Valérian de Thézan de Gaussan GitHub",
+            "url": "https://github.com/vdtdg"
+          },
+          {
+            "label": "YouTube Summary GitHub repository",
+            "url": "https://github.com/vdtdg/youtubesummary"
+          },
+          {
+            "label": "Indie Hackers founders and stacks list",
+            "url": "https://www.indiehackers.com/post/100-founders-products-and-tech-stacks-c7d946416d"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://avatars.githubusercontent.com/u/23501802?v=4"
+      }
     }
   ]
 }

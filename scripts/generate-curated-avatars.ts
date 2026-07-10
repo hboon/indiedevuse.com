@@ -175,6 +175,21 @@ const curatedAvatarSources: Record<string, CuratedAvatarSource> = {
     url: "https://unavatar.io/x/AMedviediev",
     label: "X profile photo",
   },
+  "andris-reinman": {
+    kind: "direct",
+    url: "https://github.com/andris9.png?size=512",
+    label: "GitHub profile photo",
+  },
+  "harvey-carpenter": {
+    kind: "direct",
+    url: "https://appsumo2-cdn.appsumo.com/media/users/avatars/1621861044461.jpeg?width=150",
+    label: "AppSumo founder photo",
+  },
+  "valerian-de-thezan-de-gaussan": {
+    kind: "direct",
+    url: "https://avatars.githubusercontent.com/u/23501802?v=4",
+    label: "GitHub profile photo",
+  },
 };
 
 await mkdir(avatarsURL, { recursive: true });
