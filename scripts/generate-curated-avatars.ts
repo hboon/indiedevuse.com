@@ -190,6 +190,16 @@ const curatedAvatarSources: Record<string, CuratedAvatarSource> = {
     url: "https://avatars.githubusercontent.com/u/23501802?v=4",
     label: "GitHub profile photo",
   },
+  "wes-bos": {
+    kind: "direct",
+    url: "https://github.com/wesbos.png?size=512",
+    label: "GitHub profile photo",
+  },
+  "dominik-schroeter": {
+    kind: "direct",
+    url: "https://github.com/icereed.png?size=512",
+    label: "GitHub profile photo",
+  },
 };
 
 await mkdir(avatarsURL, { recursive: true });

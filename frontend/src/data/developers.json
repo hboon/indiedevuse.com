@@ -284,7 +284,12 @@
       "name": "Phil Keller",
       "avatar": "/avatars/philkellr.jpg",
       "bio": "Side builder - currently building http://backl.io - get backlinks for your SEO ranking",
-      "tools": ["next.js", "PostgreSQL", "Hetzner", "Cursor IDE"],
+      "tools": [
+        "next.js",
+        "PostgreSQL",
+        "Hetzner",
+        "Cursor IDE"
+      ],
       "link": {
         "url": "https://backl.io",
         "text": "http://backl.io"
@@ -920,7 +925,14 @@
       "avatar": "/avatars/thibault-louis-lucas.jpg",
       "bio": "SaaS founder known as Tibo Maker, building Revid, Outrank, SuperX, PostSyncer, Feather, and founder tools after Tweet Hunter and Taplio.",
       "seoSummary": "SaaS founder building AI, SEO, video, social, and publishing tools with Vercel, Next.js, Firebase, Lemon Squeezy, Amplitude, and Gleap.",
-      "tools": ["Vercel", "Next.js", "Firebase", "Lemon Squeezy", "Amplitude", "Gleap"],
+      "tools": [
+        "Vercel",
+        "Next.js",
+        "Firebase",
+        "Lemon Squeezy",
+        "Amplitude",
+        "Gleap"
+      ],
       "link": {
         "url": "https://www.tmaker.io/",
         "text": "Tibo Maker"
@@ -2103,7 +2115,14 @@
       "avatar": "/avatars/andris-reinman.jpg",
       "bio": "Solo developer behind EmailEngine and the open-source email projects Nodemailer and WildDuck.",
       "seoSummary": "Solo developer building EmailEngine and open-source email infrastructure with Node.js, Redis, Docusaurus, GitHub Pages, Umso, and Claude Code.",
-      "tools": ["Node.js", "Redis", "Docusaurus", "GitHub Pages", "Umso", "Claude Code"],
+      "tools": [
+        "Node.js",
+        "Redis",
+        "Docusaurus",
+        "GitHub Pages",
+        "Umso",
+        "Claude Code"
+      ],
       "link": {
         "url": "https://emailengine.app/",
         "text": "EmailEngine"
@@ -2138,7 +2157,14 @@
       "avatar": "/avatars/harvey-carpenter.jpg",
       "bio": "Founder of Growform, a small-team form builder focused on lead-generation workflows.",
       "seoSummary": "Growform founder with a publicly documented product stack using Heroku, React, Node.js, MongoDB, RabbitMQ, and Better Uptime.",
-      "tools": ["Heroku", "React", "Node.js", "MongoDB", "RabbitMQ", "Better Uptime"],
+      "tools": [
+        "Heroku",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "RabbitMQ",
+        "Better Uptime"
+      ],
       "link": {
         "url": "https://www.growform.co/",
         "text": "Growform"
@@ -2177,7 +2203,14 @@
       "avatar": "/avatars/valerian-de-thezan-de-gaussan.jpg",
       "bio": "Independent developer behind YouTube Summary and open-source browser and developer tools.",
       "seoSummary": "Independent developer building YouTube Summary and open-source tools with SvelteKit, Svelte, Nginx, Umami, Python, and JavaScript.",
-      "tools": ["SvelteKit", "Svelte", "Nginx", "Umami", "Python", "JavaScript"],
+      "tools": [
+        "SvelteKit",
+        "Svelte",
+        "Nginx",
+        "Umami",
+        "Python",
+        "JavaScript"
+      ],
       "link": {
         "url": "https://youtubesummary.com/",
         "text": "YouTube Summary"
@@ -2212,6 +2245,98 @@
         ],
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "GitHub profile photo: https://avatars.githubusercontent.com/u/23501802?v=4"
+      }
+    },
+    {
+      "id": "wes-bos",
+      "name": "Wes Bos",
+      "avatar": "/avatars/wes-bos.jpg",
+      "bio": "Independent developer and educator creating JavaScript courses, developer tools, and the Syntax podcast.",
+      "seoSummary": "Independent developer and course creator using Visual Studio Code, Warp, GitHub, ESLint, Prettier, and Raycast for his JavaScript products and teaching business.",
+      "tools": [
+        "Visual Studio Code",
+        "Warp",
+        "GitHub",
+        "ESLint",
+        "Prettier",
+        "Raycast"
+      ],
+      "link": {
+        "url": "https://wesbos.com/courses",
+        "text": "Wes Bos Courses"
+      },
+      "socialMediaLink": "https://github.com/wesbos",
+      "location": "Hamilton, Ontario, Canada",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-11",
+        "sources": [
+          {
+            "label": "Wes Bos uses page",
+            "url": "https://wesbos.com/uses"
+          },
+          {
+            "label": "Wes Bos courses",
+            "url": "https://wesbos.com/courses"
+          },
+          {
+            "label": "Wes Bos GitHub",
+            "url": "https://github.com/wesbos"
+          },
+          {
+            "label": "JavaScript 30 repository",
+            "url": "https://github.com/wesbos/JavaScript30"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/wesbos.png?size=512"
+      }
+    },
+    {
+      "id": "dominik-schroeter",
+      "name": "Dominik Schröter",
+      "avatar": "/avatars/dominik-schroeter.jpg",
+      "bio": "Co-founder of BubbleTax and maintainer of paperless-gpt, building tax and document-automation software.",
+      "seoSummary": "BubbleTax co-founder and paperless-gpt maintainer working with Go, TypeScript, Python, Kubernetes, PostgreSQL, and GitHub Actions.",
+      "tools": [
+        "Go",
+        "TypeScript",
+        "Python",
+        "Kubernetes",
+        "PostgreSQL",
+        "GitHub Actions"
+      ],
+      "link": {
+        "url": "https://bubbletax.de/",
+        "text": "BubbleTax"
+      },
+      "socialMediaLink": "https://github.com/icereed",
+      "location": "Munich, Germany",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-11",
+        "sources": [
+          {
+            "label": "Dominik Schröter GitHub",
+            "url": "https://github.com/icereed"
+          },
+          {
+            "label": "paperless-gpt repository",
+            "url": "https://github.com/icereed/paperless-gpt"
+          },
+          {
+            "label": "BubbleTax product site",
+            "url": "https://bubbletax.de/"
+          },
+          {
+            "label": "BubbleTax GitHub organization",
+            "url": "https://github.com/bubbletax"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/icereed.png?size=512"
       }
     }
   ]

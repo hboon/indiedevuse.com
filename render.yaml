@@ -156,6 +156,12 @@ services:
         source: /developer/valerian-de-thezan-de-gaussan
         destination: /index-developer-valerian-de-thezan-de-gaussan.html
       - type: rewrite
+        source: /developer/wes-bos
+        destination: /index-developer-wes-bos.html
+      - type: rewrite
+        source: /developer/dominik-schroeter
+        destination: /index-developer-dominik-schroeter.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite
