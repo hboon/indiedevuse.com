@@ -165,6 +165,21 @@ services:
         source: /developer/adam-wathan
         destination: /index-developer-adam-wathan.html
       - type: rewrite
+        source: /developer/ahmad-awais
+        destination: /index-developer-ahmad-awais.html
+      - type: rewrite
+        source: /developer/alexander-isora
+        destination: /index-developer-alexander-isora.html
+      - type: rewrite
+        source: /developer/josh-comeau
+        destination: /index-developer-josh-comeau.html
+      - type: rewrite
+        source: /developer/sindre-sorhus
+        destination: /index-developer-sindre-sorhus.html
+      - type: rewrite
+        source: /developer/jack-mcdade
+        destination: /index-developer-jack-mcdade.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite

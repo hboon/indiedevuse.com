@@ -2384,6 +2384,236 @@
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "GitHub profile photo: https://github.com/adamwathan.png?size=512"
       }
+    },
+    {
+      "id": "ahmad-awais",
+      "name": "Ahmad Awais",
+      "avatar": "/avatars/ahmad-awais.jpg",
+      "bio": "Founder of Command Code and Langbase, building developer tools alongside open-source projects and technical courses.",
+      "seoSummary": "Command Code and Langbase founder using Visual Studio Code, GitHub, Grammarly, Maccy, Hazel, and Balsamiq to build and publish developer products.",
+      "tools": [
+        "Visual Studio Code",
+        "GitHub",
+        "Grammarly",
+        "Maccy",
+        "Hazel",
+        "Balsamiq"
+      ],
+      "link": {
+        "url": "https://commandcode.ai/",
+        "text": "Command Code"
+      },
+      "socialMediaLink": "https://github.com/AhmadAwais",
+      "location": "San Francisco Bay Area, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-12",
+        "sources": [
+          {
+            "label": "Ahmad Awais uses page",
+            "url": "https://ahmadawais.com/uses/"
+          },
+          {
+            "label": "Ahmad Awais profile",
+            "url": "https://ahmadawais.com/about/"
+          },
+          {
+            "label": "Command Code",
+            "url": "https://commandcode.ai/"
+          },
+          {
+            "label": "Ahmad Awais GitHub",
+            "url": "https://github.com/AhmadAwais"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/AhmadAwais.png?size=512"
+      }
+    },
+    {
+      "id": "alexander-isora",
+      "name": "Alexander Isora",
+      "avatar": "/avatars/alexander-isora.jpg",
+      "bio": "Independent SaaS founder who built and sold Unicorn Platform and continues to create small software products and founder resources.",
+      "seoSummary": "Unicorn Platform creator and independent SaaS founder using Unicorn Platform, Substack, YouTube, Product Hunt, Reddit, and GitHub across his products.",
+      "tools": [
+        "Unicorn Platform",
+        "Substack",
+        "YouTube",
+        "Product Hunt",
+        "Reddit",
+        "GitHub"
+      ],
+      "link": {
+        "url": "https://isora.me/",
+        "text": "Alexander Isora's projects"
+      },
+      "socialMediaLink": "https://github.com/alexanderisora",
+      "location": "Georgia",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-12",
+        "sources": [
+          {
+            "label": "Alexander Isora tools",
+            "url": "https://isora.me/tools/"
+          },
+          {
+            "label": "Alexander Isora profile and projects",
+            "url": "https://www.isora.me/about-me/"
+          },
+          {
+            "label": "Alexander Isora GitHub",
+            "url": "https://github.com/alexanderisora"
+          },
+          {
+            "label": "Unicorn Platform founder interview",
+            "url": "https://www.failory.com/interview/unicorn-platform"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/alexanderisora.png?size=512"
+      }
+    },
+    {
+      "id": "josh-comeau",
+      "name": "Josh Comeau",
+      "avatar": "/avatars/josh-comeau.jpg",
+      "bio": "Independent developer and educator creating interactive web-development courses, articles, and open-source tools.",
+      "seoSummary": "Independent course creator using Next.js, React, MDX, TypeScript, MongoDB, and Framer Motion for his publishing and course platform.",
+      "tools": [
+        "Next.js",
+        "React",
+        "MDX",
+        "TypeScript",
+        "MongoDB",
+        "Framer Motion"
+      ],
+      "link": {
+        "url": "https://www.joshwcomeau.com/courses/",
+        "text": "Josh Comeau's courses"
+      },
+      "socialMediaLink": "https://github.com/joshwcomeau",
+      "location": "Montreal, Quebec, Canada",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-12",
+        "sources": [
+          {
+            "label": "Josh Comeau current stack",
+            "url": "https://www.joshwcomeau.com/blog/how-i-built-my-blog-v2/"
+          },
+          {
+            "label": "Josh Comeau profile",
+            "url": "https://www.joshwcomeau.com/about-josh/"
+          },
+          {
+            "label": "Josh Comeau courses",
+            "url": "https://www.joshwcomeau.com/courses/"
+          },
+          {
+            "label": "Josh Comeau GitHub",
+            "url": "https://github.com/joshwcomeau"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/joshwcomeau.png?size=512"
+      }
+    },
+    {
+      "id": "sindre-sorhus",
+      "name": "Sindre Sorhus",
+      "avatar": "/avatars/sindre-sorhus.jpg",
+      "bio": "Independent full-time open-source developer and app maker creating macOS utilities, command-line tools, and JavaScript packages.",
+      "seoSummary": "Independent app maker and open-source developer working with Swift, JavaScript, TypeScript, Xcode, GitHub, and the macOS App Store.",
+      "tools": [
+        "Swift",
+        "JavaScript",
+        "TypeScript",
+        "Xcode",
+        "GitHub",
+        "Mac App Store"
+      ],
+      "link": {
+        "url": "https://sindresorhus.com/apps",
+        "text": "Sindre's Apps"
+      },
+      "socialMediaLink": "https://github.com/sindresorhus",
+      "location": "Thailand",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-12",
+        "sources": [
+          {
+            "label": "Sindre Sorhus profile and apps",
+            "url": "https://sindresorhus.com/"
+          },
+          {
+            "label": "Sindre Sorhus app development FAQ",
+            "url": "https://sindresorhus.com/apps/faq"
+          },
+          {
+            "label": "Sindre Sorhus independent funding",
+            "url": "https://sindresorhus.com/donate"
+          },
+          {
+            "label": "Sindre Sorhus GitHub",
+            "url": "https://github.com/sindresorhus"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/sindresorhus.png?size=512"
+      }
+    },
+    {
+      "id": "jack-mcdade",
+      "name": "Jack McDade",
+      "avatar": "/avatars/jack-mcdade.jpg",
+      "bio": "Creator and CEO of Statamic, building a commercial flat-file CMS and teaching product design through his own course.",
+      "seoSummary": "Statamic creator and independent course maker working with PHP, Laravel, Antlers, Tailwind CSS, JavaScript, and Vite for product development and design.",
+      "tools": [
+        "PHP",
+        "Laravel",
+        "Antlers",
+        "Tailwind CSS",
+        "JavaScript",
+        "Vite"
+      ],
+      "link": {
+        "url": "https://statamic.com/",
+        "text": "Statamic"
+      },
+      "socialMediaLink": "https://github.com/jackmcdade",
+      "location": "Ormond Beach, Florida, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-12",
+        "sources": [
+          {
+            "label": "Jack McDade profile and products",
+            "url": "https://jackmcdade.com/"
+          },
+          {
+            "label": "Statamic ownership and team",
+            "url": "https://statamic.com/about"
+          },
+          {
+            "label": "Statamic current frontend stack",
+            "url": "https://statamic.dev/frontend/overview"
+          },
+          {
+            "label": "Jack McDade GitHub",
+            "url": "https://github.com/jackmcdade"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/jackmcdade.png?size=512"
+      }
     }
   ]
 }
