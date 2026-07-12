@@ -200,6 +200,11 @@ const curatedAvatarSources: Record<string, CuratedAvatarSource> = {
     url: "https://github.com/icereed.png?size=512",
     label: "GitHub profile photo",
   },
+  "adam-wathan": {
+    kind: "direct",
+    url: "https://github.com/adamwathan.png?size=512",
+    label: "GitHub profile photo",
+  },
 };
 
 await mkdir(avatarsURL, { recursive: true });

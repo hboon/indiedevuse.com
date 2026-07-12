@@ -162,6 +162,9 @@ services:
         source: /developer/dominik-schroeter
         destination: /index-developer-dominik-schroeter.html
       - type: rewrite
+        source: /developer/adam-wathan
+        destination: /index-developer-adam-wathan.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite

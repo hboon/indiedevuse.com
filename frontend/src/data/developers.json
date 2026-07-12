@@ -2338,6 +2338,52 @@
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "GitHub profile photo: https://github.com/icereed.png?size=512"
       }
+    },
+    {
+      "id": "adam-wathan",
+      "name": "Adam Wathan",
+      "avatar": "/avatars/adam-wathan.jpg",
+      "bio": "Creator of Tailwind CSS and co-creator of Refactoring UI, building open-source tools and educational products for web developers.",
+      "seoSummary": "Tailwind CSS creator and Refactoring UI co-author using Visual Studio Code, Sublime Text, GitHub, Figma, iTerm2, and Laravel Forge for product development and publishing.",
+      "tools": [
+        "Visual Studio Code",
+        "Sublime Text",
+        "GitHub",
+        "Figma",
+        "iTerm2",
+        "Laravel Forge"
+      ],
+      "link": {
+        "url": "https://tailwindcss.com/",
+        "text": "Tailwind CSS"
+      },
+      "socialMediaLink": "https://github.com/adamwathan",
+      "location": "Ontario, Canada",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-12",
+        "sources": [
+          {
+            "label": "Adam Wathan uses page",
+            "url": "https://adamwathan.me/uses/"
+          },
+          {
+            "label": "Adam Wathan projects",
+            "url": "https://adamwathan.me/projects/"
+          },
+          {
+            "label": "Adam Wathan GitHub",
+            "url": "https://github.com/adamwathan"
+          },
+          {
+            "label": "Tailwind CSS repository",
+            "url": "https://github.com/tailwindlabs/tailwindcss"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/adamwathan.png?size=512"
+      }
     }
   ]
 }
