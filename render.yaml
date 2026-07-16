@@ -180,6 +180,21 @@ services:
         source: /developer/jack-mcdade
         destination: /index-developer-jack-mcdade.html
       - type: rewrite
+        source: /developer/aaron-francis
+        destination: /index-developer-aaron-francis.html
+      - type: rewrite
+        source: /developer/kent-c-dodds
+        destination: /index-developer-kent-c-dodds.html
+      - type: rewrite
+        source: /developer/simon-willison
+        destination: /index-developer-simon-willison.html
+      - type: rewrite
+        source: /developer/julia-evans
+        destination: /index-developer-julia-evans.html
+      - type: rewrite
+        source: /developer/caleb-porzio
+        destination: /index-developer-caleb-porzio.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite

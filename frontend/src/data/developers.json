@@ -2614,6 +2614,272 @@
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "GitHub profile photo: https://github.com/jackmcdade.png?size=512"
       }
+    },
+    {
+      "id": "aaron-francis",
+      "name": "Aaron Francis",
+      "avatar": "/avatars/aaron-francis.jpg",
+      "bio": "Independent developer and educator building faster.dev, Solo, Database School, Screencasting.com, and open-source developer tools.",
+      "seoSummary": "Independent developer building faster.dev, Solo, and developer tools with Laravel, React, Inertia.js, Tailwind CSS, TypeScript, Filament, Stripe, PostgreSQL, Laravel Forge, Rust, Tauri, Swift, SQLite, Node.js, Vitest, Biome, and GitHub Actions.",
+      "tools": [
+        "Laravel",
+        "React",
+        "Inertia.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Filament",
+        "Stripe",
+        "PostgreSQL",
+        "Laravel Forge",
+        "Rust",
+        "Tauri",
+        "Swift",
+        "SQLite",
+        "Node.js",
+        "Vitest",
+        "Biome",
+        "GitHub Actions"
+      ],
+      "link": {
+        "url": "https://faster.dev/",
+        "text": "faster.dev"
+      },
+      "socialMediaLink": "https://github.com/aarondfrancis",
+      "location": "Dallas, Texas, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-16",
+        "sources": [
+          {
+            "label": "Aaron Francis products and current project stacks",
+            "url": "https://faster.dev/"
+          },
+          {
+            "label": "Solo",
+            "url": "https://soloterm.com/"
+          },
+          {
+            "label": "Counselors repository",
+            "url": "https://github.com/aarondfrancis/counselors"
+          },
+          {
+            "label": "Aaron Francis GitHub",
+            "url": "https://github.com/aarondfrancis"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/aarondfrancis.png?size=512"
+      }
+    },
+    {
+      "id": "kent-c-dodds",
+      "name": "Kent C. Dodds",
+      "avatar": "/avatars/kent-c-dodds.jpg",
+      "bio": "Self-employed developer and educator running EpicAI, EpicWeb, EpicReact, Testing JavaScript, and other technical courses and community projects.",
+      "seoSummary": "Independent developer and course creator using React, React Router, Prisma, PostgreSQL, SQLite, Fly.io, Zod, TypeScript, Testing Library, Vitest, Playwright, MSW, Radix UI, Tailwind CSS, MDX, XState, Cursor, GitHub Actions, Fathom, and Sentry.",
+      "tools": [
+        "React",
+        "React Router",
+        "Prisma",
+        "PostgreSQL",
+        "SQLite",
+        "Fly.io",
+        "Zod",
+        "TypeScript",
+        "Testing Library",
+        "Vitest",
+        "Playwright",
+        "MSW",
+        "Radix UI",
+        "Tailwind CSS",
+        "MDX",
+        "XState",
+        "Cursor",
+        "GitHub Actions",
+        "Fathom",
+        "Sentry"
+      ],
+      "link": {
+        "url": "https://kentcdodds.com/courses",
+        "text": "Kent C. Dodds courses"
+      },
+      "socialMediaLink": "https://github.com/kentcdodds",
+      "location": "Salt Lake City, Utah, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-16",
+        "sources": [
+          {
+            "label": "Kent C. Dodds uses page",
+            "url": "https://kentcdodds.com/uses"
+          },
+          {
+            "label": "Kent C. Dodds business transparency",
+            "url": "https://kentcdodds.com/transparency"
+          },
+          {
+            "label": "Kent C. Dodds courses",
+            "url": "https://kentcdodds.com/courses"
+          },
+          {
+            "label": "Kent C. Dodds GitHub",
+            "url": "https://github.com/kentcdodds"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/kentcdodds.png?size=512"
+      }
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "avatar": "/avatars/simon-willison.jpg",
+      "bio": "Independent open-source developer building Datasette, LLM, and related tools for working with data and language models.",
+      "seoSummary": "Independent open-source developer building Datasette and LLM tools with Python, Django, SQLite, Heroku, PostgreSQL, GitHub, and GitHub Actions.",
+      "tools": [
+        "Python",
+        "Django",
+        "SQLite",
+        "Datasette",
+        "LLM",
+        "Heroku",
+        "PostgreSQL",
+        "GitHub",
+        "GitHub Actions"
+      ],
+      "link": {
+        "url": "https://datasette.io/",
+        "text": "Datasette"
+      },
+      "socialMediaLink": "https://github.com/simonw",
+      "location": "Half Moon Bay, California, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-16",
+        "sources": [
+          {
+            "label": "Simon Willison profile and site stack",
+            "url": "https://simonwillison.net/about/"
+          },
+          {
+            "label": "Datasette",
+            "url": "https://datasette.io/"
+          },
+          {
+            "label": "LLM repository",
+            "url": "https://github.com/simonw/llm"
+          },
+          {
+            "label": "Simon Willison GitHub",
+            "url": "https://github.com/simonw"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/simonw.png?size=512"
+      }
+    },
+    {
+      "id": "julia-evans",
+      "name": "Julia Evans",
+      "avatar": "/avatars/julia-evans.jpg",
+      "bio": "Independent programmer and publisher behind Wizard Zines, creating programming zines, comics, and small technical tools.",
+      "seoSummary": "Wizard Zines creator using an iPad, Apple Pencil, Affinity Designer, Git, SVG, Bash, and Python to write, assemble, and publish programming zines.",
+      "tools": [
+        "iPad",
+        "Apple Pencil",
+        "Affinity Designer",
+        "Git",
+        "SVG",
+        "Bash",
+        "Python"
+      ],
+      "link": {
+        "url": "https://wizardzines.com/",
+        "text": "Wizard Zines"
+      },
+      "socialMediaLink": "https://github.com/jvns",
+      "location": null,
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-16",
+        "sources": [
+          {
+            "label": "Julia Evans homepage",
+            "url": "https://jvns.ca/"
+          },
+          {
+            "label": "Wizard Zines about page",
+            "url": "https://wizardzines.com/about/"
+          },
+          {
+            "label": "Wizard Zines tools FAQ",
+            "url": "https://store.wizardzines.com/pages/faq"
+          },
+          {
+            "label": "Julia Evans GitHub",
+            "url": "https://github.com/jvns"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Bluesky profile photo: https://cdn.bsky.app/img/avatar/plain/did:plc:nzrozayxq764zbgl4qtp5ald/bafkreibfczzjr6hfhicpqsz7xq5jjoefuxv23p26gflzwcmhvyapcgyxum"
+      }
+    },
+    {
+      "id": "caleb-porzio",
+      "name": "Caleb Porzio",
+      "avatar": "/avatars/caleb-porzio.jpg",
+      "bio": "Independent open-source developer and creator of Livewire and Alpine.js, supported by his developer community through GitHub Sponsors.",
+      "seoSummary": "Livewire and Alpine.js creator working with PHP, Laravel, JavaScript, Blade, Vue.js, GitHub Actions, and GitHub to build open-source web tools.",
+      "tools": [
+        "PHP",
+        "Laravel",
+        "Livewire",
+        "JavaScript",
+        "Alpine.js",
+        "Blade",
+        "Vue.js",
+        "GitHub Actions",
+        "GitHub"
+      ],
+      "link": {
+        "url": "https://livewire.laravel.com/",
+        "text": "Livewire"
+      },
+      "socialMediaLink": "https://github.com/calebporzio",
+      "location": "Buffalo, New York, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-16",
+        "sources": [
+          {
+            "label": "Caleb Porzio projects and writing",
+            "url": "https://calebporzio.com/"
+          },
+          {
+            "label": "GitHub profile of Caleb Porzio",
+            "url": "https://github.com/readme/stories/caleb-porzio"
+          },
+          {
+            "label": "Livewire repository",
+            "url": "https://github.com/livewire/livewire"
+          },
+          {
+            "label": "Alpine.js repository",
+            "url": "https://github.com/alpinejs/alpine"
+          },
+          {
+            "label": "Caleb Porzio GitHub",
+            "url": "https://github.com/calebporzio"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/calebporzio.png?size=512"
+      }
     }
   ]
 }
