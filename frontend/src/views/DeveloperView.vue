@@ -214,7 +214,7 @@ onMounted(() => {
             <span class="w-1 h-8 bg-primary rounded-full"></span>
             Profile sources
           </h2>
-          <p class="text-muted-foreground leading-relaxed">
+          <p class="text-muted-foreground leading-relaxed break-words">
             {{ provenanceLabel }}. Confidence is {{ developer.provenance.confidence }}. Avatar is
             {{ developer.provenance.avatarSource }}.
           </p>
