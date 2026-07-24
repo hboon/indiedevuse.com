@@ -2880,6 +2880,263 @@
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "GitHub profile photo: https://github.com/calebporzio.png?size=512"
       }
+    },
+    {
+      "id": "tanner-linsley",
+      "name": "Tanner Linsley",
+      "avatar": "/avatars/tanner-linsley.jpg",
+      "bio": "Independent open-source founder building TanStack and its family of type-safe web development tools.",
+      "seoSummary": "TanStack founder working with TypeScript, React, Vue, Solid, Svelte, Vite, Vitest, Playwright, pnpm, TanStack Query, TanStack Router, TanStack Start, and GitHub.",
+      "tools": [
+        "TypeScript",
+        "React",
+        "Vue",
+        "Solid",
+        "Svelte",
+        "Vite",
+        "Vitest",
+        "Playwright",
+        "pnpm",
+        "TanStack Query",
+        "TanStack Router",
+        "TanStack Start",
+        "GitHub"
+      ],
+      "link": {
+        "url": "https://tanstack.com/",
+        "text": "TanStack"
+      },
+      "socialMediaLink": "https://github.com/tannerlinsley",
+      "location": "Utah, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-24",
+        "sources": [
+          {
+            "label": "Tanner Linsley profile and projects",
+            "url": "https://tannerlinsley.com/about"
+          },
+          {
+            "label": "TanStack independent business update",
+            "url": "https://tanstack.com/blog/tanstack-2-years"
+          },
+          {
+            "label": "TanStack ethos and technology",
+            "url": "https://tanstack.com/ethos"
+          },
+          {
+            "label": "TanStack Router repository",
+            "url": "https://github.com/TanStack/router"
+          },
+          {
+            "label": "Tanner Linsley GitHub",
+            "url": "https://github.com/tannerlinsley"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/tannerlinsley.png?size=512"
+      }
+    },
+    {
+      "id": "jason-mccreary",
+      "name": "Jason McCreary",
+      "avatar": "/avatars/jason-mccreary.jpg",
+      "bio": "Solo founder behind Laravel Shift, building automated upgrade and maintenance tools for Laravel developers.",
+      "seoSummary": "Laravel Shift founder using PHP, Laravel, Laravel Horizon, Git, and GitHub to automate Laravel upgrades.",
+      "tools": [
+        "PHP",
+        "Laravel",
+        "Laravel Horizon",
+        "Git",
+        "GitHub"
+      ],
+      "link": {
+        "url": "https://laravelshift.com/",
+        "text": "Laravel Shift"
+      },
+      "socialMediaLink": "https://github.com/jasonmccreary",
+      "location": "Louisville, Kentucky, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-24",
+        "sources": [
+          {
+            "label": "Laravel Shift 2026 product update",
+            "url": "https://jasonmccreary.me/articles/first-flat-year/"
+          },
+          {
+            "label": "Laravel Shift queue infrastructure",
+            "url": "https://jasonmccreary.me/articles/spawing-worker-servers-job-queue-load-laravel/"
+          },
+          {
+            "label": "Laravel Shift founder story",
+            "url": "https://jasonmccreary.me/articles/grinding-to-million-dollar-revenue-saas/"
+          },
+          {
+            "label": "Jason McCreary GitHub",
+            "url": "https://github.com/jasonmccreary"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/jasonmccreary.png?size=512"
+      }
+    },
+    {
+      "id": "jeff-geerling",
+      "name": "Jeff Geerling",
+      "avatar": "/avatars/jeff-geerling.jpg",
+      "bio": "Independent developer, author, and maker publishing open-source infrastructure tools, books, and technical videos.",
+      "seoSummary": "Independent developer and creator working with Linux, Ansible, Raspberry Pi, Drupal, Hugo, Python, Node.js, Kubernetes, Git, and GitHub.",
+      "tools": [
+        "Linux",
+        "Ansible",
+        "Raspberry Pi",
+        "Drupal",
+        "Hugo",
+        "Python",
+        "Node.js",
+        "Kubernetes",
+        "Git",
+        "GitHub"
+      ],
+      "link": {
+        "url": "https://www.jeffgeerling.com/",
+        "text": "Jeff Geerling"
+      },
+      "socialMediaLink": "https://github.com/geerlingguy",
+      "location": "St. Louis, Missouri, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-24",
+        "sources": [
+          {
+            "label": "Jeff Geerling profile and independent business",
+            "url": "https://www.jeffgeerling.com/about/"
+          },
+          {
+            "label": "Jeff Geerling books",
+            "url": "https://www.jeffgeerling.com/books"
+          },
+          {
+            "label": "Ansible role maintained by Jeff Geerling",
+            "url": "https://github.com/geerlingguy/ansible-role-apache"
+          },
+          {
+            "label": "Raspberry Pi project stack",
+            "url": "https://github.com/geerlingguy/temperature-monitor"
+          },
+          {
+            "label": "Jeff Geerling GitHub",
+            "url": "https://github.com/geerlingguy"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/geerlingguy.png?size=512"
+      }
+    },
+    {
+      "id": "chris-ferdinandi",
+      "name": "Chris Ferdinandi",
+      "avatar": "/avatars/chris-ferdinandi.jpg",
+      "bio": "Independent web developer and educator running Go Make Things through memberships, guides, courses, and open-source code.",
+      "seoSummary": "Go Make Things creator teaching and building with HTML, CSS, JavaScript, Web Components, browser APIs, Git, and GitHub.",
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web Components",
+        "Browser APIs",
+        "Git",
+        "GitHub"
+      ],
+      "link": {
+        "url": "https://gomakethings.com/",
+        "text": "Go Make Things"
+      },
+      "socialMediaLink": "https://github.com/cferdinandi",
+      "location": "Massachusetts, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-24",
+        "sources": [
+          {
+            "label": "Go Make Things profile and products",
+            "url": "https://gomakethings.com/"
+          },
+          {
+            "label": "Go Make Things business focus",
+            "url": "https://gomakethings.com/build-the-web-better/"
+          },
+          {
+            "label": "Chris Ferdinandi development setup",
+            "url": "https://gomakethings.com/my-sublime-text-setup-for-front-end-web-development/"
+          },
+          {
+            "label": "Lean Web tools and practices",
+            "url": "https://gomakethings.com/talks/lean-web/"
+          },
+          {
+            "label": "Chris Ferdinandi GitHub",
+            "url": "https://github.com/cferdinandi"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/cferdinandi.png?size=512"
+      }
+    },
+    {
+      "id": "bastian-allgeier",
+      "name": "Bastian Allgeier",
+      "avatar": "/avatars/bastian-allgeier.jpg",
+      "bio": "Founder and developer of Kirby, the independent file-based content management system.",
+      "seoSummary": "Kirby founder building the content management system and its query API with PHP, Kirby, Composer, REST, Git, and GitHub.",
+      "tools": [
+        "PHP",
+        "Kirby",
+        "Composer",
+        "REST",
+        "Git",
+        "GitHub"
+      ],
+      "link": {
+        "url": "https://getkirby.com/",
+        "text": "Kirby"
+      },
+      "socialMediaLink": "https://github.com/bastianallgeier",
+      "location": "Neckargemünd, Germany",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-24",
+        "sources": [
+          {
+            "label": "Bastian Allgeier profile and Kirby",
+            "url": "https://bastianallgeier.com/"
+          },
+          {
+            "label": "Kirby company and team",
+            "url": "https://getkirby.com/team"
+          },
+          {
+            "label": "Kirby repository",
+            "url": "https://github.com/getkirby/kirby"
+          },
+          {
+            "label": "Kirby Query Language repository",
+            "url": "https://github.com/getkirby/kql"
+          },
+          {
+            "label": "Bastian Allgeier GitHub",
+            "url": "https://github.com/bastianallgeier"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/bastianallgeier.png?size=512"
+      }
     }
   ]
 }

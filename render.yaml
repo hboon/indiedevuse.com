@@ -195,6 +195,21 @@ services:
         source: /developer/caleb-porzio
         destination: /index-developer-caleb-porzio.html
       - type: rewrite
+        source: /developer/tanner-linsley
+        destination: /index-developer-tanner-linsley.html
+      - type: rewrite
+        source: /developer/jason-mccreary
+        destination: /index-developer-jason-mccreary.html
+      - type: rewrite
+        source: /developer/jeff-geerling
+        destination: /index-developer-jeff-geerling.html
+      - type: rewrite
+        source: /developer/chris-ferdinandi
+        destination: /index-developer-chris-ferdinandi.html
+      - type: rewrite
+        source: /developer/bastian-allgeier
+        destination: /index-developer-bastian-allgeier.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite
