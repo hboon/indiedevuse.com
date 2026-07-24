@@ -7,3 +7,16 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv
 }
+
+interface Window {
+  clicky?: {
+    log: (
+      href: string,
+      title: string,
+      type?: "click" | "download" | "outbound" | "pageview"
+    ) => void
+  }
+  clicky_custom?: {
+    href?: string
+  }
+}

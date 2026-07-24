@@ -19,6 +19,10 @@ app.use(router)
 app.mount("#app")
 
 if (env.PROD) {
+  if (window.location.pathname === "/" && new URLSearchParams(window.location.search).has("q")) {
+    window.clicky_custom = window.clicky_custom || {}
+    window.clicky_custom.href = window.location.pathname
+  }
   const script = document.createElement("script")
   script.async = true
   script.setAttribute("data-id", "101487869")
