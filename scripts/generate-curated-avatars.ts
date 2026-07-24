@@ -280,6 +280,31 @@ const curatedAvatarSources: Record<string, CuratedAvatarSource> = {
     url: "https://github.com/bastianallgeier.png?size=512",
     label: "GitHub profile photo",
   },
+  "steph-ango": {
+    kind: "direct",
+    url: "https://obsidian.md/images/team/kepano-alt.jpg",
+    label: "Obsidian team photo",
+  },
+  "mitchell-hashimoto": {
+    kind: "direct",
+    url: "https://github.com/mitchellh.png?size=512",
+    label: "GitHub profile photo",
+  },
+  "mike-perham": {
+    kind: "direct",
+    url: "https://github.com/mperham.png?size=512",
+    label: "GitHub profile photo",
+  },
+  "justin-duke": {
+    kind: "direct",
+    url: "https://github.com/jmduke.png?size=512",
+    label: "GitHub profile photo",
+  },
+  "jack-ellis": {
+    kind: "direct",
+    url: "https://github.com/JackEllis.png?size=512",
+    label: "GitHub profile photo",
+  },
 };
 
 await mkdir(avatarsURL, { recursive: true });

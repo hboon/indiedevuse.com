@@ -210,6 +210,21 @@ services:
         source: /developer/bastian-allgeier
         destination: /index-developer-bastian-allgeier.html
       - type: rewrite
+        source: /developer/steph-ango
+        destination: /index-developer-steph-ango.html
+      - type: rewrite
+        source: /developer/mitchell-hashimoto
+        destination: /index-developer-mitchell-hashimoto.html
+      - type: rewrite
+        source: /developer/mike-perham
+        destination: /index-developer-mike-perham.html
+      - type: rewrite
+        source: /developer/justin-duke
+        destination: /index-developer-justin-duke.html
+      - type: rewrite
+        source: /developer/jack-ellis
+        destination: /index-developer-jack-ellis.html
+      - type: rewrite
         source: /developer/*
         destination: /index-default.html
       - type: rewrite

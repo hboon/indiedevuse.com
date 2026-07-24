@@ -284,12 +284,7 @@
       "name": "Phil Keller",
       "avatar": "/avatars/philkellr.jpg",
       "bio": "Side builder - currently building http://backl.io - get backlinks for your SEO ranking",
-      "tools": [
-        "next.js",
-        "PostgreSQL",
-        "Hetzner",
-        "Cursor IDE"
-      ],
+      "tools": ["next.js", "PostgreSQL", "Hetzner", "Cursor IDE"],
       "link": {
         "url": "https://backl.io",
         "text": "http://backl.io"
@@ -925,14 +920,7 @@
       "avatar": "/avatars/thibault-louis-lucas.jpg",
       "bio": "SaaS founder known as Tibo Maker, building Revid, Outrank, SuperX, PostSyncer, Feather, and founder tools after Tweet Hunter and Taplio.",
       "seoSummary": "SaaS founder building AI, SEO, video, social, and publishing tools with Vercel, Next.js, Firebase, Lemon Squeezy, Amplitude, and Gleap.",
-      "tools": [
-        "Vercel",
-        "Next.js",
-        "Firebase",
-        "Lemon Squeezy",
-        "Amplitude",
-        "Gleap"
-      ],
+      "tools": ["Vercel", "Next.js", "Firebase", "Lemon Squeezy", "Amplitude", "Gleap"],
       "link": {
         "url": "https://www.tmaker.io/",
         "text": "Tibo Maker"
@@ -2115,14 +2103,7 @@
       "avatar": "/avatars/andris-reinman.jpg",
       "bio": "Solo developer behind EmailEngine and the open-source email projects Nodemailer and WildDuck.",
       "seoSummary": "Solo developer building EmailEngine and open-source email infrastructure with Node.js, Redis, Docusaurus, GitHub Pages, Umso, and Claude Code.",
-      "tools": [
-        "Node.js",
-        "Redis",
-        "Docusaurus",
-        "GitHub Pages",
-        "Umso",
-        "Claude Code"
-      ],
+      "tools": ["Node.js", "Redis", "Docusaurus", "GitHub Pages", "Umso", "Claude Code"],
       "link": {
         "url": "https://emailengine.app/",
         "text": "EmailEngine"
@@ -2157,14 +2138,7 @@
       "avatar": "/avatars/harvey-carpenter.jpg",
       "bio": "Founder of Growform, a small-team form builder focused on lead-generation workflows.",
       "seoSummary": "Growform founder with a publicly documented product stack using Heroku, React, Node.js, MongoDB, RabbitMQ, and Better Uptime.",
-      "tools": [
-        "Heroku",
-        "React",
-        "Node.js",
-        "MongoDB",
-        "RabbitMQ",
-        "Better Uptime"
-      ],
+      "tools": ["Heroku", "React", "Node.js", "MongoDB", "RabbitMQ", "Better Uptime"],
       "link": {
         "url": "https://www.growform.co/",
         "text": "Growform"
@@ -2203,14 +2177,7 @@
       "avatar": "/avatars/valerian-de-thezan-de-gaussan.jpg",
       "bio": "Independent developer behind YouTube Summary and open-source browser and developer tools.",
       "seoSummary": "Independent developer building YouTube Summary and open-source tools with SvelteKit, Svelte, Nginx, Umami, Python, and JavaScript.",
-      "tools": [
-        "SvelteKit",
-        "Svelte",
-        "Nginx",
-        "Umami",
-        "Python",
-        "JavaScript"
-      ],
+      "tools": ["SvelteKit", "Svelte", "Nginx", "Umami", "Python", "JavaScript"],
       "link": {
         "url": "https://youtubesummary.com/",
         "text": "YouTube Summary"
@@ -2253,14 +2220,7 @@
       "avatar": "/avatars/wes-bos.jpg",
       "bio": "Independent developer and educator creating JavaScript courses, developer tools, and the Syntax podcast.",
       "seoSummary": "Independent developer and course creator using Visual Studio Code, Warp, GitHub, ESLint, Prettier, and Raycast for his JavaScript products and teaching business.",
-      "tools": [
-        "Visual Studio Code",
-        "Warp",
-        "GitHub",
-        "ESLint",
-        "Prettier",
-        "Raycast"
-      ],
+      "tools": ["Visual Studio Code", "Warp", "GitHub", "ESLint", "Prettier", "Raycast"],
       "link": {
         "url": "https://wesbos.com/courses",
         "text": "Wes Bos Courses"
@@ -2299,14 +2259,7 @@
       "avatar": "/avatars/dominik-schroeter.jpg",
       "bio": "Co-founder of BubbleTax and maintainer of paperless-gpt, building tax and document-automation software.",
       "seoSummary": "BubbleTax co-founder and paperless-gpt maintainer working with Go, TypeScript, Python, Kubernetes, PostgreSQL, and GitHub Actions.",
-      "tools": [
-        "Go",
-        "TypeScript",
-        "Python",
-        "Kubernetes",
-        "PostgreSQL",
-        "GitHub Actions"
-      ],
+      "tools": ["Go", "TypeScript", "Python", "Kubernetes", "PostgreSQL", "GitHub Actions"],
       "link": {
         "url": "https://bubbletax.de/",
         "text": "BubbleTax"
@@ -2345,14 +2298,7 @@
       "avatar": "/avatars/adam-wathan.jpg",
       "bio": "Creator of Tailwind CSS and co-creator of Refactoring UI, building open-source tools and educational products for web developers.",
       "seoSummary": "Tailwind CSS creator and Refactoring UI co-author using Visual Studio Code, Sublime Text, GitHub, Figma, iTerm2, and Laravel Forge for product development and publishing.",
-      "tools": [
-        "Visual Studio Code",
-        "Sublime Text",
-        "GitHub",
-        "Figma",
-        "iTerm2",
-        "Laravel Forge"
-      ],
+      "tools": ["Visual Studio Code", "Sublime Text", "GitHub", "Figma", "iTerm2", "Laravel Forge"],
       "link": {
         "url": "https://tailwindcss.com/",
         "text": "Tailwind CSS"
@@ -2391,14 +2337,7 @@
       "avatar": "/avatars/ahmad-awais.jpg",
       "bio": "Founder of Command Code and Langbase, building developer tools alongside open-source projects and technical courses.",
       "seoSummary": "Command Code and Langbase founder using Visual Studio Code, GitHub, Grammarly, Maccy, Hazel, and Balsamiq to build and publish developer products.",
-      "tools": [
-        "Visual Studio Code",
-        "GitHub",
-        "Grammarly",
-        "Maccy",
-        "Hazel",
-        "Balsamiq"
-      ],
+      "tools": ["Visual Studio Code", "GitHub", "Grammarly", "Maccy", "Hazel", "Balsamiq"],
       "link": {
         "url": "https://commandcode.ai/",
         "text": "Command Code"
@@ -2437,14 +2376,7 @@
       "avatar": "/avatars/alexander-isora.jpg",
       "bio": "Independent SaaS founder who built and sold Unicorn Platform and continues to create small software products and founder resources.",
       "seoSummary": "Unicorn Platform creator and independent SaaS founder using Unicorn Platform, Substack, YouTube, Product Hunt, Reddit, and GitHub across his products.",
-      "tools": [
-        "Unicorn Platform",
-        "Substack",
-        "YouTube",
-        "Product Hunt",
-        "Reddit",
-        "GitHub"
-      ],
+      "tools": ["Unicorn Platform", "Substack", "YouTube", "Product Hunt", "Reddit", "GitHub"],
       "link": {
         "url": "https://isora.me/",
         "text": "Alexander Isora's projects"
@@ -2483,14 +2415,7 @@
       "avatar": "/avatars/josh-comeau.jpg",
       "bio": "Independent developer and educator creating interactive web-development courses, articles, and open-source tools.",
       "seoSummary": "Independent course creator using Next.js, React, MDX, TypeScript, MongoDB, and Framer Motion for his publishing and course platform.",
-      "tools": [
-        "Next.js",
-        "React",
-        "MDX",
-        "TypeScript",
-        "MongoDB",
-        "Framer Motion"
-      ],
+      "tools": ["Next.js", "React", "MDX", "TypeScript", "MongoDB", "Framer Motion"],
       "link": {
         "url": "https://www.joshwcomeau.com/courses/",
         "text": "Josh Comeau's courses"
@@ -2529,14 +2454,7 @@
       "avatar": "/avatars/sindre-sorhus.jpg",
       "bio": "Independent full-time open-source developer and app maker creating macOS utilities, command-line tools, and JavaScript packages.",
       "seoSummary": "Independent app maker and open-source developer working with Swift, JavaScript, TypeScript, Xcode, GitHub, and the macOS App Store.",
-      "tools": [
-        "Swift",
-        "JavaScript",
-        "TypeScript",
-        "Xcode",
-        "GitHub",
-        "Mac App Store"
-      ],
+      "tools": ["Swift", "JavaScript", "TypeScript", "Xcode", "GitHub", "Mac App Store"],
       "link": {
         "url": "https://sindresorhus.com/apps",
         "text": "Sindre's Apps"
@@ -2575,14 +2493,7 @@
       "avatar": "/avatars/jack-mcdade.jpg",
       "bio": "Creator and CEO of Statamic, building a commercial flat-file CMS and teaching product design through his own course.",
       "seoSummary": "Statamic creator and independent course maker working with PHP, Laravel, Antlers, Tailwind CSS, JavaScript, and Vite for product development and design.",
-      "tools": [
-        "PHP",
-        "Laravel",
-        "Antlers",
-        "Tailwind CSS",
-        "JavaScript",
-        "Vite"
-      ],
+      "tools": ["PHP", "Laravel", "Antlers", "Tailwind CSS", "JavaScript", "Vite"],
       "link": {
         "url": "https://statamic.com/",
         "text": "Statamic"
@@ -2787,15 +2698,7 @@
       "avatar": "/avatars/julia-evans.jpg",
       "bio": "Independent programmer and publisher behind Wizard Zines, creating programming zines, comics, and small technical tools.",
       "seoSummary": "Wizard Zines creator using an iPad, Apple Pencil, Affinity Designer, Git, SVG, Bash, and Python to write, assemble, and publish programming zines.",
-      "tools": [
-        "iPad",
-        "Apple Pencil",
-        "Affinity Designer",
-        "Git",
-        "SVG",
-        "Bash",
-        "Python"
-      ],
+      "tools": ["iPad", "Apple Pencil", "Affinity Designer", "Git", "SVG", "Bash", "Python"],
       "link": {
         "url": "https://wizardzines.com/",
         "text": "Wizard Zines"
@@ -2944,13 +2847,7 @@
       "avatar": "/avatars/jason-mccreary.jpg",
       "bio": "Solo founder behind Laravel Shift, building automated upgrade and maintenance tools for Laravel developers.",
       "seoSummary": "Laravel Shift founder using PHP, Laravel, Laravel Horizon, Git, and GitHub to automate Laravel upgrades.",
-      "tools": [
-        "PHP",
-        "Laravel",
-        "Laravel Horizon",
-        "Git",
-        "GitHub"
-      ],
+      "tools": ["PHP", "Laravel", "Laravel Horizon", "Git", "GitHub"],
       "link": {
         "url": "https://laravelshift.com/",
         "text": "Laravel Shift"
@@ -3043,15 +2940,7 @@
       "avatar": "/avatars/chris-ferdinandi.jpg",
       "bio": "Independent web developer and educator running Go Make Things through memberships, guides, courses, and open-source code.",
       "seoSummary": "Go Make Things creator teaching and building with HTML, CSS, JavaScript, Web Components, browser APIs, Git, and GitHub.",
-      "tools": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Web Components",
-        "Browser APIs",
-        "Git",
-        "GitHub"
-      ],
+      "tools": ["HTML", "CSS", "JavaScript", "Web Components", "Browser APIs", "Git", "GitHub"],
       "link": {
         "url": "https://gomakethings.com/",
         "text": "Go Make Things"
@@ -3094,14 +2983,7 @@
       "avatar": "/avatars/bastian-allgeier.jpg",
       "bio": "Founder and developer of Kirby, the independent file-based content management system.",
       "seoSummary": "Kirby founder building the content management system and its query API with PHP, Kirby, Composer, REST, Git, and GitHub.",
-      "tools": [
-        "PHP",
-        "Kirby",
-        "Composer",
-        "REST",
-        "Git",
-        "GitHub"
-      ],
+      "tools": ["PHP", "Kirby", "Composer", "REST", "Git", "GitHub"],
       "link": {
         "url": "https://getkirby.com/",
         "text": "Kirby"
@@ -3136,6 +3018,231 @@
         ],
         "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
         "avatarSource": "GitHub profile photo: https://github.com/bastianallgeier.png?size=512"
+      }
+    },
+    {
+      "id": "steph-ango",
+      "name": "Steph Ango",
+      "avatar": "/avatars/steph-ango.jpg",
+      "bio": "CEO of Obsidian and independent developer creating open-source tools for writing, reading, and personal knowledge.",
+      "seoSummary": "Obsidian CEO and independent developer working with Obsidian, Markdown, TypeScript, CSS, Jekyll, Netlify, and GitHub.",
+      "tools": ["Obsidian", "Markdown", "TypeScript", "CSS", "Jekyll", "Netlify", "GitHub"],
+      "link": {
+        "url": "https://stephango.com/",
+        "text": "Steph Ango"
+      },
+      "socialMediaLink": "https://github.com/kepano",
+      "location": null,
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-24",
+        "sources": [
+          {
+            "label": "Steph Ango profile and site stack",
+            "url": "https://stephango.com/about"
+          },
+          {
+            "label": "Obsidian team and independent business",
+            "url": "https://obsidian.md/about"
+          },
+          {
+            "label": "Obsidian user-supported business model",
+            "url": "https://stephango.com/vcware"
+          },
+          {
+            "label": "Defuddle TypeScript repository",
+            "url": "https://github.com/kepano/defuddle"
+          },
+          {
+            "label": "Steph Ango GitHub",
+            "url": "https://github.com/kepano"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "Obsidian team photo: https://obsidian.md/images/team/kepano-alt.jpg"
+      }
+    },
+    {
+      "id": "mitchell-hashimoto",
+      "name": "Mitchell Hashimoto",
+      "avatar": "/avatars/mitchell-hashimoto.jpg",
+      "bio": "Independent developer and creator of Ghostty, the open-source native terminal emulator and embeddable terminal library.",
+      "seoSummary": "Ghostty creator building a native terminal emulator with Zig, SwiftUI, Metal, GTK, C, Nix, and GitHub.",
+      "tools": ["Zig", "SwiftUI", "Metal", "GTK", "C", "Nix", "GitHub"],
+      "link": {
+        "url": "https://ghostty.org/",
+        "text": "Ghostty"
+      },
+      "socialMediaLink": "https://github.com/mitchellh",
+      "location": "Los Angeles, California, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-24",
+        "sources": [
+          {
+            "label": "Mitchell Hashimoto's Ghostty project",
+            "url": "https://mitchellh.com/ghostty"
+          },
+          {
+            "label": "Ghostty repository and current stack",
+            "url": "https://github.com/ghostty-org/ghostty"
+          },
+          {
+            "label": "Ghostty technical devlog",
+            "url": "https://mitchellh.com/writing/ghostty-devlog-001"
+          },
+          {
+            "label": "Mitchell Hashimoto GitHub",
+            "url": "https://github.com/mitchellh"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/mitchellh.png?size=512"
+      }
+    },
+    {
+      "id": "mike-perham",
+      "name": "Mike Perham",
+      "avatar": "/avatars/mike-perham.jpg",
+      "bio": "Independent developer behind Sidekiq and its commercial job-processing products for Ruby applications.",
+      "seoSummary": "Sidekiq creator building Ruby background job tools with Ruby, Sidekiq, Redis, Valkey, Docker, Bundler, and GitHub.",
+      "tools": ["Ruby", "Sidekiq", "Redis", "Valkey", "Docker", "Bundler", "GitHub"],
+      "link": {
+        "url": "https://sidekiq.org/",
+        "text": "Sidekiq"
+      },
+      "socialMediaLink": "https://github.com/mperham",
+      "location": "Portland, Oregon, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-24",
+        "sources": [
+          {
+            "label": "Sidekiq project and creator",
+            "url": "https://sidekiq.org/about/"
+          },
+          {
+            "label": "Sidekiq commercial product ownership",
+            "url": "https://sidekiq.org/wiki/Commercial-collaboration"
+          },
+          {
+            "label": "Sidekiq 8 technical release",
+            "url": "https://www.mikeperham.com/2025/03/05/introducing-sidekiq-8.0/"
+          },
+          {
+            "label": "Sidekiq repository",
+            "url": "https://github.com/sidekiq/sidekiq"
+          },
+          {
+            "label": "Mike Perham GitHub",
+            "url": "https://github.com/mperham"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/mperham.png?size=512"
+      }
+    },
+    {
+      "id": "justin-duke",
+      "name": "Justin Duke",
+      "avatar": "/avatars/justin-duke.jpg",
+      "bio": "Founder and CEO of Buttondown, the independent and bootstrapped email platform for newsletter writers.",
+      "seoSummary": "Buttondown founder building an independent email platform with Python, Django, Vue, TypeScript, Tailwind CSS, PostgreSQL, Vite, Stripe, and GitHub.",
+      "tools": [
+        "Python",
+        "Django",
+        "Vue",
+        "TypeScript",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Vite",
+        "Stripe",
+        "GitHub"
+      ],
+      "link": {
+        "url": "https://buttondown.com/",
+        "text": "Buttondown"
+      },
+      "socialMediaLink": "https://github.com/jmduke",
+      "location": "Richmond, Virginia, United States",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-24",
+        "sources": [
+          {
+            "label": "Buttondown founder and product",
+            "url": "https://buttondown.com/support"
+          },
+          {
+            "label": "Buttondown independent business",
+            "url": "https://buttondown.com/about"
+          },
+          {
+            "label": "Buttondown current stack",
+            "url": "https://buttondown.com/stack"
+          },
+          {
+            "label": "Buttondown 2026 technical work",
+            "url": "https://buttondown.com/blog/2026-04-19-firewall-improvements"
+          },
+          {
+            "label": "Justin Duke GitHub",
+            "url": "https://github.com/jmduke"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/jmduke.png?size=512"
+      }
+    },
+    {
+      "id": "jack-ellis",
+      "name": "Jack Ellis",
+      "avatar": "/avatars/jack-ellis.jpg",
+      "bio": "Founder and owner of Fathom Analytics, building the independent privacy-first web analytics platform.",
+      "seoSummary": "Fathom Analytics founder working with PHP, Laravel, ClickHouse, PlanetScale, Redis, Cursor, and GitHub.",
+      "tools": ["PHP", "Laravel", "ClickHouse", "PlanetScale", "Redis", "Cursor", "GitHub"],
+      "link": {
+        "url": "https://usefathom.com/",
+        "text": "Fathom Analytics"
+      },
+      "socialMediaLink": "https://github.com/JackEllis",
+      "location": "Canada",
+      "provenance": {
+        "sourceType": "owner-curated",
+        "confidence": "high",
+        "reviewedAt": "2026-07-24",
+        "sources": [
+          {
+            "label": "Jack Ellis profile and products",
+            "url": "https://jackellis.me/"
+          },
+          {
+            "label": "Fathom Analytics founder and independent business",
+            "url": "https://usefathom.com/about"
+          },
+          {
+            "label": "Jack Ellis ownership of Fathom Analytics",
+            "url": "https://usefathom.com/blog/acquired"
+          },
+          {
+            "label": "Fathom Analytics stack",
+            "url": "https://usefathom.com/blog/tech-stack"
+          },
+          {
+            "label": "Fathom Analytics 2026 database stack",
+            "url": "https://usefathom.com/blog/two-database-migrations-and-a-divorce"
+          },
+          {
+            "label": "Jack Ellis GitHub",
+            "url": "https://github.com/JackEllis"
+          }
+        ],
+        "correctionURL": "https://github.com/hboon/indiedevuse.com/pulls",
+        "avatarSource": "GitHub profile photo: https://github.com/JackEllis.png?size=512"
       }
     }
   ]
