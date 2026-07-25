@@ -31,6 +31,7 @@ const founderName = ref("")
 const productURL = ref("")
 const copied = ref(false)
 const selectedOptionIDs = ref<string[]>([])
+const didLogStackCompletion = ref(false)
 
 const stackCategories: StackCategory[] = [
   {
@@ -193,9 +194,39 @@ function stringQueryValue(value: unknown): string {
 }
 
 function toggleOption(optionID: string) {
-  selectedOptionIDs.value = selectedOptionIDs.value.includes(optionID)
+  const wasComplete = isStackComplete(selectedOptionIDs.value, allOptions.value)
+  const updatedOptionIDs = selectedOptionIDs.value.includes(optionID)
     ? selectedOptionIDs.value.filter((id) => id !== optionID)
     : [...selectedOptionIDs.value, optionID]
+  selectedOptionIDs.value = updatedOptionIDs
+  if (!wasComplete && isStackComplete(updatedOptionIDs, allOptions.value)) {
+    logStackCompletion()
+  }
+}
+
+function isStackComplete(optionIDs: string[], options: StackOption[]): boolean {
+  const selectedCategoryIDs = new Set(
+    options.filter((option) => optionIDs.includes(option.id)).map((option) => option.categoryID)
+  )
+  return stackCategories.every((category) => selectedCategoryIDs.has(category.id))
+}
+
+function logStackCompletion() {
+  if (didLogStackCompletion.value) {
+    return
+  }
+  didLogStackCompletion.value = true
+  if (window.clicky) {
+    sendStackCompletionEvent()
+    return
+  }
+  document
+    .querySelector<HTMLScriptElement>('script[src*="static.getclicky.com/js"]')
+    ?.addEventListener("load", sendStackCompletionEvent, { once: true })
+}
+
+function sendStackCompletionEvent() {
+  window.clicky?.log("#saas-tech-stack-completed", "Completed SaaS tech stack", "click")
 }
 
 function updateURL() {
