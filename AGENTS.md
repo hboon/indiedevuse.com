@@ -88,7 +88,7 @@ When accessing DOM methods on Vue component refs, use `$el`:
 
 ## Tools
 
-- My development servers live reload changes, so don't try/ask to restart them
+- Healthy development services live reload and should not be restarted for routine source edits. Live reload does not prohibit restarting a stale or broken canonical service; restart only the affected configured service in its canonical tmux pane and port, then verify local health and its configured tunnel when present. Never bypass it with a duplicate localhost server.
 - Use pnpm instead of npm
 - When installing shadcn-vue components, use `pnpm dlx shadcn-vue@radix add <component>`
 - Use git instead of jetbrains to look for dirty files in repos
