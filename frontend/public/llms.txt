@@ -1,0 +1,18 @@
+# IndieDevUse
+
+> IndieDevUse is a directory of the apps, tools, and technology stacks that indie developers use to build and ship products.
+
+Profiles are either self-submitted or owner-curated from public sources. Profile pages identify their provenance and link to supporting public sources where available.
+
+## Developer directory
+
+- [Indie developer profiles](https://indiedevuse.com/): Browse and search developers, their products, tools, locations, and workflows.
+- [Indie developer tech stacks](https://indiedevuse.com/indie-developer-tech-stacks): Compare tools and stack patterns across public IndieDevUse profiles.
+
+## Tools
+
+- [SaaS tech stack generator](https://indiedevuse.com/saas-tech-stack-generator): Build a shareable stack card covering framework, hosting, database, analytics, email, and payments.
+
+## About
+
+- [About IndieDevUse](https://indiedevuse.com/about): Learn how profiles are submitted or curated and how to suggest additions or corrections.
