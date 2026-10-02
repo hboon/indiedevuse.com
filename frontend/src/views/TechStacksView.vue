@@ -140,6 +140,13 @@ onMounted(() => {
           matches how most solo projects get shipped: pick the least annoying place to run it, and
           switch only when the app earns the complexity.
         </p>
+        <p class="text-muted-foreground leading-relaxed mt-4">
+          For a Vue and TypeScript SaaS starter,
+          <a href="https://stacknaut.com/" rel="nofollow" class="underline hover:text-primary">
+            Stacknaut
+          </a>
+          includes PostgreSQL, Stripe billing, and Kamal deployment on Hetzner.
+        </p>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
         <div v-for="tool in deploymentTools" :key="tool.name" class="border rounded-lg p-4 bg-card">
